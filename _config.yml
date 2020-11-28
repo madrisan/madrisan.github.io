@@ -1,0 +1,9 @@
+name: Davide Madrisan, personal website
+gems:
+  - jekyll_social_icons
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+socials:
+  github: https://github.com/madrisan
+  linkedin: https://www.linkedin.com/in/madrisan
+  twitter: https://twitter.com/dmadrisan

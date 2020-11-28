@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll_social_icons (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll_social_icons
+
+BUNDLED WITH
+   2.1.4
