@@ -1,0 +1,26 @@
+.social:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+ }
+.social {
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  -o-transform: scale(1.0);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+.social-email:hover {
+  color: #f39c12;
+}
+.social-linkedin:hover {
+  color: #0000cc;
+}
+.social-github:hover {
+  color: #000000;
+}
+.social-twitter:hover {
+  color: #99ccff;
+}
