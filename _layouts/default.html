@@ -1,40 +1,55 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
   <head>
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/social.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/31fa09e3cc.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
   </head>
 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
   <body>
-    <nav>
-      <ul>
-        <li><a href="/" class="btn">Home</a></li>
-        <li><a href="/about" class="btn">About</a></li>
-        <li><a href="/blog" class="btn">Blog</a></li>
-      </ul>
-    </nav>
-    <div class="container">
 
-      {{ content }}
-
-    </div>
-
-    <footer>
-      <ul>
-	<li><a href="mailto:davide.madrisan@gmail.com">
-            <i class='fa fa-envelope social social-email'></i></a></li>
-        <li><a href="https://github.com/madrisan">
-            <i class="fa fa-fw fa-github social social-github" style=""></i></a></li>
-        <li><a href="https://www.linkedin.com/in/madrisan">
-            <i class="fa fa-fw fa-linkedin social social-linkedin" style=""></i></a></li>
-        <li><a href="https://twitter.com/dmadrisan">
-            <i class="fa fa-fw fa-twitter social social-twitter" style=""></i></a></li>
-      </ul>    
-    </footer>
+    {{ content }}
 
   </body>
+
+  <footer class="page-footer font-small blue pt-4">
+    <div class="container text-center py-3">
+      <a class="btn btn-social-icon btn-google"
+	 onclick="window.location.href='mailto:davide.madrisan@gmail.com';">
+	 <span class="fa fa-envelope"></span>
+      </a>
+      <a class="btn btn-social-icon btn-github"
+	 onclick="window.location.href='https://github.com/madrisan';">
+	 <span class="fa fa-github"></span>
+      </a>
+      <a class="btn btn-social-icon btn-linkedin"
+	 onclick="window.location.href='https://www.linkedin.com/in/madrisan';">
+	 <span class="fa fa-linkedin"></span>
+      </a>
+      <a class="btn btn-social-icon btn-twitter"
+	 onclick="window.location.href='https://twitter.com/dmadrisan';">
+	 <span class="fa fa-twitter"></span>
+      </a>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center text-white bg-dark py-3">© 2020 Copyright
+      <a href="https://madrisan.github.io/"> Davide Madrisan</a>
+    </div>
+  </footer>
 
 </html>

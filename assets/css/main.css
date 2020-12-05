@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+body {
+  font-family: "Garamond", 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+* {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-2 {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 20px;
+    color: green;
+}
+
+.navbar-brand {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+//  font-weight: normal;
+//  margin-top: 0.8em;
+//  margin-bottom: 0.5em;
+//  text-indent: 6px;
+}
+//h2:before {
+//  padding-right: 0.3em;
+//  margin-left: -1.5em;
+//  content: "//";
+//  color: #1abc9c;
+//}
+//h3:before {
+//  padding-right: 0.3em;
+//  margin-left: -2em;
+//  content: "///";
+//  color: #1abc9c;
+//}
+//h4:before {
+//  padding-right: 0.3em;
+//  margin-left: -2.8em;
+//  content: "////";
+//  color: #1abc9c;
+//}
+//h5:before {
+//  padding-right: 0.3em;
+//  margin-left: -3.2em;
+//  content: "/////";
+//  color: #1abc9c;
+//}
+//h6:before {
+//  padding-right: 0.3em;
+//  margin-left: -3.7em;
+//  content: "//////";
+//  color: #1abc9c;
+//}
+
+/* Blog */
+ul.posts {
+//  margin: 20px auto 40px;
+  font-size: 1.1em;
+}
+ul.posts li {
+  list-style: none;
+}

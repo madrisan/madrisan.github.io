@@ -2,14 +2,36 @@
 layout: default
 title: Davide Madrisan's Blog
 ---
-<div class="blurb">
-  <div class="header">
-    <h1>{{ page.title }}</h1>
-  </div>
-</div>
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand text-capitalize" href="#">{{ page.title }}</a>
+
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="/">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about">ABOUT</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/blog">BLOG</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container pt-4">
+    <div class="row">
+        <div class="col">
+
+            <ul class="breadcrumb posts">
+                {% for post in site.posts %}
+                <li class="breadcrumb-item">{{ post.date | date_to_string }}</li>
+                <li class="breadcrumb-item">
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+</div>
