@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "New site hosted by GitHub"
+title: "My New Site"
 date: 2020-11-28
 location: Nice
 ---
 
-# My new site is born
+## My new site is born
 
 Well. Finally got around to putting this website together.
 

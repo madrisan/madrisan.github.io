@@ -1,10 +1,19 @@
-name: Davide Madrisan, personal website
+name: Davide Madrisan
+description: Personal Website
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
-  - jekyll_social_icons
   - jemoji
 socials:
   github: https://github.com/madrisan
   linkedin: https://www.linkedin.com/in/madrisan
+  stackoverflow: https://stackoverflow.com/users/5721620/davide-madrisan
   twitter: https://twitter.com/dmadrisan
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

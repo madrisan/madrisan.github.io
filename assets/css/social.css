@@ -1,26 +1,6 @@
-.social:hover {
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -o-transform: scale(1.5);
- }
-.social {
-  -webkit-transform: scale(1.0);
-  -moz-transform: scale(1.0);
-  -o-transform: scale(1.0);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-}
-
-.social-email:hover {
-  color: #f39c12;
-}
-.social-linkedin:hover {
-  color: #0000cc;
-}
-.social-github:hover {
-  color: #000000;
-}
-.social-twitter:hover {
-  color: #99ccff;
-}
+.btn-stackoverflow{color:#fff;background-color:#ff9933;border-color:rgba(0,0,0,0.2)}.btn-stackoverflow:focus,.btn-stackoverflow.focus{color:#fff;background-color:#ff3300;border-color:rgba(0,0,0,0.2)}
+.btn-stackoverflow:hover{color:#fff;background-color:#ff3300;border-color:rgba(0,0,0,0.2)}
+.btn-stackoverflow:active,.btn-stackoverflow.active,.open>.dropdown-toggle.btn-stackoverflow{color:#fff;background-color:#ff3300;border-color:rgba(0,0,0,0.2)}.btn-stackoverflow:active:hover,.btn-stackoverflow.active:hover,.open>.dropdown-toggle.btn-stackoverflow:hover,.btn-stackoverflow:active:focus,.btn-stackoverflow.active:focus,.open>.dropdown-toggle.btn-stackoverflow:focus,.btn-stackoverflow:active.focus,.btn-stackoverflow.active.focus,.open>.dropdown-toggle.btn-stackoverflow.focus{color:#fff;background-color:#23345a;border-color:rgba(0,0,0,0.2)}
+.btn-stackoverflow:active,.btn-stackoverflow.active,.open>.dropdown-toggle.btn-stackoverflow{background-image:none}
+.btn-stackoverflow.disabled:hover,.btn-stackoverflow[disabled]:hover,fieldset[disabled] .btn-stackoverflow:hover,.btn-stackoverflow.disabled:focus,.btn-stackoverflow[disabled]:focus,fieldset[disabled] .btn-stackoverflow:focus,.btn-stackoverflow.disabled.focus,.btn-stackoverflow[disabled].focus,fieldset[disabled] .btn-stackoverflow.focus{background-color:#ff9933;border-color:rgba(0,0,0,0.2)}
+.btn-stackoverflow .badge{color:#ff9933;background-color:#fff}
