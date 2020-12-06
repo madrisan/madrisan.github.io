@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Myself
+moocs:
 ---
 
 <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
@@ -65,6 +66,35 @@ title: About Myself
                     Computer Science, Mathematical and Graphics programming, Cryptography, and Artificial Intelligence.
                     Research thesis: "<i>Algorithms for Searching Saddle Points in Convex Analysis and their application
                     to the Monotonic, Regular and Optimized interpolation</i>."</p>
+
+                    <p>Having worked for over twenty years, I began to feel as though my knowledge about many interesting
+                    things was fading out, so I decided it was time for reinvention.
+                    Then I heard about MOOCs – <i>Massive Online Open Courses</i>, and a specific one turned out appealing to me:
+                    “<i>Machine Learning</i>”, from Coursera-Standford University, nicely taught by Andrew Ng.</p>
+
+                    <p>Therefore, in 2014 I fell in love with online training via MOOCs.
+                    My main objective at the beginning was learning about interesting subjects from some top-notch
+                    universities, like MIT, Harvard, Berkeley, Chicago, Yale or Stanford, and I also wanted to live the
+                    experience of collaborative learning, though I did not have a clear strategy.
+                    However, after the first MOOC I started to plan ahead.</p>
+
+                    <p>Since then, step by step and week by week, I successfully completed several MOOCs
+                    (and dropped many too), and as a result I am learning a couple of things about Machine Learning,
+                    Data Science, Maths, Functional/Object Oriented/Parallel and GPGPU Programming, Cloud Computing,
+                    DevOps Technologies, Web Technologies, Learning Technics, and so on.
+                    Even more recently Health and Climate related Sciences</p>
+
+                    <h4>Certifications and Online Courses</h4>
+
+                    <ul>
+                    {% for item in site.data.courses.data %}
+                    <li><span class="pr-2">{{ item.year }}.</span>{{ item.course }}
+                        {% if item.provider %}
+                        &mdash; <small>{{ item.provider }}<small>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                    </ul>
 
                 </div>
 
@@ -153,7 +183,11 @@ title: About Myself
 
 		<div class="tab-pane container pt-4" id="interests">
 
-                    <p>Interests here...</p>
+                    <p>When I’m not working, I spend my time studying, taking MOOC’s, playing with my dog <i>Pixi</i>,
+                    listening lots of classical music (my preferred composers are at present Johann Sebastian Bach,
+                    Gustav Mahler, Anton Bruckner, Arnold Schoenberg, Alban Berg, and Dmitri Shostakovich),
+                    taking care of my plants (crassulaceae, succulents and cactaceae), reading books, travelling a bit
+                    when possible, and help improving the openmamba GNU/Linux distribution.</p>
 
 		</div>
 
