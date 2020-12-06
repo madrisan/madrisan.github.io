@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "My New Site"
+title: My New Site is born
 date: 2020-11-28
 location: Nice
+summary: Well. Finally got around to putting this website together...
 ---
-
-## My new site is born
-
 Well. Finally got around to putting this website together.
 
 Powered by [Jekyll](http://jekyllrb.com) and
