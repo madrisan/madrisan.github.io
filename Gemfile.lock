@@ -85,6 +85,7 @@ DEPENDENCIES
   jekyll-watch
   jemoji
   kramdown-parser-gfm
+  nokogiri
 
 BUNDLED WITH
    2.1.4
