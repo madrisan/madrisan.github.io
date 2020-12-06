@@ -57,12 +57,3 @@ h1, h2, h3, h4, h5, h6 {
 //  content: "//////";
 //  color: #1abc9c;
 //}
-
-/* Blog */
-ul.posts {
-//  margin: 20px auto 40px;
-  font-size: 1.1em;
-}
-ul.posts li {
-  list-style: none;
-}

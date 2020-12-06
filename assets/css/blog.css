@@ -1,0 +1,6 @@
+ul.posts {
+    font-size: 1em;
+}
+ul.posts li {
+    list-style: none;
+}

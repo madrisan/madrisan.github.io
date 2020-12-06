@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "Davide Madrisan, Launches Site"
+title: "New site hosted by GitHub"
 date: 2020-11-28
+location: Nice
 ---
 
-Well. Finally got around to putting this old website together.
-Powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts.
+# My new site is born
+
+Well. Finally got around to putting this website together.
+
+Powered by [Jekyll](http://jekyllrb.com) and
+hosted by [GitHub](https://github.com/madrisan/madrisan.github.io)
+and I can use Markdown to author my posts.
 It actually is a lot easier than I thought it was going to be.

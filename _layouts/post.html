@@ -1,9 +1,43 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand text-capitalize" href="#">Blog - {{ page.title }}</a>
+    <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="/blog">BLOG</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container pt-4">
+    <div class="row">
+        <div class="col">
+	    <p>
+            {% if page.location %}
+                {{ page.location }},
+            {% endif %}            
+            {{ page.date | date_to_string }}
+	    </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            {{ content }}
+        </div>
+    </div>
 </div>
