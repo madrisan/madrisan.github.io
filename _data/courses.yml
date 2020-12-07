@@ -1,151 +1,123 @@
 data:
-  - course: "Preventing Dementia"
-    year: 2020
-    provider: "The Wicking Demence Centre, University of Tasmania"
-  - course: "Science Matter: Let's Talk about COVID-19"
-    year: 2020
-    provider: "Imperial College London"
-  - course: "Global Warming: The Science and Modeling of Climate Change"
-    year: 2020
-    provider: "The University of Chicago"
-  - course: "Air Pollution"
-    year: 2020
-    provider: "K&oslash;benhavn Universitet"
-  - course: "Introduction to Complexity"
-    year: 2019
-    provider: "Santa Fe Institute"
-  - course: "Introduction to Computation Theory"
-    year: 2018
-    provider: "Santa Fe Institute"
-  - course: "Introduction to Renormalization"
-    year: 2018
-    provider: "Santa Fe Institute"
-  - course: "Introduction to Cloud Infrastructure Technologies (LFS151.x)"
-    year: 2017
-    provider: "Linux Foundation"
-  - course: "Fundamentals of Containers, Kubernetes, and Red Hat OpenShift (DO081x)"
-    year: 2017
-    provider: "Red Hat"
-  - course: "Introduction to Cloud Foundry and Cloud Native Software Architecture (LFS132.x)"
-    year: 2017
-    provider: "Linux Foundation"
-  - course: "Introduction to OpenStack (LFS152.x)"
-    year: 2017
-    provider: "Linux Foundation"
-  - course: "Introduction to Kubernetes (LFS158.x)"
-    year: 2017
-    provider: "Linux Foundation"
-  - course: "Introduction to DevOps: Transforming and Improving Operations (LFS161.x)"
-    year: 2017
-    provider: "Linux Foundation"
-  - course: "Fractals and Scaling"
-    year: 2017
-    provider: "Santa Fe Institute"
-  - course: "Compliance Basics for Developers (LFC291)"
-    year: 2017
-    provider: "The Linux Foudation"
-  - course: "Introduction to MongoDB using the MEAN Stack (M101x)"
-    year: 2017
-    provider: "MongoDB University"
-  - course: "Functional Programming Principles in Scala"
-    year: 2016
-    provider: "&Eacute;cole Polytechnique Fédérale de Lausanne"
-  - course: "Front-End Web Developer Nanodegree (5 courses)"
-    year: 2016
-    provider: "at&amp;t, Google, GitHub, Hack Reactor"
-  - course: "Introduction to Dynamical Systems and Chaos"
-    year: 2016
-    provider: "Santa Fe Institute"
-  - course: "AWS Training - AWS Technical Essentials (version August 2016)"
-    year: 2016
-    provider: "Amazon Web Services"
-  - course: "Advanced Styling with Responsive Design"
-    year: 2016
-    provider: "University of Michigan"
-  - course: "MongoDB for Node.js Developers (M101JS)"
-    year: 2016
-    provider: "MongoDB University"
-  - course: "Full Stack Web Development Specialization (6 courses)"
-    year: 2016
-    provider: "The Hong Kong University"
-  - course: "Introduction to TypeScript (DEV201x)"
-    year: 2016
-    provider: "Microsoft"
-  - course: "Introduction to jQuery (DEV208x)"
-    year: 2016
-    provider: "Microsoft"
-  - course: "Shaping up with Angular.js"
-    year: 2016
-    provider: "Code School &amp; Google"
-  - course: "Using Databases with Python"
-    year: 2016
-    provider: "University of Michigan"
-  - course: "Paradigms of Computer Programming (2 courses)"
-    year: 2016
-    provider: "Université catholique de Louvain"
-  - course: "Introduction to HTML5"
-    year: 2015
-    provider: "University of Michigan"
-  - course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"
-    year: 2015
-    provider: "University of London"
-  - course: "Using Python to Access Web Data"
-    year: 2015
-    provider: "University of Michigan"
-  - course: "Cloud Network"
-    year: 2015
-    provider: "University of Illinois at Urbana-Champaign"
-  - course: "Cloud Computing Applications"
-    year: 2015
-    provider: "University of Illinois at Urbana-Champaign"
-  - course: "Statistics and R for Life Sciences (PH525.1x)"
-    year: 2015
-    provider: "Hardvard University"
-  - course: "Introduction to R Programming (DAT204x)"
-    year: 2015
-    provider: "Microsoft"
-  - course: "Learn HTML5 from W3C"
-    year: 2015
-    provider: "W3C"
-  - course: "Data Science Specialization (first 6 courses)"
-    year: 2015
-    provider: "The Johns Hopkins University"
-  - course: "Introduction to Java Programming - part 2 (COMP102.2x)"
-    year: 2015
-    provider: "The Hong Kong University of Science and Technology"
-  - course: "Introduction to Programming with Java Part 1: Starting to Program in Java (IT.1.1x)"
-    year: 2015
-    provider: "Universidad Carlos III de Madrid"
-  - course: "How to Learn: powerful mental tools to help you master tough subjects"
-    year: 2015
-    provider: "University of California, San Diego"
-  - course: "Big Data XSeries Certificate (2 courses)"
-    year: 2015
-    provider: "Berkeley University &amp; Databricks"
-  - course: "Heterogeneous Parallel Programming"
-    year: 2015
-    provider: "University of Illinois at Urbana-Champaign"
-  - course: "Introduction à la programmation orientée objet en Cplusplus"
-    year: 2015
-    provider: "&Eacute;cole Polytechnique Fédérale de Lausanne"
-  - course: "Optimisation Stochastique &Eacute;volutionnaire"
-    year: 2015
-    provider: "Université de Strasbourg"
-  - course: "Machine Learning"
-    year: 2014
-    provider: "Stanford University"
-  - course: "Competitive Strategy"
-    year: 2014
-    provider: "Maximilians Universit&auml;t M&uuml;nchen"
-  - course: "VMware Certified Professional on VI3 (VCP310)"
-    year: 2007
-  - course: "VPN-1/Firewall-1 Management II NG"
-    year: 2003
-  - course: "ZyXEL Certified Network Engineer"
-    year: 2003
-  - course: "CSPFA (Cisco Secure PIX Firewall Advanced)"
-    year: 2002
-  - course: "BSCN (Building Scalable Cisco Networks)"
-    year: 2001
-  - course: "CLSC (Cisco LAN Switch Configuration) Certified"
-    year: 2000
+  - year: 2020
+    courses:
+      - course: "Preventing Dementia"
+        provider: "The Wicking Demence Centre, University of Tasmania"
+      - course: "Science Matter: Let's Talk about COVID-19"
+        provider: "Imperial College London"
+      - course: "Global Warming: The Science and Modeling of Climate Change"
+        provider: "The University of Chicago"
+      - course: "Air Pollution"
+        provider: "K&oslash;benhavn Universitet"
+  - year: 2019
+    courses:
+      - course: "Introduction to Complexity"
+        provider: "Santa Fe Institute"
+  - year: 2018
+    courses:
+      - course: "Introduction to Computation Theory"
+        provider: "Santa Fe Institute"
+      - course: "Introduction to Renormalization"
+        provider: "Santa Fe Institute"
+  - year: 2017
+    courses:
+      - course: "Introduction to Cloud Infrastructure Technologies (LFS151.x)"
+        provider: "Linux Foundation"
+      - course: "Fundamentals of Containers, Kubernetes, and Red Hat OpenShift (DO081x)"
+        provider: "Red Hat"
+      - course: "Introduction to Cloud Foundry and Cloud Native Software Architecture (LFS132.x)"
+        provider: "Linux Foundation"
+      - course: "Introduction to OpenStack (LFS152.x)"
+        provider: "Linux Foundation"
+      - course: "Introduction to Kubernetes (LFS158.x)"
+        provider: "Linux Foundation"
+      - course: "Introduction to DevOps: Transforming and Improving Operations (LFS161.x)"
+        provider: "Linux Foundation"
+      - course: "Fractals and Scaling"
+        provider: "Santa Fe Institute"
+      - course: "Compliance Basics for Developers (LFC291)"
+        provider: "The Linux Foudation"
+      - course: "Introduction to MongoDB using the MEAN Stack (M101x)"
+        provider: "MongoDB University"
+  - year: 2016
+    courses:
+      - course: "Functional Programming Principles in Scala"
+        provider: "&Eacute;cole Polytechnique Fédérale de Lausanne"
+      - course: "Front-End Web Developer Nanodegree (5 courses)"
+        provider: "at&amp;t, Google, GitHub, Hack Reactor"
+      - course: "Introduction to Dynamical Systems and Chaos"
+        provider: "Santa Fe Institute"
+      - course: "AWS Training - AWS Technical Essentials (version August 2016)"
+        provider: "Amazon Web Services"
+      - course: "Advanced Styling with Responsive Design"
+        provider: "University of Michigan"
+      - course: "MongoDB for Node.js Developers (M101JS)"
+        provider: "MongoDB University"
+      - course: "Full Stack Web Development Specialization (6 courses)"
+        provider: "The Hong Kong University"
+      - course: "Introduction to TypeScript (DEV201x)"
+        provider: "Microsoft"
+      - course: "Introduction to jQuery (DEV208x)"
+        provider: "Microsoft"
+      - course: "Shaping up with Angular.js"
+        provider: "Code School &amp; Google"
+      - course: "Using Databases with Python"
+        provider: "University of Michigan"
+      - course: "Paradigms of Computer Programming (2 courses)"
+        provider: "Université catholique de Louvain"
+  - year: 2015
+    courses:
+      - course: "Introduction to HTML5"
+        provider: "University of Michigan"
+      - course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"
+        provider: "University of London"
+      - course: "Using Python to Access Web Data"
+        provider: "University of Michigan"
+      - course: "Cloud Network"
+        provider: "University of Illinois at Urbana-Champaign"
+      - course: "Cloud Computing Applications"
+        provider: "University of Illinois at Urbana-Champaign"
+      - course: "Statistics and R for Life Sciences (PH525.1x)"
+        provider: "Hardvard University"
+      - course: "Introduction to R Programming (DAT204x)"
+        provider: "Microsoft"
+      - course: "Learn HTML5 from W3C"
+        provider: "W3C"
+      - course: "Data Science Specialization (first 6 courses)"
+        provider: "The Johns Hopkins University"
+      - course: "Introduction to Java Programming - part 2 (COMP102.2x)"
+        provider: "The Hong Kong University of Science and Technology"
+      - course: "Introduction to Programming with Java Part 1: Starting to Program in Java (IT.1.1x)"
+        provider: "Universidad Carlos III de Madrid"
+      - course: "How to Learn: powerful mental tools to help you master tough subjects"
+        provider: "University of California, San Diego"
+      - course: "Big Data XSeries Certificate (2 courses)"
+        provider: "Berkeley University &amp; Databricks"
+      - course: "Heterogeneous Parallel Programming"
+        provider: "University of Illinois at Urbana-Champaign"
+      - course: "Introduction à la programmation orientée objet en Cplusplus"
+        provider: "&Eacute;cole Polytechnique Fédérale de Lausanne"
+      - course: "Optimisation Stochastique &Eacute;volutionnaire"
+        provider: "Université de Strasbourg"
+  - year: 2014
+    courses:
+      - course: "Machine Learning"
+        provider: "Stanford University"
+      - course: "Competitive Strategy"
+        provider: "Maximilians Universit&auml;t M&uuml;nchen"
+  - year: 2007
+    courses:
+      - course: "VMware Certified Professional on VI3 (VCP310)"
+  - year: 2003
+    courses:
+      - course: "VPN-1/Firewall-1 Management II NG"
+      - course: "ZyXEL Certified Network Engineer"
+  - year: 2002
+    courses:
+      - course: "CSPFA (Cisco Secure PIX Firewall Advanced)"
+  - year: 2001
+    courses:
+      - course: "BSCN (Building Scalable Cisco Networks)"
+  - year: 2000
+    courses:
+      - course: "CLSC (Cisco LAN Switch Configuration) Certified"

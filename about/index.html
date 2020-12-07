@@ -84,17 +84,27 @@ moocs:
                     DevOps Technologies, Web Technologies, Learning Technics, and so on.
                     Even more recently Health and Climate related Sciences</p>
 
-                    <h4>Certifications and Online Courses</h4>
+                    <h4 class="pt-1 pb-2">Certifications and Online Courses</h4>
 
-                    <ul>
                     {% for item in site.data.courses.data %}
-                    <li><span class="pr-2">{{ item.year }}.</span>{{ item.course }}
-                        {% if item.provider %}
-                        &mdash; <small>{{ item.provider }}<small>
-                        {% endif %}
-                    </li>
+                        <h6>{{ item.year }}</h6>
+                        <div class="container">
+                        {% assign courses = item.courses %}
+                        <table class="table table-hover table-sm">
+                            {% for items in courses %}
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <span>{{ items.course }}</span>
+                                    {% if items.provider %}
+                                    &mdash; <small>{{ items.provider }}</small>
+                                    {% endif %}
+                                    </td>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                        </div>
                     {% endfor %}
-                    </ul>
 
                 </div>
 
