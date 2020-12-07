@@ -95,7 +95,7 @@ data:
         provider: "Berkeley University &amp; Databricks"
       - course: "Heterogeneous Parallel Programming"
         provider: "University of Illinois at Urbana-Champaign"
-      - course: "Introduction à la programmation orientée objet en Cplusplus"
+      - course: "Introduction à la programmation orientée objet en C++"
         provider: "&Eacute;cole Polytechnique Fédérale de Lausanne"
       - course: "Optimisation Stochastique &Eacute;volutionnaire"
         provider: "Université de Strasbourg"
