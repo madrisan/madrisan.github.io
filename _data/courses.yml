@@ -9,6 +9,7 @@ data:
         provider: "The University of Chicago"
       - course: "Air Pollution"
         provider: "K&oslash;benhavn Universitet"
+        badge: "health science"
   - year: 2019
     courses:
       - course: "Introduction to Complexity"
@@ -47,8 +48,10 @@ data:
         provider: "at&amp;t, Google, GitHub, Hack Reactor"
       - course: "Introduction to Dynamical Systems and Chaos"
         provider: "Santa Fe Institute"
+        badge: "math"
       - course: "AWS Training - AWS Technical Essentials (version August 2016)"
         provider: "Amazon Web Services"
+        badge: "cloud"
       - course: "Advanced Styling with Responsive Design"
         provider: "University of Michigan"
       - course: "MongoDB for Node.js Developers (M101JS)"
@@ -83,6 +86,7 @@ data:
         provider: "Microsoft"
       - course: "Learn HTML5 from W3C"
         provider: "W3C"
+        badge: "web programming"
       - course: "Data Science Specialization (first 6 courses)"
         provider: "The Johns Hopkins University"
       - course: "Introduction to Java Programming - part 2 (COMP102.2x)"
@@ -93,6 +97,7 @@ data:
         provider: "University of California, San Diego"
       - course: "Big Data XSeries Certificate (2 courses)"
         provider: "Berkeley University &amp; Databricks"
+        badge: "big data"
       - course: "Heterogeneous Parallel Programming"
         provider: "University of Illinois at Urbana-Champaign"
       - course: "Introduction à la programmation orientée objet en C++"
@@ -103,6 +108,7 @@ data:
     courses:
       - course: "Machine Learning"
         provider: "Stanford University"
+        badge: "first mooc"
       - course: "Competitive Strategy"
         provider: "Maximilians Universit&auml;t M&uuml;nchen"
   - year: 2007
@@ -121,3 +127,4 @@ data:
   - year: 2000
     courses:
       - course: "CLSC (Cisco LAN Switch Configuration) Certified"
+        badge: "networking"

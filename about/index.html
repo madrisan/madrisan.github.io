@@ -94,7 +94,11 @@ title: About Myself
                             <tbody>
                                 <tr>
                                     <td>
-                                    <span>{{ items.course }}</span>
+                                    <span>{{ items.course }}
+                                    {% if items.badge %}
+                                    <span class="badge badge-success">{{ items.badge }}</span>
+                                    {% endif %}
+                                    </span>
                                     {% if items.provider %}
                                     &mdash; <small>{{ items.provider }}</small>
                                     {% endif %}
