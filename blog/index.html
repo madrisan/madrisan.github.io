@@ -34,13 +34,18 @@ title: Davide Madrisan's Blog
         {% for post in site.posts %}
         <div class="col">
             <blockquote class="blockquote">
-                <p class="mb-0"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
-              	<footer class="blockquote-footer"><small>{{ post.date | date_to_string }}</small></footer>
-		{% if post.summary %}
-		<p class="pt-2">{{ post.summary }}</p>
-		{% endif %}
+                <p class="mb-0">
+                    {% if post.language %}
+                    <span class="badge badge-light font-weight-light text-lowercase text-secondary">{{ post.language }}</span>
+                    {% endif %}
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </p>
+                <footer class="ml-4 blockquote-footer"><small>{{ post.date | date_to_string }}</small></footer>
+                {% if post.summary %}
+                <p class="pt-2">{{ post.summary }}</p>
+                {% endif %}
             </blockquote>
-	    <hr>
+            <hr>
         </div>
         {% endfor %}
     </div>
