@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My New Site is born
+title: My new website is born
 date: 2020-11-28
 language: en
 location: Nice
