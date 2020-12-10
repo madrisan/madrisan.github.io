@@ -22,10 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-jumbotron {
     background: url("/images/main-mountains.jpg");
-    background-position: 0 50%;
+    background-position: 20 70%;
     background-size: cover;
     font-family: 'Permanent Marker';
-    height: 500px;
+    height: 400pt;
+    max-width: 100%;
 }
 
 .navbar-brand {
