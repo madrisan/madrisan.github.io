@@ -2,13 +2,13 @@ a.posts {
     font-size: 2em;
 }
 
-.blog-jumbotron {
+.fa-rss-color {
+    color: #ff8f10;
+}
+
+.jumbotron-blog {
     background: url("/images/blog-jumbotron.jpg");
     background-position: 0 50%;
     background-size: cover;
     height: 200px;
-}
-
-.fa-rss-color {
-    color: #ff8f10;
 }

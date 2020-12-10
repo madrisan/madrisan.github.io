@@ -2,25 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 body {
-  font-family: "Garamond", 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-family: "Garamond", 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+}
+
+body, wrapper {
+    min-height: 100vh;
 }
 
 * {
-  font-size: 16px;
-  font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
-.header-2 {
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-    font-size: 20px;
-    color: green;
-}
-
-.main-jumbotron {
+.jumbotron-main {
     background: url("/images/main-mountains.jpg");
     background-position: 20 70%;
     background-size: cover;

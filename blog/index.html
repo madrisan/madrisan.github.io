@@ -24,43 +24,30 @@ title: Davide Madrisan's Blog
     </div>
 </nav>
 
-<div class="container pt-4">
-    <div class="jumbotron blog-jumbotron">
-        <blockquote class="blockquote">
-            <h1 class="text-bold mb-0">Recent Posts</h1>
-            <footer class="blockquote-footer text-dark">
-                Articles about science and technology
-            </footer>
-        </blockquote>
-    </div>
+<div class="jumbotron jumbotron-fluid jumbotron-blog align-items-center img-fluid">
+    <h1 class="text-center">Recent Posts</h1>
+    <h5 class="text-center text-secondary">Articles about science and technology</h5>
+</div>
 
-    <div class="row pb-4">
-        <div class="col">
-            <span class="border">
-                <i class="fa fa-rss-square fa-rss-color ml-1" aria-hidden="true"></i>
-		<span class="ml-1 mr-1 text-secondary">
-                    <small>https://madrisan.github.io/blog/atom.xml</small>
-                </span>
-            </span>
-        </div>
-    </div>
-    <div class="row">
-        {% for post in site.posts %}
-        <div class="col">
-            <blockquote class="blockquote">
-                <p class="mb-0">
-                    {% if post.language %}
-                    <span class="badge badge-light font-weight-light text-lowercase text-secondary">{{ post.language }}</span>
+<div class="container">
+    {% for post in site.posts %}
+    <div class="row ml-2 mt-2">
+        <span class="border-left">
+            <div class="col">
+                <blockquote class="blockquote">
+                    <p class="mb-0">
+                        {% if post.language %}
+                        <span class="badge badge-light font-weight-light text-lowercase text-secondary">{{ post.language }}</span>
+                        {% endif %}
+                        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                    </p>
+                    <footer class="ml-4 blockquote-footer"><small>{{ post.date | date_to_string }}</small></footer>
+                    {% if post.summary %}
+                    <p class="pt-2">{{ post.summary }}</p>
                     {% endif %}
-                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                </p>
-                <footer class="ml-4 blockquote-footer"><small>{{ post.date | date_to_string }}</small></footer>
-                {% if post.summary %}
-                <p class="pt-2">{{ post.summary }}</p>
-                {% endif %}
-            </blockquote>
-            <hr>
-        </div>
-        {% endfor %}
+                </blockquote>
+            </div>
+        </span>
     </div>
+    {% endfor %}
 </div>

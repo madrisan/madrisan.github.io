@@ -1,59 +1,61 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <title>{{ page.title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Font Awsome -->
-    <script src="https://kit.fontawesome.com/31fa09e3cc.js"></script>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/social.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/blog.css">
-  </head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Font Awsome -->
+        <script src="https://kit.fontawesome.com/31fa09e3cc.js"></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/social.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/blog.css">
+    </head>
 
-  <body>
+    <body>
+        <wrapper class="d-flex flex-column">
+            <main class="flex-fill">
+            {{ content }}
+            </main>
 
-    {{ content }}
-
-  </body>
-
-  <footer class="page-footer font-small">
-    <div class="container text-center pb-2">
-      <a class="btn btn-social-icon btn-google"
-	 onclick="window.location.href='mailto:davide.madrisan@gmail.com';">
-	 <span class="fa fa-envelope"></span>
-      </a>
-      <a class="btn btn-social-icon btn-github"
-	 onclick="window.location.href='{{ site.socials.github }}';">
-	 <span class="fa fa-github"></span>
-      </a>
-      <a class="btn btn-social-icon btn-linkedin"
-	 onclick="window.location.href='{{ site.socials.linkedin }}';">
-	 <span class="fa fa-linkedin"></span>
-      </a>
-      <a class="btn btn-social-icon btn-stackoverflow"
-         onclick="window.location.href='{{ site.socials.stackoverflow }}';">
-         <span class="fa fa-stack-overflow"></span>
-      </a>
-      <a class="btn btn-social-icon btn-twitter"
-	 onclick="window.location.href='{{ site.socials.twitter }}';">
-	 <span class="fa fa-twitter"></span>
-      </a>
-    </div>
-    <!-- Copyright -->
-    <div class="footer-copyright text-center text-white bg-dark py-3">© 2020. All right reserved.</div>
-  </footer>
+            <footer class="page-footer font-small">
+                <div class="container text-center pb-2">
+                    <a class="btn btn-social-icon btn-google"
+                       onclick="window.location.href='mailto:davide.madrisan@gmail.com';">
+                       <span class="fa fa-envelope"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-github"
+                       onclick="window.location.href='{{ site.socials.github }}';">
+                       <span class="fa fa-github"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-linkedin"
+                       onclick="window.location.href='{{ site.socials.linkedin }}';">
+                       <span class="fa fa-linkedin"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-stackoverflow"
+                       onclick="window.location.href='{{ site.socials.stackoverflow }}';">
+                    <span class="fa fa-stack-overflow"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-twitter"
+                       onclick="window.location.href='{{ site.socials.twitter }}';">
+                       <span class="fa fa-twitter"></span>
+                    </a>
+                </div>
+                <!-- Copyright -->
+                <div class="footer-copyright text-center text-white bg-dark py-3">© 2020. All right reserved.</div>
+            </footer>
+        </wrapper>
+    </body>
 
 </html>
