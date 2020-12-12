@@ -15,4 +15,8 @@ It actually was a lot easier than I thought it was going to be because of the
 great [Jonathan McGlone's project](https://github.com/hankquinlan/hankquinlan.github.io/)
 that helped me putting all the pieces toghether.
 
+I can even white beautiful *LaTeX*-formatted mathematical expressions with
+the [MathJax](https://www.mathjax.org/) JavaScript display engine.
+For instance my preferred one: $$ e^{j \pi} = -1 $$.
+
 Hosted by [GitHub](https://github.com/madrisan/madrisan.github.io) with :heart:
