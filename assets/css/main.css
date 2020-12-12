@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 562pt;
     max-width: 100%;
 }
-.jumbotron-main h1, h3 {
+.jumbotron-main h1,
+.jumbotron-main h3 {
     font-family: 'Permanent Marker';
 }
 

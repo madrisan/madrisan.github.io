@@ -12,3 +12,9 @@ a.posts {
     background-size: cover;
     height: 200px;
 }
+
+.jumbotron-blog-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
