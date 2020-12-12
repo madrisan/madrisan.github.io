@@ -7,7 +7,7 @@ a.posts {
 }
 
 .jumbotron-blog {
-    background: url("/images/blog-jumbotron.jpg");
+    background: url("/assets/images/blog-jumbotron.jpg");
     background-position: 0 50%;
     background-size: cover;
     height: 200px;

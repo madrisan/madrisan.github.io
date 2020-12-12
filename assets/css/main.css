@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron-main {
-    background: url("/images/main-mountains.jpg");
+    background: url("/assets/images/main-mountains.jpg");
     background-position: 20 70%;
     background-size: cover;
     font-family: 'Permanent Marker';
