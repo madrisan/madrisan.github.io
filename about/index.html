@@ -18,225 +18,224 @@ title: About Myself
     </div>
 </div>
 
-<div class="container pt-4">
-    <div class="row">
-        <div class="col">
-
-            <ul class="nav nav-tabs">
+<div class="container pt-3 pb-3">
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="tabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#education">Education</a>
+                     <a class="nav-link active" id="education-tab" href="#education" data-toggle="tab" aria-controls="education" aria-selected="true">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#job">Job</a>
+                    <a class="nav-link" id="job-tab" href="#job" data-toggle="tab" aria-controls="education" aria-selected="false">Job</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#interests">Interests</a>
+                    <a class="nav-link" id="interests-tab" href="#interests" data-toggle="tab" aria-controls="education" aria-selected="false">Interests</a>
                 </li>
-	    </ul>
+            </ul>
+        </div>
 
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane container active pt-4" id="education">
+        <div class="card-body">
+            <div class="tab-content mt-1">
+                <div class="tab-pane active" id="education" aria-labelledby="education-tab">
+                    <div class="card-text">
+                        <p>I was born and raised in Torino, in north west of Italy, and I did all my schooling in this town.
+                        Besides being a student at the Conservatoire of Music "G.Verdi", I also did fairly well in school.
+                        So I had my <i>Bachelor of Music-Piano Performance</i> in 1993 (class of Maestro Domenico Canina) and
+                        a <i>Master of Mathematics</i> degree at the <i>Università degli Studi</i> in 1999, with emphasis in
+                        Computer Science, Mathematical and Graphics programming, Cryptography, and Artificial Intelligence.
+                        Research thesis: "<i>Algorithms for Searching Saddle Points in Convex Analysis and their application
+                        to the Monotonic, Regular and Optimized interpolation</i>."</p>
 
-                    <p>I was born and raised in Torino, in north west of Italy, and I did all my schooling in this town.
-                    Besides being a student at the Conservatoire of Music "G.Verdi", I also did fairly well in school.
-                    So I had my <i>Bachelor of Music-Piano Performance</i> in 1993 (class of Maestro Domenico Canina) and
-                    a <i>Master of Mathematics</i> degree at the <i>Università degli Studi</i> in 1999, with emphasis in
-                    Computer Science, Mathematical and Graphics programming, Cryptography, and Artificial Intelligence.
-                    Research thesis: "<i>Algorithms for Searching Saddle Points in Convex Analysis and their application
-                    to the Monotonic, Regular and Optimized interpolation</i>."</p>
+                        <p>Having worked for over twenty years, I began to feel as though my knowledge about many interesting
+                        things was fading out, so I decided it was time for reinvention.
+                        Then I heard about MOOCs – <i>Massive Online Open Courses</i>, and a specific one turned out appealing to me:
+                        “<i>Machine Learning</i>”, from Coursera-Standford University, nicely taught by Andrew Ng.</p>
 
-                    <p>Having worked for over twenty years, I began to feel as though my knowledge about many interesting
-                    things was fading out, so I decided it was time for reinvention.
-                    Then I heard about MOOCs – <i>Massive Online Open Courses</i>, and a specific one turned out appealing to me:
-                    “<i>Machine Learning</i>”, from Coursera-Standford University, nicely taught by Andrew Ng.</p>
+                        <p>Therefore, in 2014 I fell in love with online training via MOOCs.
+                        My main objective at the beginning was learning about interesting subjects from some top-notch
+                        universities, like MIT, Harvard, Berkeley, Chicago, Yale or Stanford, and I also wanted to live the
+                        experience of collaborative learning, though I did not have a clear strategy.
+                        However, after the first MOOC I started to plan ahead.</p>
 
-                    <p>Therefore, in 2014 I fell in love with online training via MOOCs.
-                    My main objective at the beginning was learning about interesting subjects from some top-notch
-                    universities, like MIT, Harvard, Berkeley, Chicago, Yale or Stanford, and I also wanted to live the
-                    experience of collaborative learning, though I did not have a clear strategy.
-                    However, after the first MOOC I started to plan ahead.</p>
+                        <p>Since then, step by step and week by week, I successfully completed several MOOCs
+                        (and dropped many too), and as a result I am learning a couple of things about Machine Learning,
+                        Data Science, Maths, Functional/Object Oriented/Parallel and GPGPU Programming, Cloud Computing,
+                        DevOps Technologies, Web Technologies, Learning Technics, and so on.
+                        More recently I added Health and Climate Science related courses to my learning objectives.</p>
 
-                    <p>Since then, step by step and week by week, I successfully completed several MOOCs
-                    (and dropped many too), and as a result I am learning a couple of things about Machine Learning,
-                    Data Science, Maths, Functional/Object Oriented/Parallel and GPGPU Programming, Cloud Computing,
-                    DevOps Technologies, Web Technologies, Learning Technics, and so on.
-                    More recently I added Health and Climate Science related courses to my learning objectives.</p>
+                        <h4 class="pt-1 pb-2">Certifications and Online Courses</h4>
 
-                    <h4 class="pt-1 pb-2">Certifications and Online Courses</h4>
-
-                    {% for item in site.data.courses.data %}
-                        <h6>{{ item.year }}</h6>
-                        <div class="container">
-                        {% assign courses = item.courses %}
-                        <table class="table table-hover table-sm">
-                            {% for items in courses %}
-                            <tbody>
-                                <tr>
-                                    <td>
-                                    <span>{{ items.course }}
-                                    {% if items.badge %}
-                                    <span class="badge badge-success">{{ items.badge }}</span>
-                                    {% endif %}
-                                    </span>
-                                    {% if items.provider %}
-                                    &mdash; <small>{{ items.provider }}</small>
-                                    {% endif %}
-                                    </td>
-                            {% endfor %}
-                            </tbody>
-                        </table>
-                        </div>
-                    {% endfor %}
-
+                        {% for item in site.data.courses.data %}
+                            <h6>{{ item.year }}</h6>
+                            <div class="container">
+                            {% assign courses = item.courses %}
+                            <table class="table table-hover table-sm">
+                                {% for items in courses %}
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                        <span>{{ items.course }}
+                                        {% if items.badge %}
+                                        <span class="badge badge-success">{{ items.badge }}</span>
+                                        {% endif %}
+                                        </span>
+                                        {% if items.provider %}
+                                        &mdash; <small>{{ items.provider }}</small>
+                                        {% endif %}
+                                        </td>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                            </div>
+                        {% endfor %}
+		    </div>
                 </div>
 
-		<div class="tab-pane container fade" id="job">
-
-		    <div class="d-flex justify-content-center mt-0 pt-4">
-                        <figure class="figure img-fluid">
-                            <img src="https://github.com/madrisan/cv/raw/master/images/experiences.png"
-			         class="figure-img img-fluid rounded shadow-lg" alt="my job experiences">
-                            <figcaption class="figure-caption text-center font-weight-bold">
-				        An annotated scatter plot that should help visualizing my job and learning activities
-			    </figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="row pt-4 pb-4">
-                        <div class="col text-left">
-                            <a download href="https://github.com/madrisan/cv/blob/master/README.md#printable-version">
-                                <button type="button" class="btn btn-info btn-lg">
-                                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                    <span class="font-weight-bold">My Curriculum Vit&aelig; on GitHub</span>
-                                </button>
-                            </a>
+                <div class="tab-pane" id="job" aria-labelledby="job-tab">
+                    <div class="card-text">
+                        <div class="d-flex justify-content-center mt-0 pt-4">
+                            <figure class="figure img-fluid">
+                                <img src="https://github.com/madrisan/cv/raw/master/images/experiences.png"
+                                     class="figure-img img-fluid rounded shadow-lg" alt="my job experiences">
+                                <figcaption class="figure-caption text-center font-weight-bold">
+                                            An annotated scatter plot that should help visualizing my job and learning activities
+                                </figcaption>
+                            </figure>
                         </div>
-                    </div>
 
-                    <h5>TeX Developer</h5>
-
-                    <p>My very first job experience (1998-1999) was the development of a collection of TeX macros and document
-                       styles written in pure <i>plain</i>TeX language for the Academy of Science of Torino.
-                       The aim of this project was to create a document style to easily write Mathematics and Physics
-                       papers in <i>plain</i>TeX, but with the Microsoft Word Look&amp;Feel (sic!), because other academic
-                       people make use of this program to redact their papers and no visual differences should have appeared.
-                       The most difficult part was impletementing a complete support for the TrueType fonts, not natively
-                       available under <i>plain</i>TeX.</p>
-
-                    <h5>Network WAN Engineer</h5>
-
-                    <p>In 1999 I started to work in the private IT and Telecommunication sectors as <i>Cisco WAN Engineer</i>.
-                       Between 2001 and 2003 I worked at the Atlanet Internet Service Provider (now part of British Telecom)
-                       in the Network Delivery team and gained in-depth Cisco technology knowledge in network planning,
-                       implementing, configuring, troubleshooting and testing of MPLS (Multiprotocol Label Switching)
-                       networking systems.</p>
-
-                    <h5>Linux distribution developer</h5>
-
-                    <p>My primary technological interest since 1999 is studying and hacking the Linux environment and playing
-                       with the latest open source technologies.</p>
-
-                    <p>Between 2003 and 2006 I had a wonderful experience as a Linux distribution developer and team leader
-                       (<i>QiLinux</i> distribution) which involved me into many different activities, ranging from the conception,
-                       creation from sources and integration of all the pieces and technologies of a modern Linux distribution
-                       to the software development, debugging and compliance with the available standards.
-                       Since 2007 I started developing on the
-                       <a href="https://openmamba.org/en/"><i>openmamba</i></a> <i>GNU/Linux</i> distribution with roots in the
-                       discontinued <i>QiLinux</i> distribution but which has quickly moved to a fully independent project.</p>
-
-		    <h5>Linux and VMware Certified Engineer at IBM</h5>
-
-                    <p>Between 2007 and 2011 I worked at <i>IBM Italy</i> and than <i>IBM France</i> as a Linux and VMware system
-                       administrator in high pressure working environments. In particular at IBM SSO France, I was assigned
-                       on multiple client Linux support and gained <i>incident management</i>, <i>compliance</i> and
-                       <i>process skills</i> in a very strict <i>ITIL</i> and <i>GDF</i> environment.</p>
-
-                    <h5>Monitoring Architect and Team Leader</h5>
-
-                    <p>Finally from 2011 and 2014 I switched to a <i>Nagios/Centreon monitoring architect</i>,
-                    <i>developer</i>, and <i>team leader</i> of the Nagios monitoring team (France and Poland)
-                     at IBM La Gaude.</p>
-
-                    <h5>Auto-entrepreneuriship</h5>
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="/assets/images/logo_os2_banner.png"
-                                 class="img float-left pr-3" alt="OS2 Logo">
-                            <p>I became an auto-entrepreneur in 2013 (SIRET: 79212659100025).
-                            My projects are mainly focused on <i>Linux embedded</i> (operating system and multimedia on the Raspberry Pi),
-                            on networking and <i>AWS cloud technologies</i> and on Full Stack and MEAN stack <i>web development.</i></p>
-                        </div>
-                    </div>
-
-                    <h5>Infrastructure Lead DevOps</h5>
-
-                    <p>I started working in september 2017 at Qwant, the French startup company that develops the eponymous web
-                    search engine that respects the user's privacy. I've worked as <i>Infrastructure Lead DevOps</i> with
-                    an expertise in the <i>Infrastructure as Code</i> good practices and technologies
-                    (the <i>SaltStack</i> framework essentially), Docker containerization, and Python programming.</p>
-
-                    <h5>Software Engineer</h5>
-
-                    <p>In May 2020 I moved to a new position as a <i>Software Engineer</i>, focusing on
-                    <i>Continuous integration</i> with GitLab CI and applications deployment on Kubernetes.</p>
-
-                </div>
-
-                <div class="tab-pane container pt-4" id="interests">
-
-                    <p>When I’m not working, I spend my time studying, taking MOOC’s, playing with my dog <i>Pixi</i>,
-                    listening lots of classical music (my preferred composers are at present Johann Sebastian Bach,
-                    Gustav Mahler, Anton Bruckner, Arnold Schoenberg, Alban Berg, and Dmitri Shostakovich),
-                    taking care of my plants (crassulaceae, succulents and cactaceae), reading books, travelling a bit
-		    when possible, and developing some open source <a href="{{ site.socials.github }}">projects</a>.</p>
-
-                    <div class="container">
-                        <div class="row pt-3 pb-3">
-                            <div class="col-md-1"></div>
-                            <div class="col-md-10">
-
-                                <div id="carouselInterests" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        {% for i in (0..3) %}
-                                        {% if i == 0 %}
-                                        <li data-target="#carouselInterests" data-slide-to="{{ i }}" class="active"></li>
-                                        {% else %}
-                                        <li data-target="#carouselInterests" data-slide-to="{{ i }}"></li>
-                                        {% endif %}
-                                        {% endfor %}
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        {% for i in (0..3) %}
-                                        {% if i == 0 %}
-                                        <div class="carousel-item active">
-                                        {% else %}
-                                        <div class="carousel-item">
-                                        {% endif %}
-                                        <img class="d-block w-100" src="/assets/images/0{{ i }}.jpg" alt="slide {{ i }}">
-                                        </div>
-                                        {% endfor %}
-                                    </div>
-
-                                    <a class="carousel-control-prev" href="#carouselInterests" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselInterests" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-
+                        <div class="row pt-4 pb-4">
+                            <div class="col text-left">
+                                <a download href="https://github.com/madrisan/cv/blob/master/README.md#printable-version">
+                                    <button type="button" class="btn btn-info btn-lg">
+                                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                        <span class="font-weight-bold">My Curriculum Vit&aelig; on GitHub</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
-                    </div>
 
+                        <h5>TeX Developer</h5>
+
+                        <p>My very first job experience (1998-1999) was the development of a collection of TeX macros and document
+                           styles written in pure <i>plain</i>TeX language for the Academy of Science of Torino.
+                           The aim of this project was to create a document style to easily write Mathematics and Physics
+                           papers in <i>plain</i>TeX, but with the Microsoft Word Look&amp;Feel (sic!), because other academic
+                           people make use of this program to redact their papers and no visual differences should have appeared.
+                           The most difficult part was impletementing a complete support for the TrueType fonts, not natively
+                           available under <i>plain</i>TeX.</p>
+
+                        <h5>Network WAN Engineer</h5>
+
+                        <p>In 1999 I started to work in the private IT and Telecommunication sectors as <i>Cisco WAN Engineer</i>.
+                           Between 2001 and 2003 I worked at the Atlanet Internet Service Provider (now part of British Telecom)
+                           in the Network Delivery team and gained in-depth Cisco technology knowledge in network planning,
+                           implementing, configuring, troubleshooting and testing of MPLS (Multiprotocol Label Switching)
+                           networking systems.</p>
+
+                        <h5>Linux distribution developer</h5>
+
+                        <p>My primary technological interest since 1999 is studying and hacking the Linux environment and playing
+                           with the latest open source technologies.</p>
+
+                        <p>Between 2003 and 2006 I had a wonderful experience as a Linux distribution developer and team leader
+                           (<i>QiLinux</i> distribution) which involved me into many different activities, ranging from the conception,
+                           creation from sources and integration of all the pieces and technologies of a modern Linux distribution
+                           to the software development, debugging and compliance with the available standards.
+                           Since 2007 I started developing on the
+                           <a href="https://openmamba.org/en/"><i>openmamba</i></a> <i>GNU/Linux</i> distribution with roots in the
+                           discontinued <i>QiLinux</i> distribution but which has quickly moved to a fully independent project.</p>
+
+                        <h5>Linux and VMware Certified Engineer at IBM</h5>
+
+                        <p>Between 2007 and 2011 I worked at <i>IBM Italy</i> and than <i>IBM France</i> as a Linux and VMware system
+                           administrator in high pressure working environments. In particular at IBM SSO France, I was assigned
+                           on multiple client Linux support and gained <i>incident management</i>, <i>compliance</i> and
+                           <i>process skills</i> in a very strict <i>ITIL</i> and <i>GDF</i> environment.</p>
+
+                        <h5>Monitoring Architect and Team Leader</h5>
+
+                        <p>Finally from 2011 and 2014 I switched to a <i>Nagios/Centreon monitoring architect</i>,
+                        <i>developer</i>, and <i>team leader</i> of the Nagios monitoring team (France and Poland)
+                        at IBM La Gaude.</p>
+
+                        <h5>Auto-entrepreneuriship</h5>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="/assets/images/logo_os2_banner.png"
+                                     class="img float-left pr-3" alt="OS2 Logo">
+                                <p>I became an auto-entrepreneur in 2013 (SIRET: 79212659100025).
+                                My projects are mainly focused on <i>Linux embedded</i> (operating system and multimedia on the Raspberry Pi),
+                                on networking and <i>AWS cloud technologies</i> and on Full Stack and MEAN stack <i>web development.</i></p>
+                            </div>
+                        </div>
+
+                        <h5>Infrastructure Lead DevOps</h5>
+
+                        <p>I started working in september 2017 at Qwant, the French startup company that develops the eponymous web
+                        search engine that respects the user's privacy. I've worked as <i>Infrastructure Lead DevOps</i> with
+                        an expertise in the <i>Infrastructure as Code</i> good practices and technologies
+                        (the <i>SaltStack</i> framework essentially), Docker containerization, and Python programming.</p>
+
+                        <h5>Software Engineer</h5>
+
+                        <p>In May 2020 I moved to a new position as a <i>Software Engineer</i>, focusing on
+                        <i>Continuous integration</i> with GitLab CI and applications deployment on Kubernetes.</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="interests" aria-labelledby="interests-tab">
+                    <div class="card-text">
+
+                        <p>When I’m not working, I spend my time studying, taking MOOC’s, playing with my dog <i>Pixi</i>,
+                        listening lots of classical music (my preferred composers are at present Johann Sebastian Bach,
+                        Gustav Mahler, Anton Bruckner, Arnold Schoenberg, Alban Berg, and Dmitri Shostakovich),
+                        taking care of my plants (crassulaceae, succulents and cactaceae), reading books, travelling a bit
+                        when possible, and developing some open source <a href="{{ site.socials.github }}">projects</a>.</p>
+
+                        <div class="container">
+                            <div class="row pt-3 pb-3">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10">
+                                    <div id="carouselInterests" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            {% for i in (0..3) %}
+                                            {% if i == 0 %}
+                                            <li data-target="#carouselInterests" data-slide-to="{{ i }}" class="active"></li>
+                                            {% else %}
+                                            <li data-target="#carouselInterests" data-slide-to="{{ i }}"></li>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            {% for i in (0..3) %}
+                                            {% if i == 0 %}
+                                            <div class="carousel-item active">
+                                            {% else %}
+                                            <div class="carousel-item">
+                                            {% endif %}
+                                            <img class="d-block w-100" src="/assets/images/0{{ i }}.jpg" alt="slide {{ i }}">
+                                            </div>
+                                            {% endfor %}
+                                        </div>
+
+                                        <a class="carousel-control-prev" href="#carouselInterests" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselInterests" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
-
         </div>
     </div>
 </div>
