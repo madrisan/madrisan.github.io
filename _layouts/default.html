@@ -74,6 +74,7 @@
             </main>
 
             <footer class="page-footer font-small">
+                {% if page.layout != "post" %}
                 <div class="container text-center pb-2">
                     <a class="btn btn-social-icon btn-google"
                        onclick="window.location.href='mailto:davide.madrisan@gmail.com';">
@@ -96,6 +97,7 @@
                        <span class="fa fa-twitter"></span>
                     </a>
                 </div>
+                {% endif %}
                 <!-- Copyright -->
                 <div class="footer-copyright text-center text-white bg-dark py-3">© 2020. All right reserved.</div>
             </footer>
