@@ -1,28 +1,16 @@
-{% assign stripchars = content | strip_html | strip_newlines | remove: " " | size %}
-{% assign time =  stripchars | divided_by: 400 | plus: 1 %}
+{% assign stripchars =
+       content | strip_html | strip_newlines | remove: " " | size %}
+{% assign time = stripchars | divided_by: 400 | plus: 1 %}
 {% assign words = content | number_of_words %}
 
 {% if page.language == "it" %}
-{%     if time > 1                       %}
-{%         assign time_txt = "minuti"    %}
-{%     else                              %}
-{%         assign time_txt = "minuto"    %}
-{%     endif                             %}
-{%     assign time_txt = (time_txt |
-           append: " di lettura")        %}
-{%     assign words_txt = "parole"       %}
+{%     assign time_txt = "min. di lettura" %}
 {% else %}
-{%     if time > 1                       %}
-{%         assign time_txt = "min read"  %}
-{%     else                              %}
+{%     if time > 1 %}
+{%         assign time_txt = "min read" %}
+{%     else %}
 {%         assign time_txt = "mins read" %}
-{%     endif                             %}
-{%     assign words_txt = "words"        %}
+{%     endif %}
 {% endif %}
 
-<div>
-    <span>
-        <i class="far fa-clock pr-2"></i>{{ time }} {{ time_txt }},
-	{{ words }} {{ words_txt }}
-    </span>
-</div>
+<small><i class="far fa-clock pr-2"></i>{{ time }} {{ time_txt }}</small>
