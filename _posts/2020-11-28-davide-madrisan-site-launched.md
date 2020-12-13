@@ -22,6 +22,6 @@ that helped me putting the main pieces toghether.
 
 And last but not least it's possible to write beautiful *LaTeX*-formatted mathematical
 expressions with the [MathJax](https://www.mathjax.org/) JavaScript display engine.
-For instance my preferred one: $$ e^{i \pi} = -1 $$.
+For instance my preferred identity: $$ e^{i \pi} = -1 $$.
 
 Hosted by [GitHub](https://github.com/madrisan/madrisan.github.io) with :heart:
