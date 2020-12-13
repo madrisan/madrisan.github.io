@@ -1,9 +1,9 @@
 {% assign stripchars =
-       content | strip_html | strip_newlines | remove: " " | size %}
+       include.blog_content | strip_html | strip_newlines | remove: " " | size %}
 {% assign time = stripchars | divided_by: 400 | plus: 1 %}
 {% assign words = content | number_of_words %}
 
-{% if page.language == "it" %}
+{% if include.blog_language == "it" %}
 {%     assign time_txt = "min. di lettura" %}
 {% else %}
 {%     if time > 1 %}
@@ -13,4 +13,4 @@
 {%     endif %}
 {% endif %}
 
-<small><i class="far fa-clock pr-2"></i>{{ time }} {{ time_txt }}</small>
+<span><i class="far fa-clock pr-1"></i>{{ time }} {{ time_txt }}</span>

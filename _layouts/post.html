@@ -14,13 +14,13 @@ layout: default
     </div>
 </div>
 
-<div class="container pt-2">
+<div class="container pb-2">
     <div class="d-flex justify-content-between text-secondary">
         <div>
-            {% include readtime.html %}
+            {% include readtime.html blog_content=page.content blog_language=page.language %}
         </div>
         <div>
-            {% include sharetosocials.html %}
+            {% include sharetosocials.html blog_language=page.language %}
         </div>
     </div>
 </div>
