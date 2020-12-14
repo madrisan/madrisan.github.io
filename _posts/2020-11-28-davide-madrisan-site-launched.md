@@ -20,7 +20,7 @@ It actually was a lot easier than I thought it was going to be because of the
 great [Jonathan McGlone's project](https://github.com/hankquinlan/hankquinlan.github.io/)
 that helped me putting the main pieces toghether.
 
-And last but not least it's possible to write beautiful *LaTeX*-formatted mathematical
+And last but not least it's possible to write beautiful $$\TeX$$-formatted mathematical
 expressions with the [MathJax](https://www.mathjax.org/) JavaScript display engine.
 For instance my preferred identity: $$ e^{i \pi} = -1 $$.
 
