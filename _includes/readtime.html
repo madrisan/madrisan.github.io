@@ -1,7 +1,16 @@
 {% assign stripchars =
        include.blog_content | strip_html | strip_newlines | remove: " " | size %}
-{% assign time = stripchars | divided_by: 400 | plus: 1 %}
-{% assign words = content | number_of_words %}
+{% if stripchars < 400 %}
+{%     assign time = 1 %}
+{% else %}
+{%     assign time = stripchars | divided_by: 400 %}
+{% endif %}
+
+{% comment %}
+   An alternative method can be:
+     {% assign words = content | number_of_words %}
+     {% assign time = stripchars | divided_by: 180 %}
+{% endcomment %}
 
 {% if include.blog_language == "it" %}
 {%     assign time_txt = "min. di lettura" %}
