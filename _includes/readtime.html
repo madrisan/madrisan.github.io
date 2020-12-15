@@ -16,10 +16,16 @@
 {%     assign time_txt = "min. di lettura" %}
 {% else %}
 {%     if time > 1 %}
-{%         assign time_txt = "min read" %}
-{%     else %}
 {%         assign time_txt = "mins read" %}
+{%     else %}
+{%         assign time_txt = "min read" %}
 {%     endif %}
 {% endif %}
 
-<span><i class="far fa-clock pr-1"></i>{{ time }} {{ time_txt }}</span>
+{% if include.style == "blockquote-footer" %}
+<span style="font-size:100%">
+{% else %}
+<i class="far fa-clock"><span class="{{ include.style }}">
+{% endif %}
+{{ time }} {{ time_txt }}
+</span>

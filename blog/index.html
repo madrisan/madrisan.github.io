@@ -22,13 +22,11 @@ title: Davide Madrisan's Blog
                         <span class="badge badge-light font-weight-light text-lowercase text-secondary">{{ post.language }}</span>
                         {% endif %}
                         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-			<span class="ml-3 text-secondary">
-                            {% include readtime.html blog_content=post.content blog_language=post.language %}
-                        </span>
                     </p>
                     <footer class="ml-4 blockquote-footer">
                         <small>
-                            {{ post.date | date_to_string }}
+                            {{ post.date | date_to_string }},
+                            {% include readtime.html blog_content=post.content blog_language=post.language style='blockquote-footer' %}
                         </small>
                     </footer>
                     {% if post.summary %}
