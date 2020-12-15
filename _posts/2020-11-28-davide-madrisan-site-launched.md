@@ -2,6 +2,7 @@
 layout: post
 title: My new website is born
 date: 2020-11-28
+image: /assets/images/blog-default.jpg
 language: en
 location: Nice
 summary: Well. Finally got around to putting this website together...

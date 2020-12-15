@@ -2,6 +2,7 @@
 layout: post
 title: Nagios Plugins for Linux v28
 date: 2020-12-12
+image: /assets/images/blog-default.jpg
 language: en
 location: The Opensource World
 summary: Nagios Plugins for Linux v28 is out!

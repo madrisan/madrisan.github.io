@@ -16,7 +16,7 @@ sources:
   fontawesome: 'https://kit.fontawesome.com/31fa09e3cc.js'
   jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js'
   mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML'
-  popperjs: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'
+  popper: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'
 # Exclude these files from your production _site
 exclude:
   - Gemfile

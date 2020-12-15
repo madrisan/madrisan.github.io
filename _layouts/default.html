@@ -6,19 +6,24 @@
         <title>{{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% if page.layout == "post" %}
+        {% include metatags.html %}
+        {% endif %}
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="{{ _sources.bootstrap.css }}">
         <!-- jQuery library -->
         <script src="{{ _sources.jquery }}"></script>
         <!-- Popper JS -->
-        <script src="{{ _sources.popperjs }}"></script>
+        <script src="{{ _sources.popper }}"></script>
         <!-- Latest compiled JavaScript -->
         <script src="{{ _sources.bootstrap.js }}"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
+        {% if page.layout == "post" %}
         <!-- MathJax -->
         <script type="text/javascript" async src="{{ _sources.mathjax }}"></script>
+        {% endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
@@ -28,77 +33,19 @@
 
     <body>
         <wrapper class="d-flex flex-column">
-
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-                <a class="navbar-brand" href="#">
-                {% if page.layout == "post" %}
-                    Davide Madrisan's Blog
-                {% else %}
-                    {{ page.title }}
-                {% endif %}
-                </a>
-                <button class="navbar-toggler" type="button"
-                        data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto">
-                        {% if page.nav-item-active == "home" %}
-                        <li class="nav-item active">
-                        {% else %}
-                        <li class="nav-item">
-                        {% endif %}
-                            <a class="nav-link" href="/">HOME</a>
-                        </li>
-                        {% if page.nav-item-active == "about" %}
-                        <li class="nav-item active">
-                        {% else %}
-                        <li class="nav-item">
-                        {% endif %}
-                            <a class="nav-link" href="/about">ABOUT</a>
-                        </li>
-                        {% if page.nav-item-active == "blog" or page.layout == "post" %}
-                        <li class="nav-item active">
-                        {% else %}
-                        <li class="nav-item">
-                        {% endif %}
-                            <a class="nav-link" href="/blog">BLOG</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            {% include navbar.html %}
 
             <main class="flex-fill">
             {{ content }}
             </main>
 
             <footer class="page-footer font-small">
+                <!-- Social Buttons -->
                 {% if page.layout != "post" %}
-                <div class="container text-center pb-2">
-                    <a class="btn btn-social-icon btn-google"
-                       onclick="window.location.href='mailto:davide.madrisan@gmail.com';">
-                       <span class="fa fa-envelope"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github"
-                       onclick="window.location.href='{{ site.socials.github }}';">
-                       <span class="fa fa-github"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-linkedin"
-                       onclick="window.location.href='{{ site.socials.linkedin }}';">
-                       <span class="fa fa-linkedin"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-stackoverflow"
-                       onclick="window.location.href='{{ site.socials.stackoverflow }}';">
-                    <span class="fa fa-stack-overflow"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-twitter"
-                       onclick="window.location.href='{{ site.socials.twitter }}';">
-                       <span class="fa fa-twitter"></span>
-                    </a>
-                </div>
+                {% include socialfooter.html %}
                 {% endif %}
                 <!-- Copyright -->
-                <div class="footer-copyright text-center text-white bg-dark py-3">© 2020. All right reserved.</div>
+		{% include copyright.html %}
             </footer>
         </wrapper>
     </body>
