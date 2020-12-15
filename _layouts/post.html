@@ -18,7 +18,8 @@ layout: default
 <div class="container pb-2">
     <div class="d-flex justify-content-between text-secondary">
         <div>
-            {% include readtime.html blog_content=page.content blog_language=page.language style='small' %}
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            {% include readtime.html blog_content=page.content blog_language=page.language %}
         </div>
         <div>
             {% include sharetosocials.html blog_language=page.language %}
