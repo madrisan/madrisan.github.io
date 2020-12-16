@@ -4,8 +4,8 @@ images:
   blog:
     default: /assets/images/blog-default.jpg
     defaultsquared: /assets/images/blog-default-squared.jpg
-  home: /assets/images/main-mountains.jpg
   favicon: /assets/images/favicon-32x32.png
+  home: /assets/images/main-mountains.jpg
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
@@ -15,6 +15,7 @@ socials:
   linkedin: https://www.linkedin.com/in/madrisan
   stackoverflow: https://stackoverflow.com/users/5721620/davide-madrisan
   twitter: https://twitter.com/dmadrisan
+  twitterid: '@dmadrisan'
 sources:
   bootstrap:
     css: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'
