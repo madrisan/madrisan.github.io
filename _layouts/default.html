@@ -6,11 +6,15 @@
         <title>{{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{%- if page.layout == "post" %}
-{% include metatags.html %}
-{%- endif %}
+        <meta property="og:title" content="Davide Madrisan's website and blog">
+        <meta property="og:description" content="{{ site.description }}">
+        <meta property="og:image" content="{{ site.url | append: site.images.home }}">
+        <meta property="og:url" content="{{ site.url }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="og:site_name" content="Davide Madrisan">
+
         <!-- favicon -->
-        <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-32x32.png">
+        <link rel="shortcut icon" type="image/png" href="{{ site.images.favicon }}">
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="{{ _sources.bootstrap.css }}">
@@ -22,10 +26,6 @@
         <script src="{{ _sources.bootstrap.js }}"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
-        {%- if page.layout == "post" %}
-        <!-- MathJax -->
-        <script type="text/javascript" async src="{{ _sources.mathjax }}"></script>
-        {%- endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
@@ -42,9 +42,7 @@
 
             <footer class="page-footer font-small">
                 <!-- Social Buttons -->
-{%- if page.layout != "post" %}
 {% include socialfooter.html %}
-{%- endif %}
                 <!-- Copyright -->
                 {% include copyright.html %}
             </footer>

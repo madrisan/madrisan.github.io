@@ -1,35 +1,92 @@
----
-layout: default
----
-<div class="jumbotron jumbotron-blog jumbotron-blog-entry"
-     style="background-image: url({{ page.image}});">
-    <div>
-        <h3 class="text-bold">{{ page.title }}</h3>
-        <small class="text-secondary">
-{%- if page.location %}
-            {{ page.location }},
+{%- assign _sources = site.sources %}
+{%- assign blog_image = page.image | default: site.images.blog.default %}
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.summary }}">
+        <meta property="og:image" content="{{ site.url | append: blog_image }}">
+        <meta property="og:url" content="{{ site.url }}">
+{%- if blog_image == site.images.blog.default %}
+        <meta name="twitter:card" content="summary">
+{%- else %}
+        <meta name="twitter:card" content="summary_large_image">
 {%- endif %}
-            {{ page.date | date_to_string }}
-        </small>
-    </div>
-</div>
+        <meta property="og:site_name" content="Davide Madrisan's Blog">
+{%- if page.image_alt %}
+        <meta name="twitter:image:alt" content="{{ page.image_alt }}">
+{%- endif %}
+        <!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="{{ site.images.favicon }}">
 
-<div class="container pb-2">
-    <div class="d-flex justify-content-between text-secondary">
-        <div>
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="{{ _sources.bootstrap.css }}">
+        <!-- jQuery library -->
+        <script src="{{ _sources.jquery }}"></script>
+        <!-- Popper JS -->
+        <script src="{{ _sources.popper }}"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="{{ _sources.bootstrap.js }}"></script>
+        <!-- Font Awsome -->
+        <script src="{{ _sources.fontawesome }}"></script>
+        <!-- MathJax -->
+        <script type="text/javascript" async src="{{ _sources.mathjax }}"></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/social.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/blog.css">
+    </head>
+
+    <body>
+        <wrapper class="d-flex flex-column">
+{% include navbar.html %}
+            <main class="flex-fill">
+
+                <div class="jumbotron jumbotron-blog jumbotron-blog-entry"
+                     style="background-image: url({{ blog_image }});">
+                    <div>
+                        <h3 class="text-bold">{{ page.title }}</h3>
+                        <small class="text-secondary">
+{%- if page.location %}
+                            {{ page.location }},
+{%- endif %}
+                            {{ page.date | date_to_string }}
+                        </small>
+                    </div>
+                </div>
+
+                <div class="container pb-2">
+                    <div class="d-flex justify-content-between text-secondary">
+                        <div>
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
 {% include readtime.html blog_content=page.content blog_language=page.language %}
-        </div>
-        <div>
+                        </div>
+                        <div>
 {% include sharetosocials.html blog_language=page.language %}
-        </div>
-    </div>
-</div>
+                        </div>
+                    </div>
+                </div>
 
-<div class="container pt-2">
-    <div class="row">
-        <div class="col">
-        {{ content }}
-        </div>
-    </div>
-</div>
+                <div class="container pt-2">
+                    <div class="row">
+                        <div class="col">
+                        {{ content }}
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+            <footer class="page-footer font-small">
+                <!-- Copyright -->
+                {% include copyright.html %}
+            </footer>
+        </wrapper>
+    </body>
+
+</html>
