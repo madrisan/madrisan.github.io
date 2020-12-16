@@ -6,10 +6,9 @@
         <title>{{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        {% if page.layout == "post" %}
-        {% include metatags.html %}
-        {% endif %}
-
+{%- if page.layout == "post" %}
+{% include metatags.html %}
+{%- endif %}
         <!-- favicon -->
         <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-32x32.png">
 
@@ -23,10 +22,10 @@
         <script src="{{ _sources.bootstrap.js }}"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
-        {% if page.layout == "post" %}
+        {%- if page.layout == "post" %}
         <!-- MathJax -->
         <script type="text/javascript" async src="{{ _sources.mathjax }}"></script>
-        {% endif %}
+        {%- endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
@@ -36,19 +35,18 @@
 
     <body>
         <wrapper class="d-flex flex-column">
-            {% include navbar.html %}
-
+{% include navbar.html %}
             <main class="flex-fill">
             {{ content }}
             </main>
 
             <footer class="page-footer font-small">
                 <!-- Social Buttons -->
-                {% if page.layout != "post" %}
-                {% include socialfooter.html %}
-                {% endif %}
+{%- if page.layout != "post" %}
+{% include socialfooter.html %}
+{%- endif %}
                 <!-- Copyright -->
-		{% include copyright.html %}
+                {% include copyright.html %}
             </footer>
         </wrapper>
     </body>

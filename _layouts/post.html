@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
 <div class="jumbotron jumbotron-blog jumbotron-blog-entry"
      style="background-image: url({{ page.image}});">
     <div>
         <h3 class="text-bold">{{ page.title }}</h3>
         <small class="text-secondary">
-            {% if page.location %}
-                {{ page.location }},
-            {% endif %}
+{%- if page.location %}
+            {{ page.location }},
+{%- endif %}
             {{ page.date | date_to_string }}
         </small>
     </div>
@@ -19,10 +18,10 @@ layout: default
     <div class="d-flex justify-content-between text-secondary">
         <div>
             <i class="fa fa-clock-o" aria-hidden="true"></i>
-            {% include readtime.html blog_content=page.content blog_language=page.language %}
+{% include readtime.html blog_content=page.content blog_language=page.language %}
         </div>
         <div>
-            {% include sharetosocials.html blog_language=page.language %}
+{% include sharetosocials.html blog_language=page.language %}
         </div>
     </div>
 </div>

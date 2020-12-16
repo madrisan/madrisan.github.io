@@ -1,25 +1,24 @@
-{% assign stripchars =
+{%- assign stripchars =
        include.blog_content | strip_html | strip_newlines | remove: " " | size %}
-{% if stripchars < 400 %}
-{%     assign time = 1 %}
-{% else %}
-{%     assign time = stripchars | divided_by: 400 %}
-{% endif %}
+{%- if stripchars < 400 %}
+{%-     assign time = 1 %}
+{%- else %}
+{%-     assign time = stripchars | divided_by: 400 %}
+{%- endif %}
 
-{% comment %}
+{%- comment %}
    An alternative method can be:
      {% assign words = content | number_of_words %}
      {% assign time = stripchars | divided_by: 180 %}
-{% endcomment %}
+{%- endcomment %}
 
-{% if include.blog_language == "it" %}
-{%     assign time_txt = "min. di lettura" %}
-{% else %}
-{%     if time > 1 %}
-{%         assign time_txt = "mins read" %}
-{%     else %}
-{%         assign time_txt = "min read" %}
-{%     endif %}
-{% endif %}
-
+{%- if include.blog_language == "it" %}
+{%-     assign time_txt = "min. di lettura" %}
+{%- else %}
+{%-     if time > 1 %}
+{%-         assign time_txt = "mins read" %}
+{%-     else %}
+{%-         assign time_txt = "min read" %}
+{%-     endif %}
+{%- endif %}
 <span>{{ time }} {{ time_txt }}</span>
