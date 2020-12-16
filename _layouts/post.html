@@ -9,14 +9,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:description" content="{{ page.summary }}">
-        <meta property="og:image" content="{{ site.url | append: blog_image }}">
-        <meta property="og:url" content="{{ site.url }}">
+        <meta property="og:site_name" content="Davide Madrisan's Blog">
 {%- if blog_image == site.images.blog.default %}
+        <meta property="og:image" content="{{ site.url | append: site.images.blog.defaultsquared }}">
         <meta name="twitter:card" content="summary">
 {%- else %}
+        <meta property="og:image" content="{{ site.url | append: blog_image }}">
         <meta name="twitter:card" content="summary_large_image">
 {%- endif %}
-        <meta property="og:site_name" content="Davide Madrisan's Blog">
+        <meta property="og:url" content="{{ site.url }}">
 {%- if page.image_alt %}
         <meta name="twitter:image:alt" content="{{ page.image_alt }}">
 {%- endif %}

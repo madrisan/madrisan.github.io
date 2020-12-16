@@ -3,6 +3,7 @@ description: My Personal Website and Blog with articles about science and techno
 images:
   blog:
     default: /assets/images/blog-default.jpg
+    defaultsquared: /assets/images/blog-default-squared.jpg
   home: /assets/images/main-mountains.jpg
   favicon: /assets/images/favicon-32x32.png
 markdown: kramdown
