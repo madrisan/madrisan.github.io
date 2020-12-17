@@ -23,12 +23,12 @@ sources:
     js: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'
   fontawesome: 'https://kit.fontawesome.com/31fa09e3cc.js'
   highcharts:
-    js: 'http://code.highcharts.com/highcharts.js'
+    js: 'https://code.highcharts.com/highcharts.js'
     modules:
-      exporting: 'http://code.highcharts.com/modules/exporting.js'
+      exporting: 'https://code.highcharts.com/modules/exporting.js'
   jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js'
-  mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML'
-  popper: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'
+  mathjax: 'https://cdn.bootcss.com/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML'
+  popper: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js'
 url: https://madrisan.github.io
 # Exclude these files from your production _site
 exclude:
