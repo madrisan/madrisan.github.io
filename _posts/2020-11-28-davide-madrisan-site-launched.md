@@ -4,6 +4,7 @@ title: My new website is born
 date: 2020-11-28
 language: en
 location: Nice
+category: projects
 summary: Well. Finally got around to putting this website together...
 ---
 
