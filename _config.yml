@@ -11,6 +11,7 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jemoji
 socials:
+  facebookappid: '383695016267763'
   github: https://github.com/madrisan
   linkedin: https://www.linkedin.com/in/madrisan
   stackoverflow: https://stackoverflow.com/users/5721620/davide-madrisan
