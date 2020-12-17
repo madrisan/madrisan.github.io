@@ -38,8 +38,15 @@
         <script src="{{ _sources.bootstrap.js }}"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
+{%- if page.highcharts %}
+        <!-- Highcharts -->
+	<script src="{{ _sources.highcharts.js }}"></script>
+	<script src="{{ _sources.highcharts.modules.exporting }}"></script>
+{%- endif %}
+{%- if page.mathjax %}
         <!-- MathJax -->
         <script type="text/javascript" async src="{{ _sources.mathjax }}"></script>
+{%- endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
