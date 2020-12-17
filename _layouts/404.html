@@ -27,18 +27,16 @@ show_title: false
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-social.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/social.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/blog.css">
     </head>
 
     <body>
         <wrapper class="d-flex flex-column">
-{% include navbar.html %}
+            {% include navbar.html %}
 
             <main class="flex-fill">
-                <div class="jumbotron align-items-center text-center"
-                     style="background:transparent !important">
+                <div class="jumbotron jumbotron-404">
                     <div class="row h-100">
-                        <div class="col-sm-12 my-auto text-center">
+                        <div class="col-sm-12 my-auto">
                             {{ content }}
 			    <hr>
                         </div>
@@ -48,7 +46,7 @@ show_title: false
 
             <footer class="page-footer font-small">
                 <!-- Social Buttons -->
-{% include socialfooter.html %}
+                {% include socialfooter.html %}
                 <!-- Copyright -->
                 {% include copyright.html %}
             </footer>

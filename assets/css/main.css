@@ -31,6 +31,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Permanent Marker';
 }
 
+.jumbotron-404 {
+    background: transparent;
+}
+.jumbotron-404 h1,
+.jumbotron-404 h3 {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
 .navbar-brand {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     font-weight: normal;
