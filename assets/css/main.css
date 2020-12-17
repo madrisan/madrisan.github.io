@@ -14,8 +14,24 @@ body, wrapper {
     font-weight: 400;
 }
 
+a, a:visited, a:active {
+    border-bottom: 1px gray dotted;
+    color: #2d3644;
+    text-decoration: none;
+}
+
+a:hover {
+    border: none;
+    color: #5493ff;
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+nav a {
+    border-bottom: none;
 }
 
 .jumbotron-main {

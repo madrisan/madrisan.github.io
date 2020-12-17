@@ -2,6 +2,17 @@ a.posts {
     font-size: 2em;
 }
 
+code {
+    background-color: #f2f2f2;
+    color: #404040;
+    font-size: 90%;
+}
+
+pre code {
+    background-color: transparent;
+    font-size: 90%;
+}
+
 .fa-rss-color {
     color: #ff8f10;
 }
