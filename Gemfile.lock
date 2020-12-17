@@ -89,6 +89,7 @@ DEPENDENCIES
   jemoji
   json
   kramdown-parser-gfm
+  mini_portile2
   nokogiri
 
 BUNDLED WITH
