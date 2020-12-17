@@ -40,7 +40,7 @@ $$
 Or use the SVG-based, multi-platform charting library [Highcharts](https://www.highcharts.com/demo)
 for plotting great dynamic charts.
 
-<div id="container" style="min-width: 250px; height: 350px; margin: 0 auto"></div>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 <script type="text/javascript">
     $(function () {
