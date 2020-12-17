@@ -41,7 +41,8 @@ for plotting great dynamic charts.
    <p class="highcharts-description">
       A percentage-stacked area chart picked from the official project documentation.
    </p>
-   <script type="text/javascript" src="/assets/js/blog-highcharts-000001.js"></script>
+   <script type="text/javascript"
+           src="/assets/js/javascripts/blog-highcharts-000001.js"></script>
 </figure>
 
 *That's all for now, but stay tuned because other contents are coming!*
