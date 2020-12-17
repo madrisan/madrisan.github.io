@@ -16,8 +16,8 @@ The Nagios Plugins for Linux is a
 and open source set of Nagios and Icinga plugins for monitoring the major system parameters of a
 Linux server. The source code is available at
 [GitHub](https://github.com/madrisan/nagios-plugins-linux/releases/).
-You can find the documentation in the
-[main page](https://github.com/madrisan/nagios-plugins-linux) and the associated
+You can find the documentation in the project
+[main page](https://github.com/madrisan/nagios-plugins-linux) or the associated
 [wiki](https://github.com/madrisan/nagios-plugins-linux/wiki) site.
 
 #### What’s new in this release
@@ -28,7 +28,8 @@ A few Clang and GCC warnings have been fixed.
 
 ###### Enhancements
 
-New plugin *check_pressure* that reports the Linux Pressure Stall Information (PSI) exported by Linux kernels 4.20+ (in the `/proc/pressure/` folder).
+New plugin *check_pressure* that reports the Linux Pressure Stall Information (PSI)
+exported by Linux kernels 4.20+ (in the `/proc/pressure/` folder).
 
        check_pressure --cpu      return the cpu pressure metrics
        check_pressure --io       return the io (block layer/filesystems) pressure metrics
