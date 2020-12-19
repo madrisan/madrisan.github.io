@@ -27,6 +27,13 @@ a:hover {
 a.btn-social-icon {
     color: none;
 }
+a .label {
+    display: none;
+}
+a:hover .label {
+    color: black;
+    display: inline;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -34,6 +41,15 @@ h1, h2, h3, h4, h5, h6 {
 
 nav a {
     border-bottom: none;
+}
+
+.btn-circle-xl {
+    background-color: transparent;
+    border-radius: 35px;
+    font-size: 1.3rem;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
 }
 
 .jumbotron-main {
