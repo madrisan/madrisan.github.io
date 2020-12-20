@@ -24,15 +24,14 @@ a:hover {
     color: #5493ff;
     text-decoration: none;
 }
-a.btn-social-icon {
-    color: none;
-}
 a .label {
     display: none;
 }
 a:hover .label {
-    color: black;
     display: inline;
+}
+a:active .label {
+    display: none;
 }
 a:visited .label {
     display: none;
