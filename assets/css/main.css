@@ -34,6 +34,9 @@ a:hover .label {
     color: black;
     display: inline;
 }
+a:visited .label {
+    display: none;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -58,6 +61,7 @@ nav a {
     background-size: cover;
     font-family: 'Permanent Marker';
     height: 562pt;
+    margin-bottom: 0px;
     max-width: 100%;
 }
 .jumbotron-main h1,
