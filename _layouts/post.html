@@ -46,7 +46,8 @@
 {%- endif %}
 {%- if page.mathjax %}
         <!-- MathJax -->
-        <script type="text/javascript" async src="{{ _sources.mathjax }}"></script>
+	<script src="{{ _sources.polyfill }}"></script>
+	<script id="MathJax-script" async src="{{ _sources.mathjax }}"></script>
 {%- endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
