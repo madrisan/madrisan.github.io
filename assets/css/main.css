@@ -30,11 +30,12 @@ a .label {
 a:hover .label {
     display: inline;
 }
-a:active .label {
-    display: none;
-}
 a:visited .label {
     display: none;
+}
+/* workaround to avoid a dark color in the share to socials buttons */
+a.btn-social-icon {
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
