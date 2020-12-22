@@ -28,8 +28,7 @@ sources:
       accessibility: 'https://code.highcharts.com/modules/accessibility.js'
       exporting: 'https://code.highcharts.com/modules/exporting.js'
   jquery: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'
-  mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
-  polyfill: 'https://polyfill.io/v3/polyfill.min.js?features=es6'
+  mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
   popper: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js'
 url: https://madrisan.github.io
 # Exclude these files from your production _site

@@ -14,6 +14,10 @@ body, wrapper {
     font-weight: 400;
 }
 
+a.anchor-plain {
+    border-bottom: none;
+}
+
 a, a:visited, a:active {
     border-bottom: 1px gray dotted;
     color: #2d3644;
@@ -24,7 +28,7 @@ a:hover {
     color: #5493ff;
     text-decoration: none;
 }
-a .label {
+a.label {
     display: none;
 }
 a:hover .label {
@@ -33,6 +37,7 @@ a:hover .label {
 a:visited .label {
     display: none;
 }
+
 /* workaround to avoid a dark color in the share to socials buttons */
 a.btn-social-icon {
     color: white;
