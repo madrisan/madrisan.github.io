@@ -39,11 +39,19 @@ for plotting great dynamic charts.
 <figure class="highcharts-figure">
    <div id="container-highcharts"></div>
    <p class="highcharts-description">
-      A percentage-stacked area chart picked from the official project documentation.
+      This is an example of a percentage-stacked area chart picked from the official
+      project documentation.
    </p>
    <script type="text/javascript"
            src="/assets/js/javascripts/blog-highcharts-000001.js"></script>
 </figure>
+
+And last but not least it's possible to make use of the [{Rouge}](http://rouge.jneen.net/)
+syntax highlighter.
+
+```html
+<a href="#">Hello world</a>
+```
 
 *That's all for now, but stay tuned because other contents are coming!*
 

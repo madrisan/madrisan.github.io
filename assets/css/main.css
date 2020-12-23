@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+/* @import "highlight-github.css"; */
+@import "highlight-monokai.css";
 
 body {
     font-family: "Garamond", 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;

@@ -31,9 +31,11 @@ A few Clang and GCC warnings have been fixed.
 New plugin *check_pressure* that reports the Linux Pressure Stall Information (PSI)
 exported by Linux kernels 4.20+ (in the `/proc/pressure/` folder).
 
-       check_pressure --cpu      return the cpu pressure metrics
-       check_pressure --io       return the io (block layer/filesystems) pressure metrics
-       check_pressure --memory   return the memory pressure metrics
+```bash
+check_pressure --cpu  # return the cpu pressure metrics
+check_pressure --io  # return the io (block layer/filesystems) pressure metrics
+check_pressure --memory  # return the memory pressure metrics
+```
 
 ###### Build system
 
@@ -50,4 +52,6 @@ Here are some notable news:
 
 A Linux Alpine (3.12) native package can be now created by running the command
 
-       make -C packages alpine-3.12
+```bash
+make -C packages alpine-3.12
+```

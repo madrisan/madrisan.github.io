@@ -1,11 +1,16 @@
 name: Davide Madrisan
 description: My Personal Website and Blog with articles about science and technology
+highlighter: rouge
 images:
   blog:
     default: /assets/images/blog-default.jpg
     defaultsquared: /assets/images/blog-default-squared.jpg
   favicon: /assets/images/favicon-32x32.png
   home: /assets/images/main-mountains.jpg
+kramdown:
+  hard_wrap: false
+  input: GFM
+  syntax_highlighter: rouge
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
