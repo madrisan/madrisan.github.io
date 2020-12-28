@@ -63,13 +63,15 @@
                 <div class="jumbotron jumbotron-blog jumbotron-blog-entry"
                      style="background-image: url({{ blog_image }});">
                     <div>
+{%- if page.titlejumbotron != 'off' %}
                         <h3 class="text-bold">{{ page.title }}</h3>
+{%- if page.location and page.date %}
                         <small class="text-secondary">
-{%- if page.location %}
                             {{ page.location }},
-{%- endif %}
                             {{ page.date | date_to_string }}
                         </small>
+{%- endif %}
+{%- endif %}
                     </div>
                 </div>
 

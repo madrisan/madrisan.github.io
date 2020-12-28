@@ -27,6 +27,7 @@ that helped me putting the main pieces toghether.
 I can optionally enable the [MathJax](https://www.mathjax.org/) JavaScript display engine
 when I need to render beautiful $$\TeX$$-formatted mathematical expressions.
 For instance my preferred identity:
+
 <div>
 $$
 e^{i \pi} = -1
