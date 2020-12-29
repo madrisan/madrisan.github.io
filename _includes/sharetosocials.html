@@ -1,9 +1,3 @@
-{%- if include.blog_language == "it" %}
-{%-     assign share_txt = "condividi su " %}
-{%- else %}
-{%-     assign share_txt = "share to" %}
-{%- endif %}
-<span class="text-secondary pr-2">{{ share_txt }}</span>
 <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
    class="btn btn-social-icon btn-facebook btn-sm"
    data-abc="true"
