@@ -13,18 +13,18 @@ titlejumbotron: 'off'
 ---
 
 ## Cambiamenti Climatici - parte I
-### Fondamenti fisici
+### Riscaldamento Globale
 
 Cominciamo con alcuni brevi principi fisici di base per comprendere i fenomeni che sono alla base
-del clima terrestre e rendere meno astratta l'espressione ormai comunemente usata da tutti:
-"*i cambiamenti climatici*".
+del clima terrestre e rendere meno astratte le espressione ormai comunemente usata da tutti:
+"*cambiamenti climatici*" e "*riscaldamento globale*", che ne costituisce uno dei tanti aspetti.
 
 #### Energia, temperatura e radiazione elettromagnetica
 
 Tutti i corpi possiedono una *energia interna* che si manifesta a livello microscopico come
 movimento o oscillazione degli atomi che lo costituiscono.
 
-La *temperatura* di un corpo à la misura macroscopica di questa energia interna.
+La *temperatura* di un corpo è la misura *macroscopica* di questa energia interna.
 Quando quest'ultima aumenta, cioè il movimento interno dei suoi atomi aumenta, la temperatura del
 corpo cresce.
 E viceversa, una diminuzione della sua energia interna risulta in una diminuzione della
@@ -33,83 +33,106 @@ temperatura globale del corpo.
 <div class="bd-callout bd-callout-info">
 <h6>La scala Kelvin delle temperature</h6>
 <p>
-I fisici utilizzano di preferenza la <i>scala Kelvin</i> (introdotta dal fisico britannico
-William Thomson, meglio conosciuto come Lord Kelvin), poichè la temperatura espressa in questo
-modo è proporzionale all'energia interna di un corpo. Ad esempio un raddoppio della temperatura
-in gradi Kelvin di un corpo si traduce in un raddoppio della sua energia interna.
+I fisici utilizzano di preferenza la <i>scala Kelvin</i> delle temperature (introdotta dal fisico
+britannico William Thomson, meglio conosciuto come Lord Kelvin), poichè la temperatura espressa in
+questo modo è proporzionale all'energia interna di un corpo. Ad esempio un raddoppio della
+temperatura in gradi Kelvin di un corpo si traduce in un raddoppio della sua energia interna.
 Questa proprierà non è valida per una misura in gradi centrigradi.
 
-Si passa facilmente da una temperatura espressa in gradi Kelvin all'equivalente temperatura
-in gradi centigradi sottraendo 273 gradi (più precisamente 273,15 gradi) ed aggiungendo
-273 gradi nella conversione inversa.
+Si passa facilmente da una temperatura espressa in gradi centigradi all'equivalente temperatura
+in gradi Kelvin aggiungendo 273 gradi (più precisamente 273,15 gradi) e sottraendo 273 gradi
+nella conversione inversa.
 $$
 \begin{array}{l|rcl}
-conversione & °C & \xrightarrow[]{\text{ + 273 }}      & °K \\
-            & °K & \xleftarrow[]{\text{ &minus; 273 }} & °C
+conversione & \rm{°C}& \xrightarrow[]{\text{ + 273 }}     & °\rm{K} \\
+            & \rm{°K}& \xleftarrow[]{\text{ &minus; 273 }}& °\rm{C}
 \end{array}
 $$
 
-Lo <i>zero assoluto</i> (0°K) è la temperatura minima possibile teorica di un qualsiasi sistema
-termodinamico. Si può dimostrare in base alle leggi della fisica che è una temperatura limite non
+Ad esempio la temperatura media sulle superficie terrestre è di 15°C, corrispondente a
+273 + 15 = 288°K.
+
+Lo <i>zero assoluto</i> (0°K) è la <i>temperatura minima possibile teorica</i> di un qualsiasi
+sistema termodinamico.
+Si può dimostrare in base alle leggi della fisica che si tratta di una temperatura limite non
 raggiungibile.
 </p>
 </div>
 
-L'energia di un corpo si diffonde nello spazio anche in assenza di materia, come
+L'energia di un corpo si diffonde nello spazio, anche in assenza di materia, come
 *radiazione elettromagnetica*. È così che l'energia emessa dal sole raggiunge l'atmosfera e la
-superficie terrestre, sotto forma di un flusso di fotoni di luce, dopo aver percorso la distanza di
-circa 150 milioni di kilometri che ci separa dalla nostra stella.
+superficie terrestre, sotto forma di un *flusso di fotoni di luce*
+(piccoli pacchetti o quanti di energia), dopo aver percorso la distanza di circa 150 milioni di
+kilometri che ci separa dalla nostra stella.
 
-La luce si può convenientemente immaginare come un fascio di onde che si propagano nello spazio
-vuoto ad una velocità $$c$$ pari a quasi 300000 km/s.
-Ogni onda è caratterizzata da una *frequenza* $$\nu$$ pari al suo numero di oscillazioni
-(o *cicli*) al secondo e da una *lunghezza d'onda* $$\lambda$$
+Dal punto di vista ondulatorio, un fotone ha una sua *frequenza* di vibrazione $$\nu$$ ed una
+sua *lunghezza d'onda* $$\lambda$$
 
 $$
 \lambda = \frac{c}{\nu}
 $$
 
+I fotoni trasportano un'energia $$E$$ proporzionale alla frequenza $$\nu$$
+
+$$
+E = h \nu
+$$
+
+dove $$h$$ è la costante di Planck.
+ 
 <div class="pb-2">
-<img src="/assets/images/blog-spettro-elettromagnetico.png" class="mx-auto d-block img-fluid">
+<img src="/assets/images/blog-spettro-elettromagnetico.jpg" class="mx-auto d-block img-fluid">
 <p class="text-center"><small>
 Spettro elettromagnetico &mdash; da scienzeescienze.blogspot.com
 </small></p>
 </div>
 
 I nostri occhi, a seguito dell'evoluzione biologica, sono diventati sensibili ad una parte dei
-fotoni emessi dal sole e le cui frequenze definiamo per questo *visibili*.
+fotoni emessi dal sole, le cui frequenze definiamo per questo *visibili*.
+La lunghezza d'onda della luce visibile nell'aria va indicativamente dai 390 ai 700 nm
+(*nanometri*, unità di lunghezza corrispondente a $$10^{-9}$$ metri), un ordine di grandezza
+pari a circa un centesimo dello spessore di un capello.
+
 Le frequenze superiori comprendono gli *ultravioletti* (*UV*), e radiazioni che trasportano ancora
 più energia e pertanto estremamente pericolose perchè interferiscono con la chimica degli
 organismi viventi.
 Delle frequenze inferiori a quelle visibili notiamo in particolare gli *infrarossi*
 (*IR*) che pur essendo invisibili all'occhio umano, svolgono come vedremo un ruolo chiave nel clima
-della terra.
+della terra e quindi influenzano la nostra vita di tutti i giorni.
 
 Si definisce *corpo nero* un corpo ideale in grado di assorbire tutta la radiazione
 elettromagnetica incidente senza rifletterla (da cui il nome).
+
+Il meccanismo di trasferimento dell'energia funziona anche in senso inverso:
+l'energia dalla materia viene *riemessa verso l'esterno* sotto forma di fotoni di luce.
 La radiazione emessa da un corpo nero viene detta *radiazione del corpo nero* e la densità di
 energia irradiata, in funzione della lunghezza d’onda $$\lambda$$, *spettro di corpo nero*.
 Tale spettro presenta una caratteristica forma a campana (più o meno asimmetrica e più o meno
 schiacciata) dipendente unicamente dalla sua temperatura $$T$$.
-Dall'immagine che segue si nota che all'aumentare della temperatura l'area sottesa dalla curva
-aumenta ed il picco si sposta verso frequenza sempre più alte, indice dell'aumento dell'energia
-interna del corpo.
 
 <div class="pb-3">
 <img src="/assets/images/blog-blackbody-spectra.jpg" class="mx-auto d-block img-fluid">
 </div>
 
-La maggior parte dei <i>solidi</i> e <i>liquidi</i> sulla superficie della terra sono
-approssimabili a corpi neri.
-L'atmosfera terrestre si comporta invece in modo <i>molto differente</i>:
-i gas che la compongono interagiscono con la luce esclusivamente a specifiche frequenze.
-I loro legami chimici e molecolari entrano infatti in risonanza solo se illuminati da una luce
-avente una frequenza prossima o uguale ad uno dei suoi punti di risonanza, caratteristici di
-ogni tipo di gas perchè legati alla loro particolare struttura atomica.
+Dall'immagine si nota come, all'aumentare della temperatura, l'area sottesa dalla curva aumenti
+ed il picco si sposti verso frequenze più alte (e lunghezze d'onda $$\lambda$$ più piccole),
+indice dell'aumento dell'energia interna del corpo, come visto precedentemente.
 
-Il meccanismo di trasferimento dell'energia funziona anche in senso inverso:
-l'energia dalla materia viene *riemessa verso l'esterno* sotto forma di fotoni di luce.
-Tutti gli oggetti che ci stanno intorno emettono in continuazione fotoni.
+<div class="bd-callout bd-callout-info">
+<h6>Legge dello spostamento di Wien</h6>
+<p>
+Più precisamente il picco di emissione dello spettro segue la semplice relazione nota con il
+nome di <i>legge dello spostamento di Wien</i>
+$$
+\lambda_{max} = \frac{b}{T}
+$$
+dove <i>b</i> vale circa 2898 m K.
+Per <i>T</i> pari a 6000°K per esempio (vicina alla temperatura della superficie solare),
+il picco di emissione è a circa 0.5 micrometri (500 nm), nel campo visibile.
+Ad una temperatura ambiente <i>T</i> di 300°K corrisponde invece un picco a circa 10 micrometri,
+nella zona degli infrarossi.
+</p>
+</div>
 
 <div class="bd-callout bd-callout-info">
 <h6>Legge di Stephan-Boltzmann</h6>
@@ -123,17 +146,27 @@ $$
 </p>
 </div>
 
-Gli oggetti a temperatura ambiente (mediamente 300°K circa), emettono fotoni che, come indica
-la legge di Stephan-Boltzmann, hanno una energia molto inferiore di quelli di origine solare.
-Il sole ha infatti ha una temperatura superficiale stimata a circa 6000°K.
-La loro lunghezza d'onda si trova quindi *nella zona degli infrarossi*.
-Possiamo "visualizzarli" con una telecamera speciale (ad infrarossi per l'appunto), come quelle
-che vengono comunemente installate per la video-sorveglianza notturna.
+La maggior parte dei <i>solidi</i> e <i>liquidi</i> sulla superficie della terra sono
+approssimabili a corpi neri.
+L'atmosfera terrestre si comporta invece in modo <i>molto differente</i>:
+i gas che la compongono interagiscono con la luce esclusivamente a specifiche frequenze.
+I loro legami chimici e molecolari entrano infatti in risonanza solo se illuminati da una luce
+avente una frequenza prossima o uguale a valori particolari e caratteristici di ogni tipo
+di gas perchè legati alla sua struttura atomica.
 
-I corpi dunque emettono e ricevono fotoni.
-Il *bilancio energetico*, dato dalla differenza tra energia emessa ed energia assorbita, determina
-la temperatura di un corpo nel tempo. Nel caso limite in cui le due quantità di energia si
-eguaglino, la sua temperatura non cambia.
+Tutti gli oggetti a temperatura ambiente e la terra stessa, da quanto abbiamo visto, emettono
+fotoni *nella zona degli infrarossi*.
+Possiamo "visualizzare" quelli emessi da oggetti a noi vicini con una macchina fotografica
+o una telecamera speciali (ad infrarossi per l'appunto), come quelle che vengono comunemente
+installate per la video-sorveglianza notturna.
+
+<div class="pb-3">
+<img src="/assets/images/blog-infrared-photo.jpg" class="mx-auto d-block img-fluid">
+</div>
+
+Il *bilancio energetico*, dato dalla differenza tra l'energia emessa e l'energia assorbita,
+determina la temperatura di un corpo nel tempo. Nel caso limite in cui le due quantità di energia
+si eguaglino, la sua temperatura rimane costante.
 Si dice allora che è in una situazione di *equilibrio termodinamico*.
 
 #### Gas ad effetto serra
@@ -145,10 +178,10 @@ terrestre, la parte di potenza intercettata dalla terra varia tra 168500 TW e 18
 Una quantità enorme, che se riuscissimo ad utilizzare anche solo in minima parte, coprirebbe il
 fabbisogno energetico dell'umanità intera, attualmente di circa 18 TW.
 
-Non tutta l'energia raggiunge la superficie terrestre.
+Non tutta l'energia raggiunge la superficie terrestre e viene assorbita.
 Parte della luce solare viene riflessa dalle nuvole e dall'atmosfera.
-Una frazione viene anche riflessa dalla superficie terrestre.
-La frazione della luce riflessa è detta *albedo* e viene indicata con il simbolo $$\alpha$$.
+Una parte viene anche riflessa dalla superficie terrestre.
+La frazione totale riflessa è detta *albedo* e viene indicata con il simbolo $$\alpha$$.
 La terra ha un albedo pari a circa 0.3 (cioè del 30%).
 
 <div class="bd-callout bd-callout-warning">
@@ -178,8 +211,9 @@ neve.
 
 Al vapor acqueo segue in scala di importanza l'*anidride carbonica* (nota anche come
 *diossido di carbonio*; formula chimica: $$CO_2$$) che costituiste attualmente lo 0.0415%
-dell'atmosfera e viene misurata per questo con una unità di misura più pratica: in
-*parti per milione* (*ppm*).
+dell'atmosfera.
+Vista la sua presenza nell'atmosfera in quantità così limitate, viene misurata con una unità
+di misura più pratica: in *parti per milione* (*ppm*).
 
 <div class="bd-callout bd-callout-warning">
 <p>
@@ -193,23 +227,28 @@ dell'osservatorio Mauna Loa, Hawaii.
 <img src="/assets/images/blog-nasa-CO2-level.png" class="mx-auto d-block img-fluid">
 <p class="text-center">
 <small>
-Livello di diossido di carbonio in ppm misurato dal 2005
-&mdash; dati <a href="http://www.noaa.gov/"><small>NOAA</small></a>
+Livello di CO2 in ppm misurato dal 2005 &mdash;
+dati <a href="http://www.noaa.gov/"><small>NOAA</small></a>
 </small>
 </p>
 </div>
 
 Contrariamente al vapore acqueo, il diossido di carbonio rimane stabilmente nell'atmosfera per
 tempi molto lunghi. Occorrono alcuni secoli o millenni affinchè venga assorbito dagli oceani e
-dalla vegetazione terrestre, ma una parte consistente, pari a circa il 25%, rimarrà attivo
+dalla vegetazione terrestre, ma una parte consistente, pari a circa il 25%, rimane attivo
 pressochè *indefinitamente* (per centinaia di migliaia di anni), spostandosi essenzialmente
 tra atmosfera, oceani e vegetazione.
 L'interessante ciclo del carbonio terrestre è descritto in modo dettagliato nel libro
 "*The Long Thaw*" di David Archer e sarà descritto in un prossimo post.
 
-Altri gas presenti in parti ancora minori sono il metano ($$CH_4$$) e l'ozono ($$O_3$$) che
-in alta armosfera è fondamentale per la preservazione della vita sulla terra, poichè assorbe
-buona parte dei raggi ultravioletti ad alta energia provenienti dal sole.
+Altri gas presenti in parti ancora minori sono il metano ($$CH_4$$) e l'ozono ($$O_3$$).
+Quest'ultimo, in alta armosfera, è fondamentale per la preservazione della vita sulla terra,
+poichè assorbe buona parte dei raggi ultravioletti ad alta energia provenienti dal sole.
+Il metano rimane nell'atmosfera per alcune decine di anni, per poi degradarsi in $$CO_2$$.
+La sua concentrazione in atmosfera, che si misura in *ppb* (parti per miliardo), è aumentata da
+700 ppb nel periodo 1000-1750 a quasi
+[1.877](https://www.esrl.noaa.gov/gmd/ccgg/trends_ch4/?fbclid=IwAR3_8r1Y_gPP9W2Chj8kek7CVFP7h-V4uAxeOwdv2zsQG2-INiB1l-N6XkE)
+ppb nell'agosto 2020, con un incremento vicino al 270%.
 
 <div class="bd-callout bd-callout-warning">
 <p>
@@ -243,9 +282,10 @@ relativa alta concentrazione nell'atmosfera. I suoi esperimenti mostrarono anche
 di carbonio è un altro importante gas ad effetto serra ed egli arrivò anche a provare un'altra
 importante conclusione: senza gas ad effetto serra le temperature notturne terrestri sarebbere
 inferiori a quanto misuriamo.
-Questi risultati furono riaffermati dal chimico e fisico svedese Svante Arrhenius verso la fine
-degli anni 1890. Arrhenius calcolò anche che un raddoppio della quantità di anidride carbonica
-nell'atmosfera avrebbe causato un <i>incremento di temperatura</i> da 5 a 6 gradi centigradi.
+Questi risultati furono riaffermati sperimentalmente dal chimico e fisico svedese Svante Arrhenius
+verso la fine degli anni 1890.
+Arrhenius calcolò anche che un raddoppio della quantità di anidride carbonica nell'atmosfera
+avrebbe causato un <i>incremento di temperatura</i> da 5 a 6 gradi centigradi.
 Una stima che è più elevata di quella
 <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019RG000678">attuale</a>
 (da 2.6 a 4.1°C), ma che gli ha comunque valso il titolo di
@@ -253,21 +293,86 @@ Una stima che è più elevata di quella
 </p>
 </div>
 
-#### Bilancio termico terrestre
+#### Riscaldamento globale
 
 La temperatura degli oceani e della superficie terrestre è determinata dall'interazione tra il
 flusso di energia proveniente dal sole e quello irraggiato della terra verso lo spazio.
-Il flusso di energia infrarossa aumenta con il crescere della temperatura, verso un nuovo
-equilibrio termico terrestre, che tuttavia non può essere raggiunto perchè ogni anno vengono
-rilasciati nell'atmosfera dalle attività umane miliardi di tonnellate di $$CO_2$$, bruciando
-combustibili fossili e distruggendo foreste che ne assorbirebbero una parte considerevole
-(transformandola per mezzo della fotosintesi in ossigeno ed altre sostanze organiche).
-Miliardi di tonnellate che anno dopo anno si accumulano nell'atmosfera e provocano un aumento
-dell'effetto serra naturale e della temperatura media della troposfera.
 
-I risultati scientifici, soprattutto degli ultimi trenta anni, ci mostrano che il
+L'attività umana, caratterizzata dal rilascio nell'atmosfera di quantità sempre crescenti di
+$$CO_2$$ (ormai dell'ordine dei miliardi di tonnellate all'anno) e di metano, derivanti
+dall'utilizzo su larga scala dei *combustibili fossili*, ha portato nei circa 250 anni trascorsi
+dall'inizio della rivoluzione industriale ad un aumento significativo della quantità di energia
+intrappolata nella troposfera dall'effetto serra.
+E dunque ad un incremento della sua temperatura media di
+[1°C](https://climate.nasa.gov/vital-signs/global-temperature/).
+
+<div pb-2>
+<img src="/assets/images/blog-nasa-global-temp.png"
+     class="mx-auto d-block img-fluid">
+<p class="text-center">
+<small>
+Andamento della temperatura superficiale terrestre &mdash;
+<a href="https://climate.nasa.gov/vital-signs/global-temperature/"><small>NASA</small></a>
+</small>
+</p>
+</div>
+
+Incidentalmente, il rafforzamento dell'effetto serra provoca anche un abbassamento della
+temperatura nelle zone alte dell'atmosfera terrestre, a causa della diminuzione del flusso di
+fotoni emessi dalla terra che riescono a raggiungerla.
+Anche questo fenomeno è stato verificato da misurazioni sperimentali satellitari cominciate nei
+primi anni '80 del secolo scorso.
+
+Lo squilibrio termico attuale è
+[stimato](https://www.pnas.org/content/116/30/14881) a 0,5 W/$$m^2$$ (watt al metro
+quadrato), ben superiore al valore di 0,2 W/$$m^2$$ che si è mantenuto più o meno costante
+dall'ultima glaciazione ed ha permesso all'umanità di diventare stanziale e sostentarsi con una
+agricoltura su larga scala resa possibile dalla sostanziale stabilità del clima degli ultimi
+10000 anni. Ed alla fine costruire la società globalizzata ed articolata che conosciamo.
+
+<div class="bd-callout bd-callout-info">
+<p>
+Oppure nella versione alternativa, descritta da James C. Scott nel suo libro
+"Against the Grain &mdash; A deep history of the earliest states",
+di abbandonare una vita di caccia e raccolta per una vita sedentaria in comunità
+dependenti dall'allevamento del bestiame e dei cereali, perdendo la sua libertà personale e
+lavorativa ed a subire imprevedibili malattie derivanti dalla convivenza forzata in comunità
+affollate di uomini ed animali addomesticati.
+</p>
+</div>
+
+Questa fase di riscaldamento continuerà fino al raggiungimento di un nuovo equilibrio termico,
+ad una temperatura non prevedibile perchè dipendente dalle emissioni *future* di gas ad
+effetto serra, oltre che da quelle cumulate fino ad ora.
+Il mondo sarà molto diverso da quello attuale.
+Alcuni scenari che la scienza ci permette di intravedere:
+
+ * larghe zone del pianeta saranno inabitabili a causa delle alte temperature,
+ * il riscaldamento delle zone ora temperate aprirà la via del nord ad insetti e malattie
+   tropicali,
+ * l'incremento dell'energia atmosferica provocherà un aumento in intensità, frequenza e durata
+   dei fenomeni atmosferici estremi quali tornadi, pioggie torrenziali e grandi siccità,
+ * la riduzione delle calotte polari provocherà un'innalzamento del livello dei mari che cambierà
+   la fisionomia delle coste invadendo città e metropoli costiere in tutto il pianeta,
+ * l'innalzamento del livello dei mari renderà infertili zone ora agricole, a causa delle
+   infiltrazioni di acqua salmastra nei terreni costieri,
+ * la diminuzione dell'estensione dei ghiacciai montani porterà ad una diminuzione o esaurimento
+   della portata estiva dei fiumi da cui dipende la vita di milioni o miliardi di esseri umani,
+ * la carenza di acqua in larghe zone del pianeta provocherà tensioni sociali, guerre e migrazioni
+   di massa e di intere popolazioni,
+ * le siccità prolungate porteranno ad incendi distruttivi, vasti e ripetuti,
+ * l'accumulo di $$CO_2$$ negli oceani porterà ad un incremento del loro livello di acidità
+   minando l'intero ecosistema marino,
+ * la diminuzione della differenza di temperature tra poli ed equatore porterà ad enormi
+   cambiamenti nelle correnti marine, con conseguenti modifiche dei climi locali terrestri ed una
+   diminuzione del rimescolamento delle acque e del tasso di ossigenazione dei mari,
+ * la scomparsa di ecosistemi interi porterà all'estinzione degli esseri che li abitavano, con un
+   possibile effetto domino verso una estinzione di massa generalizzata.
+
+I risultati scientifici, ottenuti soprattutto degli ultimi trenta anni, ci mostrano che il
 clima terrestre è un *sistema complesso* costituito da molteplici elementi strettamente correlati
 tra loro ed in equilibrio instabile, almeno su una scala di centinaia di migliaia di anni.
+
 Stiamo eseguendo su scala planetaria un esperimento di cui non sappiamo calcolare pienamente le
 conseguenze, ma di cui la scienza ci indica in modo sempre più chiaro l'estrema pericolosità.
 
