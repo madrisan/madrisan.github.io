@@ -333,50 +333,33 @@ agricoltura su larga scala resa possibile dalla sostanziale stabilità del clima
 <div class="bd-callout bd-callout-info">
 <p>
 Oppure nella versione alternativa, descritta da James C. Scott nel suo libro
-"Against the Grain &mdash; A deep history of the earliest states",
+"<i>Against the Grain &mdash; A deep history of the earliest states</i>",
 di abbandonare una vita di caccia e raccolta per una vita sedentaria in comunità
 dependenti dall'allevamento del bestiame e dei cereali, perdendo la sua libertà personale e
-lavorativa ed a subire imprevedibili malattie derivanti dalla convivenza forzata in comunità
-affollate di uomini ed animali addomesticati.
+lavorativa. Costretto finanche a subire malattie imprevedibili causate dalla convivenza promiscua
+di uomini ed animali addomesticati, in comunità sempre più affollate.
 </p>
 </div>
 
 Questa fase di riscaldamento continuerà fino al raggiungimento di un nuovo equilibrio termico,
-ad una temperatura non prevedibile perchè dipendente dalle emissioni *future* di gas ad
-effetto serra, oltre che da quelle cumulate fino ad ora.
-Il mondo sarà molto diverso da quello attuale.
-Alcuni scenari che la scienza ci permette di intravedere:
+ad una temperatura media superiore all'attuale ma non prevedibile, perchè dipendente dalle
+emissioni *future* di gas ad effetto serra, oltre che da quelle cumulate fino ad ora
+nell'atmosfera.
+Il mondo sarà molto diverso da quello attuale, come leggiamo nel libro di Mark Lynas
+"<i>Six Degrees: Our Future on a Hotter Planet</i>", nei cui sei capitoli che lo costituiscono,
+uno per ogni grado di scostamento progressivo dalla temperatura del periodo pre-industriale, sono
+descritti i risultati scientifici e quanto riusciamo a prevedere o ragionevolmente ipotizzare,
+al netto delle conoscenze attuali.
 
- * larghe zone del pianeta saranno inabitabili a causa delle alte temperature,
- * il riscaldamento delle zone ora temperate aprirà la via del nord ad insetti e malattie
-   tropicali,
- * l'incremento dell'energia atmosferica provocherà un aumento in intensità, frequenza e durata
-   dei fenomeni atmosferici estremi quali tornadi, pioggie torrenziali e grandi siccità,
- * la riduzione delle calotte polari provocherà un'innalzamento del livello dei mari che cambierà
-   la fisionomia delle coste invadendo città e metropoli costiere in tutto il pianeta,
- * l'innalzamento del livello dei mari renderà infertili zone ora agricole, a causa delle
-   infiltrazioni di acqua salmastra nei terreni costieri,
- * la diminuzione dell'estensione dei ghiacciai montani porterà ad una diminuzione o esaurimento
-   della portata estiva dei fiumi da cui dipende la vita di milioni o miliardi di esseri umani,
- * la carenza di acqua in larghe zone del pianeta provocherà tensioni sociali, guerre e migrazioni
-   di massa e di intere popolazioni,
- * le siccità prolungate porteranno ad incendi distruttivi, vasti e ripetuti,
- * l'accumulo di $$CO_2$$ negli oceani porterà ad un incremento del loro livello di acidità
-   minando l'intero ecosistema marino,
- * la diminuzione della differenza di temperature tra poli ed equatore porterà ad enormi
-   cambiamenti nelle correnti marine, con conseguenti modifiche dei climi locali terrestri ed una
-   diminuzione del rimescolamento delle acque e del tasso di ossigenazione dei mari,
- * la scomparsa di ecosistemi interi porterà all'estinzione degli esseri che li abitavano, con un
-   possibile effetto domino verso una estinzione di massa generalizzata.
-
-I risultati scientifici, ottenuti soprattutto degli ultimi trenta anni, ci mostrano che il
-clima terrestre è un *sistema complesso* costituito da molteplici elementi strettamente correlati
-tra loro ed in equilibrio instabile, almeno su una scala di centinaia di migliaia di anni.
+I risultati scientifici, ottenuti soprattutto negli ultimi trenta anni di esplosiva ricerca nel
+campo, ci mostrano come il clima terrestre sia un *sistema complesso*, costituito da molteplici
+elementi strettamente correlati e mutualmente interconnessi tra loro, in equilibrio instabile,
+almeno su una scala temporale di centinaia di migliaia di anni.
+Un tempo infinito per l'umanità.
 
 Stiamo eseguendo su scala planetaria un esperimento di cui non sappiamo calcolare pienamente le
 conseguenze, ma di cui la scienza ci indica in modo sempre più chiaro l'estrema pericolosità.
-
 Non abbiamo un pianeta o un ecosistema di riserva, dove migrare nel caso il risultato fosse
 disastroso.
 Ed affidarsi all'idea che la tecnologia del futuro saprà risolvere il problema è un rischio
-insensato ed il cui prezzo maggiore sarà pagato da altri: le generazioni future.
+insensato il cui prezzo maggiore sarà pagato da altri: le generazioni future.
