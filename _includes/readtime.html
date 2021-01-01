@@ -1,9 +1,9 @@
 {%- assign stripchars =
        include.blog_content | strip_html | strip_newlines | remove: " " | size %}
-{%- if stripchars < 400 %}
+{%- if stripchars < 1000 %}
 {%-     assign time = 1 %}
 {%- else %}
-{%-     assign time = stripchars | divided_by: 400 %}
+{%-     assign time = stripchars | divided_by: 1000 %}
 {%- endif %}
 
 {%- comment %}

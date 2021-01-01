@@ -15,9 +15,16 @@ titlejumbotron: 'off'
 ## Cambiamenti Climatici - parte I
 ### Riscaldamento Globale
 
-Cominciamo con alcuni brevi principi fisici di base per comprendere i fenomeni che sono alla base
-del clima terrestre e rendere meno astratte le espressione ormai comunemente usata da tutti:
-"*cambiamenti climatici*" e "*riscaldamento globale*", che ne costituisce uno dei tanti aspetti.
+Cominciamo col definire *cambiamento climatico* la modifica dei valori statistici del clima
+terrestre (variazione dei valori medi ed estremi delle temperature e delle precipitazioni o di
+altri parametri meteorologici importanti), misurati su un periodo di alcuni decenni.
+La misura su un lungo periodo ha lo scopo di rimuovere il rumore delle fluttuazioni statistiche
+naturali (per esempio le variazioni stagionali) e mettere in evidenza le linee di tendenza.
+
+Nei prossimi paragrafi introduciamo brevemente alcuni principi fisici di base utili a comprendere
+i fenomeni che sono alla base del clima, con lo scopo di rendere spero meno astratta una
+espressione ormai comunemente usata da tutti, e che costituisce un importante aspetto dei
+cambiamenti climatici: il *riscaldamento globale*.
 
 #### Energia, temperatura e radiazione elettromagnetica
 
@@ -348,14 +355,15 @@ nell'atmosfera.
 Il mondo sarà molto diverso da quello attuale, come leggiamo nel libro di Mark Lynas
 "<i>Six Degrees: Our Future on a Hotter Planet</i>", nei cui sei capitoli che lo costituiscono,
 uno per ogni grado di scostamento progressivo dalla temperatura del periodo pre-industriale, sono
-descritti i risultati scientifici e quanto riusciamo a prevedere o ragionevolmente ipotizzare,
-al netto delle conoscenze attuali.
+descritti i gradi crescenti dell'impatto dei cambiamenti climatici sull'ambiente e le popolazioni
+per quanto è possibile scientificamente e ragionevolmente ipotizzare, al netto delle
+conoscenze attuali.
 
 I risultati scientifici, ottenuti soprattutto negli ultimi trenta anni di esplosiva ricerca nel
 campo, ci mostrano come il clima terrestre sia un *sistema complesso*, costituito da molteplici
 elementi strettamente correlati e mutualmente interconnessi tra loro, in equilibrio instabile,
 almeno su una scala temporale di centinaia di migliaia di anni.
-Un tempo infinito per l'umanità.
+Un tempo praticamente infinito per noi.
 
 Stiamo eseguendo su scala planetaria un esperimento di cui non sappiamo calcolare pienamente le
 conseguenze, ma di cui la scienza ci indica in modo sempre più chiaro l'estrema pericolosità.
