@@ -11,9 +11,8 @@ summary: A quanto si stima il riscaldamento globale attuale.
 title: Cambiamenti Climatici - parte II
 titlejumbotron: 'off'
 ---
-
-## Cambiamenti Climatici - parte II
-### Misura del riscaldamento globale
+## Cambiamenti Climatici
+### Misura del Riscaldamento Globale
 
 Nel [post precedente]({% post_url 2020-12-29-climate-changes-physics %})
 abbiamo definito come *cambiamento climatico* una modifica dei valori statistici del clima
@@ -50,7 +49,7 @@ di misurazione delle temperature (soprattutto quelle oceaniche).
 <img src="/assets/images/blog-monthly-surface-air-temperature-anomaly.png"
      class="mx-auto d-block img-fluid">
 <p class="text-center"><small>
-Anomalia delle temperature superficiali terrestri &mdash;
+Anomalia delle temperature terrestri &mdash;
 <a href="http://iridl.ldeo.columbia.edu/maproom/Global/Atm_Temp/Anomaly.html">
 <small>IRI Climate Monitoring</small></a>
 </small></p>
@@ -91,6 +90,6 @@ precedente dai dati.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-La stima del riscaldamento globale attuale che ne consegue è dunque prossima a 1.2°C.
+La stima del riscaldamento globale nell'anno 2020 che ne consegue è dunque prossima a 1.2°C.
 </p>
 </div>

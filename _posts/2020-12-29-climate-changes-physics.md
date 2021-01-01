@@ -11,8 +11,7 @@ summary: Una breve carrellata sulla fisica dei Cambiamenti Climatici.
 title: Cambiamenti Climatici - parte I
 titlejumbotron: 'off'
 ---
-
-## Cambiamenti Climatici - parte I
+## Cambiamenti Climatici
 ### Riscaldamento Globale
 
 Cominciamo col definire *cambiamento climatico* la modifica dei valori statistici del clima
@@ -310,15 +309,18 @@ $$CO_2$$ (ormai dell'ordine dei miliardi di tonnellate all'anno) e di metano, de
 dall'utilizzo su larga scala dei *combustibili fossili*, ha portato nei circa 250 anni trascorsi
 dall'inizio della rivoluzione industriale ad un aumento significativo della quantità di energia
 intrappolata nella troposfera dall'effetto serra.
-E dunque ad un incremento della sua temperatura media di
-[1°C](https://climate.nasa.gov/vital-signs/global-temperature/).
+E dunque ad un incremento della sua temperatura media di quasi
+[1.2°C]({% post_url 2021-01-01-global-warming-lets-quantify %}) rispetto al periodo 1850-1900
+(la cui temperatura media si considera assimilabile a quella del periodo pre-industriale)
+o di [1°C](https://climate.nasa.gov/vital-signs/global-temperature/) rispetto ai valori del
+1951-1980:
 
 <div pb-2>
 <img src="/assets/images/blog-nasa-global-temp.png"
      class="mx-auto d-block img-fluid">
 <p class="text-center">
 <small>
-Andamento della temperatura superficiale terrestre &mdash;
+Andamento della temperatura terrestre &mdash;
 <a href="https://climate.nasa.gov/vital-signs/global-temperature/"><small>NASA</small></a>
 </small>
 </p>
@@ -366,8 +368,8 @@ almeno su una scala temporale di centinaia di migliaia di anni.
 Un tempo praticamente infinito per noi.
 
 Stiamo eseguendo su scala planetaria un esperimento di cui non sappiamo calcolare pienamente le
-conseguenze, ma di cui la scienza ci indica in modo sempre più chiaro l'estrema pericolosità.
-Non abbiamo un pianeta o un ecosistema di riserva, dove migrare nel caso il risultato fosse
-disastroso.
-Ed affidarsi all'idea che la tecnologia del futuro saprà risolvere il problema è un rischio
+conseguenze, ma di cui la scienza ci indica in modo sempre più chiaro l'*estrema pericolosità*.
+Non abbiamo un pianeta e neppure un ecosistema di riserva, dove migrare nel caso il risultato
+fosse disastroso.
+Affidarsi all'idea che la tecnologia del futuro saprà risolvere il problema è un rischio
 insensato il cui prezzo maggiore sarà pagato da altri: le generazioni future.
