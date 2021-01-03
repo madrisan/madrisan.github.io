@@ -8,7 +8,7 @@ language: it
 location: Nice
 mathjax: 'on'
 summary: Una breve carrellata sulla fisica dei Cambiamenti Climatici.
-title: Cambiamenti Climatici - parte I
+title: Fisica dei Cambiamenti Climatici
 titlejumbotron: 'off'
 ---
 ## Cambiamenti Climatici

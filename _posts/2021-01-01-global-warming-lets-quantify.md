@@ -8,7 +8,7 @@ language: it
 location: Nice
 mathjax: 'on'
 summary: A quanto viene stimato il riscaldamento globale attuale?
-title: Cambiamenti Climatici - Misura del Riscaldamento Globale
+title: Misura del Riscaldamento Globale
 titlejumbotron: 'off'
 ---
 ## Cambiamenti Climatici
