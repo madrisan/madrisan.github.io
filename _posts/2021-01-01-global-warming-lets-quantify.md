@@ -90,6 +90,17 @@ precedente dai dati.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-La stima del riscaldamento globale nell'anno 2020 che ne consegue è dunque prossima a 1.2°C.
+La stima del riscaldamento globale attuale che ne consegue è dunque prossima a 1.2°C.
+Distribuita in modo non uniforme: maggiore nell'emisfero boreale e minore in quello australe,
+crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agli oceani.
+</p>
+</div>
+
+<div class="bd-callout bd-callout-info">
+<p>
+Il codice Python per effettuare il parsing dei dataset HadCRUT5 contenenti le temperature medie
+annuali è liberamente (licenza GPL-3.0+) disponibile nel mio repository GitHub
+<a href="https://github.com/madrisan/HadCRUT5/">
+madrisan/HadCRUT5</a>. Il file README contiene alcuni plot generabili dallo script.
 </p>
 </div>
