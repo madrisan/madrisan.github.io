@@ -2,7 +2,7 @@
 layout: post
 title: Nagios Plugins for Linux v28
 date: 2020-12-12
-language: en
+language: gb
 location: The Opensource World
 category: projects
 summary: A new version of Nagios Plugins for Linux is out! New features include the new plugin check_pressure and the porting to Linux Alpine 3.12 with packaging available.

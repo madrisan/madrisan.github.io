@@ -3,7 +3,7 @@ layout: post
 category: projects
 date: 2020-11-28
 highcharts: on
-language: en
+language: gb
 location: Nice
 mathjax: on
 summary: Well. Finally got around to putting this website together...

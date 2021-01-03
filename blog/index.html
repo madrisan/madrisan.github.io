@@ -30,7 +30,9 @@ title: Davide Madrisan's Blog
                 <blockquote class="blockquote">
                     <p class="mb-0">
                         {% if post.language %}
-                        <span class="badge badge-light font-weight-light text-lowercase text-secondary">{{ post.language }}</span>
+                        <span class="f16 pr-1">
+                            <span class="flag {{ post.language }}"></span>
+                        </span>
                         {% endif %}
                         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                     </p>

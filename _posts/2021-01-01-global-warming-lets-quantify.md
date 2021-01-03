@@ -7,8 +7,8 @@ image: /assets/images/blog-climate-changes.jpg
 language: it
 location: Nice
 mathjax: 'on'
-summary: A quanto si stima il riscaldamento globale attuale.
-title: Cambiamenti Climatici - parte II
+summary: A quanto viene stimato il riscaldamento globale attuale?
+title: Cambiamenti Climatici - Misura del Riscaldamento Globale
 titlejumbotron: 'off'
 ---
 ## Cambiamenti Climatici
