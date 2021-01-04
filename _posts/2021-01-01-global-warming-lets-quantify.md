@@ -3,7 +3,7 @@ layout: post
 category: climate-change
 date: 2021-01-01
 highcharts: off
-image: /assets/images/blog-climate-changes.jpg
+image: /assets/images/blog-climate-changes-glacier.jpg
 language: it
 location: Nice
 mathjax: 'on'
@@ -83,10 +83,22 @@ Anomalie delle temperature nei vari dataset &mdash;
 </small></p>
 </div>
 
-La temperatura media globale negli anni 2010-2018 è stimata ora a 1.07 ± 0.11°C superiore alla
-temperatura media del periodo 1850-1900 (che è generalmente, ma non universalmente, considerata
+La temperatura media globale negli anni 2010-2018 è
+[stimata](https://www.metoffice.gov.uk/about-us/press-office/news/weather-and-climate/2020/hadcrut5-announcement)
+ora a 1.07 ± 0.11°C superiore alla temperatura media del periodo 1850-1900
+(che è generalmente, ma non universalmente, considerata
 approssimabile a quella pre-industriale), con un incremento di 0.16°C rispetto alla versione
 precedente dai dati.
+
+Generalmente viene preso in considerazione il periodo 1961-1990 poichè nell'arco temporale
+1850-1900 si sono verificati alcuni eventi vulcanici maggiori, tra cui in particolare:
+ * Krakatoa (1883), che ha causato un *inverno vulcanico* di 5 anni (cioè una riduzione delle
+   temperature globali causati dalla cenere vulcanica e dalle goccioline di acido solforico
+   ed acqua proiettate nelle stratosfera, e che riflettono parte della radiazione solare),
+ * Mount Tarawera (1886), la più grande eruzione storicamente registrata in Nuova Zelanda.
+
+L'ottimale sarebbe sarebbe usare come riferimento gli anni 1720-1800, ma purtroppo in questi
+anni non abbiamo a disposizione dati di temperatura sufficienti a coprire l'intero pianeta.
 
 <div class="bd-callout bd-callout-warning">
 <p>
