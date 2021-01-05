@@ -361,6 +361,18 @@ descritti i gradi crescenti dell'impatto dei cambiamenti climatici sull'ambiente
 per quanto è possibile scientificamente e ragionevolmente ipotizzare, al netto delle
 conoscenze attuali.
 
+<div class="bd-callout bd-callout-warning">
+<h6>Breve nota su Covid-19 e Lockdown</h6>
+<p>
+La diminuzione delle emissioni di diossido di carbonio a seguito del periodo di lockdown
+generalizzato sul pianeta <i>non ne hanno ridotto la concentrazione</i> nell'atmosfera, ma
+rallentata temporaneamente la crescita. Il riscaldamento globale è causato dai gas ad effetto
+serra <i>accumulatisi</i> nell'atmosfera (dall'inizio del periodo industriale e persino prima,
+quando sono cominciati i grandi disboscamenti delle foreste europee).
+Questo è un punto chiave che sfugge a molti.
+</p>
+</div>
+
 I risultati scientifici, ottenuti soprattutto negli ultimi trenta anni di esplosiva ricerca nel
 campo, ci mostrano come il clima terrestre sia un *sistema complesso*, costituito da molteplici
 elementi strettamente correlati e mutualmente interconnessi tra loro, in equilibrio instabile,

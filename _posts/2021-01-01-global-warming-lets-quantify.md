@@ -94,7 +94,8 @@ Generalmente viene preso in considerazione il periodo 1961-1990 poichè nell'arc
 1850-1900 si sono verificati alcuni eventi vulcanici maggiori, tra cui in particolare:
  * Krakatoa (1883), che ha causato un *inverno vulcanico* di 5 anni (cioè una riduzione delle
    temperature globali causati dalla cenere vulcanica e dalle goccioline di acido solforico
-   ed acqua proiettate nelle stratosfera, e che riflettono parte della radiazione solare),
+   ed acqua proiettate nelle stratosfera che riflettono parte della radiazione solare verso
+   lo spazio),
  * Mount Tarawera (1886), la più grande eruzione storicamente registrata in Nuova Zelanda.
 
 L'ottimale sarebbe sarebbe usare come riferimento gli anni 1720-1800, ma purtroppo in questi
@@ -102,7 +103,8 @@ anni non abbiamo a disposizione dati di temperatura sufficienti a coprire l'inte
 
 <div class="bd-callout bd-callout-warning">
 <p>
-La stima del riscaldamento globale attuale che ne consegue è dunque prossima a 1.2°C.
+La stima del riscaldamento globale attuale che ne consegue è dunque di circa 1.2°C
+(1.200410°C calcolata sul periodo 1850-1900, 0.841467 sul periodo 1961-1990).
 Distribuita in modo non uniforme: maggiore nell'emisfero boreale e minore in quello australe,
 crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agli oceani.
 </p>
@@ -113,6 +115,18 @@ crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agl
 Il codice Python per effettuare il parsing dei dataset HadCRUT5 contenenti le temperature medie
 annuali è liberamente (licenza GPL-3.0+) disponibile nel mio repository GitHub
 <a href="https://github.com/madrisan/HadCRUT5/">
-madrisan/HadCRUT5</a>. Il file README contiene alcuni plot generabili dallo script.
+madrisan/HadCRUT5</a>. Il file
+<a href="https://github.com/madrisan/HadCRUT5/blob/main/README.md">README</a> contiene le immagini
+generabili dallo script.
 </p>
+</div>
+
+<div class="pb-2">
+<img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT-1850-1900-smoother.png"
+     class="mx-auto d-block img-fluid">
+<p class="text-center"><small>
+Anomalie delle temperature (medie su 5 anni) &mdash;
+<a href="https://github.com/madrisan/HadCRUT5/">
+<small>GitHub</small></a>
+</small></p>
 </div>
