@@ -21,4 +21,8 @@
 {%-         assign time_txt = "min read" %}
 {%-     endif %}
 {%- endif %}
+{%- if include.textsize == 'small' %}
+<small>{{ time }} {{ time_txt }}</small>
+{%- else %}
 <span>{{ time }} {{ time_txt }}</span>
+{%- endif %}
