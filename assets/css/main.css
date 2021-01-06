@@ -21,7 +21,7 @@ a.anchor-plain {
 }
 
 a, a:visited, a:active {
-    border-bottom: 1px gray dotted;
+    border-bottom: thin dashed #5493ff;
     color: #2d3644;
     text-decoration: none;
 }
