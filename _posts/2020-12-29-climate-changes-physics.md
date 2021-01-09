@@ -78,13 +78,15 @@ $$
 \lambda = \frac{c}{\nu}
 $$
 
+dove $$c$$ è la [velocità della luce](https://it.wikipedia.org/wiki/Velocit%C3%A0_della_luce)
+nel vuoto.
 I fotoni trasportano un'energia $$E$$ proporzionale alla frequenza $$\nu$$
 
 $$
 E = h \nu
 $$
 
-dove $$h$$ è la costante di Planck.
+dove $$h$$ è la [costante di Planck](https://it.wikipedia.org/wiki/Costante_di_Planck).
  
 <div class="pb-2">
 <img src="/assets/images/blog-spettro-elettromagnetico.jpg" class="mx-auto d-block img-fluid">
@@ -121,8 +123,8 @@ schiacciata) dipendente unicamente dalla sua temperatura $$T$$.
 </div>
 
 Dall'immagine si nota come, all'aumentare della temperatura, l'area sottesa dalla curva aumenti
-ed il picco si sposti verso frequenze più alte (e lunghezze d'onda $$\lambda$$ più piccole),
-indice dell'aumento dell'energia interna del corpo, come visto precedentemente.
+ed il picco si sposti verso frequenze più alte (e quindi lunghezze d'onda $$\lambda$$ più
+piccole), indice dell'aumento dell'energia interna del corpo, come visto precedentemente.
 
 <div class="bd-callout bd-callout-info">
 <h6>Legge dello spostamento di Wien</h6>
@@ -130,7 +132,7 @@ indice dell'aumento dell'energia interna del corpo, come visto precedentemente.
 Più precisamente il picco di emissione dello spettro segue la semplice relazione nota con il
 nome di <i>legge dello spostamento di Wien</i>
 $$
-\lambda_{max} = \frac{b}{T}
+\lambda_{max} = \frac{b}{T} \approx \frac{3000}{T}
 $$
 dove <i>b</i> vale circa 2898 m K.
 Per <i>T</i> pari a 6000°K per esempio (vicina alla temperatura della superficie solare),
@@ -170,10 +172,10 @@ installate per la video-sorveglianza notturna.
 <img src="/assets/images/blog-infrared-photo.jpg" class="mx-auto d-block img-fluid">
 </div>
 
-Il *bilancio energetico*, dato dalla differenza tra l'energia emessa e l'energia assorbita,
-determina la temperatura di un corpo nel tempo. Nel caso limite in cui le due quantità di energia
-si eguaglino, la sua temperatura rimane costante.
-Si dice allora che è in una situazione di *equilibrio termodinamico*.
+Il *bilancio energetico*, dato dalla differenza tra l'energia emessa da un corpo e l'energia
+assorbita, determina la temperatura di un corpo nel tempo.
+Nel caso limite in cui le due quantità di energia si eguaglino, la sua temperatura rimane
+costante. Si dice allora che è in una situazione di *equilibrio termodinamico*.
 
 #### Gas ad effetto serra
 
@@ -185,10 +187,12 @@ Una quantità enorme, che se riuscissimo ad utilizzare anche solo in minima part
 fabbisogno energetico dell'umanità intera, attualmente di circa 18 TW.
 
 Non tutta l'energia raggiunge la superficie terrestre e viene assorbita.
-Parte della luce solare viene riflessa dalle nuvole e dall'atmosfera.
-Una parte viene anche riflessa dalla superficie terrestre.
+Parte della luce solare viene essenzalmente riflessa dalle nuvole ($$H_2O$$) e
+dall'[*aerosol atmosferico*](https://it.wikipedia.org/wiki/Particolato) di origine umana
+(inquinamento) e di origine vulcanica.
+Parte viene riflessa anche dalla superficie terrestre.
 La frazione totale riflessa è detta *albedo* e viene indicata con il simbolo $$\alpha$$.
-La terra ha un albedo pari a circa 0.3 (cioè del 30%).
+La terra ha attualmente un albedo pari a circa 0.3 (cioè del 30%).
 
 <div class="bd-callout bd-callout-warning">
 <h6>Albedo terrestre</h6>
@@ -210,13 +214,13 @@ elettrico della molecola, essendo questa perfettamente simmetrica.
 Il costituente atmosferico che segue in pencentuale è il *vapore acqueo*, che deriva
 principalmente dall'evaporazione delle superfici oceaniche, e la cui abbondanza percentuale
 varia da luogo a luogo della terra: più presente nelle zone calde tropicali e meno in quelle
-fredde polari. La sua concentrazione è regolata dal *ciclo dell'acqua*:
-quando raggiunge un livello critico, dipendente dalla temperatura e da altri fattori come le
-impurità e gli inquinanti presenti nell'aria, essa ricade sulla terra sotto forma di pioggia o
-neve.
+fredde polari. È importante notare che la sua concentrazione è *regolata* da quelle che viene
+chiamato il *ciclo dell'acqua*: quando raggiunge un livello critico, dipendente dalla temperatura
+e da altri fattori come le impurità e gli inquinanti presenti nell'aria, essa ricade sulla terra
+sotto forma di pioggia o neve.
 
 Al vapor acqueo segue in scala di importanza l'*anidride carbonica* (nota anche come
-*diossido di carbonio*; formula chimica: $$CO_2$$) che costituiste attualmente lo 0.0415%
+*diossido di carbonio*; formula chimica: $$CO_2$$) che costituiste attualmente (2020) lo 0.0415%
 dell'atmosfera.
 Vista la sua presenza nell'atmosfera in quantità così limitate, viene misurata con una unità
 di misura più pratica: in *parti per milione* (*ppm*).
@@ -239,6 +243,18 @@ dati <a href="http://www.noaa.gov/"><small>NOAA</small></a>
 </p>
 </div>
 
+<div class="bd-callout bd-callout-warning">
+<p>
+Nel 2021 sarà probabilmente superato per alcune settimane tra aprile e giugno il valore di
+417 ppm. Un incremendo del 50% rispetto al valore di 278 ppm di fine secolo XVIII, epoca
+in cui l'attività industriale ha cominciato a diffondersi in modo capillare.
+Il livello di 348 ppm, 25% superiore a quelle  pre-industriale è stato raggiunto nel 1986.
+L'accumulo di diossido di carbonio nell'atmosfera sta accelerendo.
+Sono stati infatti necessari più di 200 anni per raggiungere l'incremento del 25% e solo altri
+35 per raggiungere il 50%.
+</p>
+</div>
+
 Contrariamente al vapore acqueo, il diossido di carbonio rimane stabilmente nell'atmosfera per
 tempi molto lunghi. Occorrono alcuni secoli o millenni affinchè venga assorbito dagli oceani e
 dalla vegetazione terrestre, ma una parte consistente, pari a circa il 25%, rimane attivo
@@ -258,15 +274,21 @@ ppb nell'agosto 2020, con un incremento vicino al 270%.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-Questo gruppo di gas (<i>vapore acqueo</i>, <i>diossido di carbonio</i> e <i>metano</i>
-principalmente), pur essendo presenti soltanto in tracce nell'atmosfera, hanno un ruolo vitale e
-vengono indicati col il nome di <i>gas ad effetto serra</i>.
-Essi infatti assorbono parte dei fotoni infrarossi emessi dalla superficie terrestre.
+Questi ultimi gas descritti (<i>vapore acqueo</i>, <i>diossido di carbonio</i> e <i>metano</i>i
+essenzialmente), pur essendo presenti soltanto in tracce nell'atmosfera, hanno un ruolo vitale e
+vengono indicati con il nome di <i>gas ad effetto serra</i>.
+Essi infatti assorbono parte dei fotoni infrarossi emessi dalla superficie terrestre, impedendone
+la dispersione nello spazio cosmico.
 Questo fatto provoca un riscaldamento della zona bassa dell'atmosfera (la <i>troposfera</i>) che
-raggiungere la temperatura media di 288°K (15°C) invece dei 255°K (&minus;18°C) che ci sarebbero in
-loro assenza.
+raggiunge così la temperatura media di 288°K (15°C) invece dei 255°K (&minus;18°C) che ci
+sarebbero in loro assenza.
+Svolgono dunque un ruolo vitale per la vita sulla terra, che non sarebbe possibile così come la
+conosciamo oggi in un pianeta integralemente coperto da ghiacci perenni.
 </p>
 </div>
+
+Le figura seguente da una idea del ruolo dei differenti gas serra, e nell'ultimo riquadro del
+loro effetto totale, nell'assorbimento dell'energia infrarossa emessa dalla terra.
 
 <div pb-2>
 <img src="/assets/images/blog-infrared-absoption-spectra-of-major-gases.png"
@@ -281,13 +303,13 @@ Spettro di assorbimento dei principali gas atmosferici &mdash;
 
 <div class="bd-callout bd-callout-info">
 <p>
-Le prime misurazioni della quantità di calore assorbita dai vari gas serra risale agli esperimenti
-di laboratorio condotti dal fisico inglese John Tyndall nel 1859. Tyndall concluse correttamente
-che la parte principale dell'effetto serra è provocato dal vapore acqueo a causa della sua
-relativa alta concentrazione nell'atmosfera. I suoi esperimenti mostrarono anche che il diossido
-di carbonio è un altro importante gas ad effetto serra ed egli arrivò anche a provare un'altra
-importante conclusione: senza gas ad effetto serra le temperature notturne terrestri sarebbere
-inferiori a quanto misuriamo.
+Le prime misurazioni della quantità di calore assorbita dai vari gas serra risalgono agli
+esperimenti di laboratorio condotti dal fisico inglese John Tyndall nel 1859.
+Tyndall concluse correttamente che la parte principale dell'effetto serra è provocato dal vapore
+acqueo a causa della sua relativa alta concentrazione nell'atmosfera.
+I suoi esperimenti mostrarono anche che il diossido di carbonio è un altro importante gas ad
+effetto serra ed egli arrivò anche a provare un'altra importante conclusione:
+senza gas ad effetto serra le temperature notturne terrestri sarebbere inferiori a quanto misuriamo.
 Questi risultati furono riaffermati sperimentalmente dal chimico e fisico svedese Svante Arrhenius
 verso la fine degli anni 1890.
 Arrhenius calcolò anche che un raddoppio della quantità di anidride carbonica nell'atmosfera
@@ -301,8 +323,9 @@ Una stima che è più elevata di quella
 
 #### Riscaldamento globale
 
-La temperatura degli oceani e della superficie terrestre è determinata dall'interazione tra il
-flusso di energia proveniente dal sole e quello irraggiato della terra verso lo spazio.
+La temperatura degli oceani e della superficie terrestre è determinata dall'interazione 
+(bilancio) tra il flusso di energia proveniente dal sole e quello irraggiato della terra verso
+lo spazio.
 
 L'attività umana, caratterizzata dal rilascio nell'atmosfera di quantità sempre crescenti di
 $$CO_2$$ (ormai dell'ordine dei miliardi di tonnellate all'anno) e di metano, derivanti
@@ -311,9 +334,9 @@ dall'inizio della rivoluzione industriale ad un aumento significativo della quan
 intrappolata nella troposfera dall'effetto serra.
 E dunque ad un incremento della sua temperatura media di quasi
 [1.2°C]({% post_url 2021-01-01-global-warming-lets-quantify %}) rispetto al periodo 1850-1900
-(la cui temperatura media si considera assimilabile a quella del periodo pre-industriale)
-o di [1°C](https://climate.nasa.gov/vital-signs/global-temperature/) rispetto ai valori del
-1951-1980:
+(la cui temperatura media si considera pressochè assimilabile a quella del periodo
+pre-industriale) o di [1°C](https://climate.nasa.gov/vital-signs/global-temperature/) rispetto ai
+valori del 1951-1980:
 
 <div pb-2>
 <img src="/assets/images/blog-nasa-global-temp.png"
@@ -336,29 +359,29 @@ Lo squilibrio termico attuale è
 [stimato](https://www.pnas.org/content/116/30/14881) a 0,5 W/$$m^2$$ (watt al metro
 quadrato), ben superiore al valore di 0,2 W/$$m^2$$ che si è mantenuto più o meno costante
 dall'ultima glaciazione ed ha permesso all'umanità di diventare stanziale e sostentarsi con una
-agricoltura su larga scala resa possibile dalla sostanziale stabilità del clima degli ultimi
-10000 anni. Ed alla fine costruire la società globalizzata ed articolata che conosciamo.
+agricoltura su larga scala, resa possibile dalla sostanziale stabilità del clima degli ultimi
+10000 anni. Ed alla fine di costruire la società globalizzata ed articolata che conosciamo.
 
 <div class="bd-callout bd-callout-info">
 <p>
 Oppure nella versione alternativa, descritta da James C. Scott nel suo libro
 "<i>Against the Grain &mdash; A deep history of the earliest states</i>",
 di abbandonare una vita di caccia e raccolta per una vita sedentaria in comunità
-dependenti dall'allevamento del bestiame e dei cereali, perdendo la sua libertà personale e
+dipendenti dall'allevamento del bestiame e dei cereali, perdendo la sua libertà personale e
 lavorativa. Costretto finanche a subire malattie imprevedibili causate dalla convivenza promiscua
 di uomini ed animali addomesticati, in comunità sempre più affollate.
 </p>
 </div>
 
 Questa fase di riscaldamento continuerà fino al raggiungimento di un nuovo equilibrio termico,
-ad una temperatura media superiore all'attuale ma non prevedibile, perchè dipendente dalle
-emissioni *future* di gas ad effetto serra, oltre che da quelle cumulate fino ad ora
-nell'atmosfera.
+ad una temperatura media della troposfera superiore all'attuale ma non prevedibile, perchè
+dipendente dalle emissioni *future* di gas ad effetto serra, oltre che da quelle
+*cumulate fino ad ora* nell'atmosfera.
 Il mondo sarà molto diverso da quello attuale, come leggiamo nel libro di Mark Lynas
 "<i>Six Degrees: Our Future on a Hotter Planet</i>", nei cui sei capitoli che lo costituiscono,
 uno per ogni grado di scostamento progressivo dalla temperatura del periodo pre-industriale, sono
-descritti i gradi crescenti dell'impatto dei cambiamenti climatici sull'ambiente e le popolazioni
-per quanto è possibile scientificamente e ragionevolmente ipotizzare, al netto delle
+descritti i gradi crescenti dell'impatto dei cambiamenti climatici sull'ambiente e le popolazioni,
+per quanto ci è possibile scientificamente e ragionevolmente ipotizzare, al netto delle
 conoscenze attuali.
 
 <div class="bd-callout bd-callout-warning">
@@ -366,8 +389,8 @@ conoscenze attuali.
 <p>
 La diminuzione delle emissioni di diossido di carbonio a seguito del periodo di lockdown
 generalizzato sul pianeta <i>non ne hanno ridotto la concentrazione</i> nell'atmosfera, ma
-rallentata temporaneamente la crescita. Il riscaldamento globale è causato dai gas ad effetto
-serra <i>accumulatisi</i> nell'atmosfera (dall'inizio del periodo industriale e persino prima,
+solo rallentata temporaneamente la crescita. Il riscaldamento globale è causato dai gas ad effetto
+serra <i>accumulatisi</i> nell'atmosfera (dall'inizio del periodo industriale o persino prima,
 quando sono cominciati i grandi disboscamenti delle foreste europee).
 Questo è un punto chiave che sfugge a molti.
 </p>
@@ -377,7 +400,7 @@ I risultati scientifici, ottenuti soprattutto negli ultimi trenta anni di esplos
 campo, ci mostrano come il clima terrestre sia un *sistema complesso*, costituito da molteplici
 elementi strettamente correlati e mutualmente interconnessi tra loro, in equilibrio instabile,
 almeno su una scala temporale di centinaia di migliaia di anni.
-Un tempo praticamente infinito per noi.
+Un tempo praticamente infinito per noi umani.
 
 Stiamo eseguendo su scala planetaria un esperimento di cui non sappiamo calcolare pienamente le
 conseguenze, ma di cui la scienza ci indica in modo sempre più chiaro l'*estrema pericolosità*.
