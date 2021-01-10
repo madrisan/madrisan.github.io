@@ -35,15 +35,16 @@ Gli oceani sono il *serbatoio di energia dominante* nel sistema climatico terres
 loro grande capacità ad accumulare calore e la loro estensione sul pianeta.
 Segue in importanza il calore latente associato all'aumento ed al declino delle calotte glaciali
 continentali.
+
 È quindi importante tenere in considerazione anche la temperatura oceanica, mediando i valori
-otteniti in un numero sufficiente grande di punti campione scelti a profondità differenti, dalla
-superficie fino alla loro profondità media di 4 Km.
+ottenuti in un numero sufficiente grande di punti campione scelti a profondità differenti, dalla
+superficie fino alla loro profondità media, di 4 Km.
 E comparare i dati così ottenuti con quelli terrestri.
 
-Le misurazioni risultanti vengono sovente presentate come *anomalie* o scostamenti (positivi o
+Le misurazioni risultanti vengono presentate come *anomalie* o scostamenti (positivi o
 negativi) rispetto ai valori medi di un periodo scelto come riferimento.
-Devono sovente essere corrette per annullare o contenere cambiamenti nelle tecniche o condizioni
-di misurazione delle temperature (soprattutto quelle oceaniche).
+I dati devono spesso essere corretti per cercare di annullare o almeno contenere cambiamenti nelle
+tecniche o condizioni di misurazione delle temperature (soprattutto quelle oceaniche).
 
 <div class="pb-2">
 <img src="/assets/images/blog-monthly-surface-air-temperature-anomaly.png"
@@ -99,7 +100,7 @@ Generalmente viene preso in considerazione il periodo 1961-1990 poichè nell'arc
  * Mount Tarawera (1886), la più grande eruzione storicamente registrata in Nuova Zelanda.
 
 L'ottimale sarebbe sarebbe usare come riferimento gli anni 1720-1800, ma purtroppo in questi
-anni non abbiamo a disposizione dati di temperatura sufficienti a coprire l'intero pianeta.
+anni non esistono collezioni di dati di temperatura sufficienti a coprire l'intero pianeta.
 
 <div class="bd-callout bd-callout-warning">
 <p>

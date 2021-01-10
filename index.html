@@ -5,26 +5,28 @@ title: Davide Madrisan's Website
 ---
 
 <div class="jumbotron jumbotron-fluid jumbotron-main align-items-center img-fluid text-center">
-    <div class="row h-100">
+    <div class="row h-100 header-main">
         <div class="col-sm-12 my-auto">
-            <h1 class="display-4 pt-4 text-center">Welcome!</h1>
-            <h3 class="text-center">Articles about science and technology</h3>
-            <div class="container text-center pt-4">
-                <a class="btn btn-light btn-circle-xl"
-		   onclick="window.location.href='/about';">
-                   <span class="fa fa-2x fa-user"></span>
-		   <span class="label">About</span>
-                </a>
-                <a class="btn btn-light btn-circle-xl"
-		   onclick="window.location.href='/blog';">
-                   <span class="fa fa-2x fa-blog"></span>
-		   <span class="label">Blog</span>
-                </a>
-                <a class="btn btn-light btn-circle-xl"
-		   onclick="window.location.href='{{ site.socials.github }}';">
-                   <span class="fa fa-2x fa-github"></span>
-		   <span class="label">GitHub</span>
-                </a>
+            <div class="text-container">
+                <h1 class="display-4 text-center">Welcome!</h1>
+                <h3 class="text-center">Articles about science and technology</h3>
+                <div class="container text-center pt-4 pb-4">
+                    <a class="btn btn-light btn-circle-xl"
+                       onclick="window.location.href='/about';">
+                        <i class="fa fa-2x fa-user"></i>
+                        <span class="label">About</span>
+                    </a>
+                    <a class="btn btn-light btn-circle-xl"
+                       onclick="window.location.href='/blog';">
+                        <i class="fa fa-2x fa-blog"></i>
+                        <span class="label">Blog</span>
+                    </a>
+                    <a class="btn btn-light btn-circle-xl icon-block"
+                       onclick="window.location.href='{{ site.socials.github }}';">
+                        <i class="fa fa-2x fa-github"></i>
+                        <span class="label">GitHub</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
