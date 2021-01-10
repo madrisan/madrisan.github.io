@@ -24,29 +24,27 @@ title: Davide Madrisan's Blog
 
 <div class="container">
     {% for post in site.posts %}
-    <div class="row ml-2 mt-2">
-        <span class="border-left">
-            <div class="col">
-                <blockquote class="blockquote">
-                    <p class="mb-0">
-                        {% if post.language %}
-                        <span class="f16 pr-1">
-                            <span class="flag {{ post.language }}"></span>
-                        </span>
-                        {% endif %}
-                        <a href="{{ post.url }}" title="{{ post.title }}">
-                            <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
-                    </p>
-                    <footer class="ml-4 blockquote-footer">
-                        <small>{{ post.date | date_to_string }},</small>
-                        {% include readtime.html blog_content=post.content blog_language=post.language textsize='small' %}
-                    </footer>
-                    {% if post.summary %}
-                    <p class="pt-2">{{ post.summary }}</p>
-                    {% endif %}
-                </blockquote>
+    <div class="card">
+        <div class="card-body bg-light">
+            <div class="card-title">
+                {% if post.language %}
+                <span class="f16 pr-1">
+                    <span class="flag {{ post.language }}"></span>
+                </span>
+                {% endif %}
+                <a href="{{ post.url }}" title="{{ post.title }}">
+                    <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
             </div>
-        </span>
+            <div class="card-subtitle text-muted pl-4">
+                <small>{{ post.date | date_to_string }},</small>
+                {% include readtime.html blog_content=post.content blog_language=post.language textsize='small' %}
+            </div>
+            {% if post.summary %}
+            <p class="card-text pt-1">{{ post.summary }}</p>
+            {% endif %}
+        </div>
+    </div>
+    <div class="pt-1">
     </div>
     {% endfor %}
 </div>
