@@ -34,7 +34,8 @@ title: Davide Madrisan's Blog
                             <span class="flag {{ post.language }}"></span>
                         </span>
                         {% endif %}
-                        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                        <a href="{{ post.url }}" title="{{ post.title }}">
+                            <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
                     </p>
                     <footer class="ml-4 blockquote-footer">
                         <small>{{ post.date | date_to_string }},</small>

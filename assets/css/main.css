@@ -119,6 +119,10 @@ nav a {
     clear: both;
 }
 
+.font-architects-daughter {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
 .jumbotron-main {
     background: url("/assets/images/main-mountains.jpg");
     background-position: 20 70%;

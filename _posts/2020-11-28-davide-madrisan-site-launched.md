@@ -18,7 +18,7 @@ template language and I can even use [Markdown](https://en.wikipedia.org/wiki/Ma
 (if I'm too lazy to write in HTML).
 The layout is enriched by the usage of
 [Bootstrap 4](https://getbootstrap.com/), the
-[Font Awsome](https://fontawesome.com/) and some
+[Font Awesome](https://fontawesome.com/) and some
 [Google Fonts](https://fonts.google.com/) too.
 It actually was a lot easier than I thought it was going to be because of the
 great [Jonathan McGlone's project](https://github.com/hankquinlan/hankquinlan.github.io/)
