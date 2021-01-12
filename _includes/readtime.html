@@ -1,5 +1,5 @@
 {%- assign stripchars =
-       include.blog_content | strip_html | strip_newlines | remove: " " | size %}
+       include.post_content | strip_html | strip_newlines | remove: " " | size %}
 {%- if stripchars < 1000 %}
 {%-     assign time = 1 %}
 {%- else %}
@@ -12,7 +12,7 @@
      {% assign time = stripchars | divided_by: 180 %}
 {%- endcomment %}
 
-{%- if include.blog_language == "it" %}
+{%- if include.post_language == "it" %}
 {%-     assign time_txt = "min. di lettura" %}
 {%- else %}
 {%-     if time > 1 %}

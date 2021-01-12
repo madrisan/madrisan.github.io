@@ -112,15 +112,14 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="text-secondary">
                             <i class="fa fa-clock-o" aria-hidden="true"></i>
-{% include readtime.html blog_content=page.content blog_language=page.language %}
+{% include readtime.html post_content=page.content post_language=page.language %}
                         </div>
                         <div>
 {% include sharetosocials.html blog_language=page.language %}
                         </div>
                     </div>
                 </div>
-
-                <div class="container pt-2">
+                <div class="container pt-3">
                     <div class="row">
                         <div class="col">
                         {{ content }}
@@ -128,7 +127,18 @@
                     </div>
                 </div>
 
+{% if page.license %}
+                <div class="container pb-2">
+                    <div class="row">
+                        <div class="col text-secondary text-center">
+                            <i class="fa fa-gavel" aria-hidden="true"></i>
+{% include license.html post_language=page.language post_license=page.license text_class="text-secondary" %}
+                        </div>
+                    </div>
+                </div>
+{% endif %}
             </main>
+
 
             <footer class="page-footer font-small">
                 <!-- Social Buttons -->

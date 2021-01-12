@@ -5,6 +5,7 @@ date: 2021-01-01
 highcharts: off
 image: /assets/images/blog-climate-changes-glacier.jpg
 language: it
+license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'on'
 summary: A quanto viene stimato il riscaldamento globale attuale?

@@ -5,6 +5,7 @@ date: 2020-12-29
 highcharts: off
 image: /assets/images/blog-climate-changes.jpg
 language: it
+license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'on'
 summary: Una breve carrellata sulla fisica dei Cambiamenti Climatici.
