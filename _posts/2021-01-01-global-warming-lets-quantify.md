@@ -47,15 +47,17 @@ negativi) rispetto ai valori medi di un periodo scelto come riferimento.
 I dati devono spesso essere corretti per cercare di annullare o almeno contenere cambiamenti nelle
 tecniche o condizioni di misurazione delle temperature (soprattutto quelle oceaniche).
 
-<div class="pb-2">
-<img src="/assets/images/blog-monthly-surface-air-temperature-anomaly.png"
-     class="mx-auto d-block img-fluid">
-<p class="text-center"><small>
-Anomalia delle temperature terrestri &mdash;
-<a href="http://iridl.ldeo.columbia.edu/maproom/Global/Atm_Temp/Anomaly.html">
-<small>IRI Climate Monitoring</small></a>
-</small></p>
-</div>
+<picture>
+    <img src="/assets/images/blog-monthly-surface-air-temperature-anomaly.png"
+         class="mx-auto d-block img-fluid pt-3">
+</picture>
+<p class="text-center pt-3 pb-3">
+    <small>
+       Anomalia delle temperature terrestri &mdash;
+       <a href="http://iridl.ldeo.columbia.edu/maproom/Global/Atm_Temp/Anomaly.html">
+          <small>IRI Climate Monitoring</small></a>
+    </small>
+</p>
 
 #### Base dati HadCRUT5
 
@@ -75,15 +77,17 @@ indipendente, quali [GISTEMP](https://data.giss.nasa.gov/gistemp/),
 [NOAAGlobalTemp](https://www.ncdc.noaa.gov/data-access/marineocean-data/noaa-global-surface-temperature-noaaglobaltemp),
 [Berkeley Earth](http://berkeleyearth.org/) e [Reanalyses.org](https://reanalyses.org/).
 
-<div class="pb-2">
-<img src="https://www.metoffice.gov.uk/hadobs/hadcrut5/figures/HadCRUT5_figure_7.png"
-     class="mx-auto d-block img-fluid">
-<p class="text-center"><small>
-Anomalie delle temperature nei vari dataset &mdash;
-<a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/">
-<small>Met Office Hadley Centre</small></a>
-</small></p>
-</div>
+<picture>
+    <img src="https://www.metoffice.gov.uk/hadobs/hadcrut5/figures/HadCRUT5_figure_7.png"
+         class="mx-auto d-block img-fluid">
+</picture>
+<p class="text-center pb-2">
+    <small>
+        Anomalie delle temperature nei vari dataset &mdash;
+        <a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/">
+           <small>Met Office Hadley Centre</small></a>
+    </small>
+</p>
 
 La temperatura media globale negli anni 2010-2018 è
 [stimata](https://www.metoffice.gov.uk/about-us/press-office/news/weather-and-climate/2020/hadcrut5-announcement)
@@ -123,12 +127,15 @@ generabili dallo script.
 </p>
 </div>
 
-<div class="pb-2">
-<img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT-1850-1900-smoother.png"
-     class="mx-auto d-block img-fluid">
-<p class="text-center"><small>
-Anomalie delle temperature (medie su 5 anni) &mdash;
-<a href="https://github.com/madrisan/HadCRUT5/">
-<small>GitHub</small></a>
-</small></p>
-</div>
+<picture>
+    <img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT5-1850-1900-smoother.png"
+         alt="HadCRUT5 1850-1900 based with 5-years averages"
+         class="mx-auto d-block img-fluid">
+</picture>
+<p class="text-center">
+    <small>
+        Anomalie delle temperature (medie su 5 anni) &mdash;
+        <a href="https://github.com/madrisan/HadCRUT5/">
+           <small>GitHub</small></a>
+    </small>
+</p>
