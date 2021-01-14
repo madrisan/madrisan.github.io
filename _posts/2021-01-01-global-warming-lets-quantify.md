@@ -92,9 +92,8 @@ indipendente, quali [GISTEMP](https://data.giss.nasa.gov/gistemp/),
 La temperatura media globale negli anni 2010-2018 è
 [stimata](https://www.metoffice.gov.uk/about-us/press-office/news/weather-and-climate/2020/hadcrut5-announcement)
 ora a 1.07 ± 0.11°C superiore alla temperatura media del periodo 1850-1900
-(che è generalmente, ma non universalmente, considerata
-approssimabile a quella pre-industriale), con un incremento di 0.16°C rispetto alla versione
-precedente dai dati.
+(che è generalmente, ma non universalmente considerata approssimabile a quella pre-industriale),
+con un incremento di 0.16°C rispetto alla versione precedente dei dati.
 
 Generalmente viene preso in considerazione il periodo 1961-1990 poichè nell'arco temporale
 1850-1900 si sono verificati alcuni eventi vulcanici maggiori, tra cui in particolare:
@@ -104,17 +103,33 @@ Generalmente viene preso in considerazione il periodo 1961-1990 poichè nell'arc
    lo spazio),
  * Mount Tarawera (1886), la più grande eruzione storicamente registrata in Nuova Zelanda.
 
-L'ottimale sarebbe sarebbe usare come riferimento gli anni 1720-1800, ma purtroppo in questi
-anni non esistono collezioni di dati di temperatura sufficienti a coprire l'intero pianeta.
+Alternativamente viene preso come base di riferimento il periodo 1880-1920,
+con l'ipotesi che il limitato riscaldamento causato dai gas ad effetto serra emessi fino a
+questo periodo sia compensato dall'alta attività vulcanica di cui si è accennato.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-La stima del riscaldamento globale attuale che ne consegue è dunque di circa 1.2°C
-(1.200410°C calcolata sul periodo 1850-1900, 0.841467 sul periodo 1961-1990).
+La stima del riscaldamento globale attuale che ne consegue è dunque di circa 1.3°C
+(1.28°C calcolata sul periodo 1850-1900,
+ 1.31°C sul periodo 1880-1920, e di
+ 0.92°C relativamente al 1961-1990).
 Distribuita in modo non uniforme: maggiore nell'emisfero boreale e minore in quello australe,
 crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agli oceani.
 </p>
 </div>
+
+<picture>
+    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/images/about-us/press-office/release-images/global_temps_1920x1080.png"
+         alt="Global average temperature difference 1850-2020"
+         class="mx-auto d-block img-fluid pt-3 pb-2">
+</picture>
+<p class="text-center pb-2">
+    <small>
+        Anomalie delle temperature rispetto al periodo 1850-2020 &mdash;
+        <a href="https://www.metoffice.gov.uk/">
+           <small>MetOffice</small></a>
+    </small>
+</p>
 
 <div class="bd-callout bd-callout-info">
 <p>
