@@ -110,9 +110,9 @@ questo periodo sia compensato dall'alta attività vulcanica di cui si è accenna
 <div class="bd-callout bd-callout-warning">
 <p>
 La stima del riscaldamento globale attuale che ne consegue è dunque di circa 1.3°C
-(1.28°C calcolata sul periodo 1850-1900,
- 1.31°C sul periodo 1880-1920, e di
- 0.92°C relativamente al 1961-1990).
+(1.29°C calcolata sul periodo 1850-1900,
+ 1.32°C sul periodo 1880-1920, e di
+ 0.93°C relativamente al 1961-1990).
 Distribuita in modo non uniforme: maggiore nell'emisfero boreale e minore in quello australe,
 crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agli oceani.
 </p>
@@ -143,8 +143,8 @@ generabili dallo script.
 </div>
 
 <picture>
-    <img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT5-1850-1900-smoother.png"
-         alt="HadCRUT5 1850-1900 based with 5-years averages"
+    <img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT5-1880-1920-smoother.png"
+         alt="HadCRUT5 1880-1920 based with 5-years averages"
          class="mx-auto d-block img-fluid">
 </picture>
 <p class="text-center">
