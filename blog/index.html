@@ -37,9 +37,6 @@ title: Davide Madrisan's Blog
             </div>
             <div class="card-subtitle text-muted pl-4">
                 <small>{{ post.date | date_to_string }},</small>
-                {% if post.license %}
-                {% include license.html post_language=post.language post_license=post.license text_class="text-muted small" comma=true -%}
-                {% endif -%}
                 {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
             </div>
             {% if post.summary %}
