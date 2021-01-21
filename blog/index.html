@@ -36,7 +36,7 @@ title: Davide Madrisan's Blog
                     <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
             </div>
             <div class="card-subtitle text-muted pl-4">
-                <small>{{ post.date | date_to_string }},</small>
+                <small>{{ post.date | date_to_long_string: "ordinal" }},</small>
                 {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
             </div>
             {% if post.summary %}
