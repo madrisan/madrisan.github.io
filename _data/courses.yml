@@ -1,4 +1,9 @@
 data:
+  - year: 2021
+    courses:
+      - course: "Introduction to solar cells"
+        provider: "Technical University of Danemark"
+        badge: "solar technology"
   - year: 2020
     courses:
       - course: "Preventing Dementia"
