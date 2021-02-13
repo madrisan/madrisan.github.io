@@ -34,6 +34,14 @@ go-mattermost-notify post -c @alice -A CI -t "Job Status" -m "The job \#BEEF end
 as explained in the
 [documentation](https://github.com/madrisan/go-mattermost-notify/blob/main/README.md).
 
+<picture>
+    <img src="https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/mattermost_post_example.png"
+         class="mx-auto d-block img-fluid pt-3">
+</picture>
+<p class="text-center pt-2 pb-31">
+    <small>Example of a post message</small>
+</p>
+
 The source code is available at [GitHub](https://github.com/madrisan/go-mattermost-notify/)
 along with the (static) binaries compiled for:
 
