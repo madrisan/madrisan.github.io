@@ -8,31 +8,30 @@ category: projects
 summary: First stable release of go-mattermost-notify, a simple Mattermost notifier written in Go.
 ---
 
-I'm very proud to announce the immediate release of
+I'm very proud to announce the immediate release of the opensource project
 
-<div class="p-3 mb-2 h5 text-center font-weight-bold bg-info text-white">
+<div class="p-3 mb-3 h5 text-center font-weight-bold bg-info text-white shadow">
 go-mattermost-notify v1.0.0
 </div>
 
 a simple [Mattermost](https://mattermost.com/) notifier written in Go (golang) and redistributable
-under the [Apache-2.0](https://github.com/madrisan/go-mattermost-notify/blob/main/LICENSE)
-opensource license.
-
-This program makes use of the Go libraries *http* and *url* for interacting with a Mattermost
-server and *[Cobra](https://cobra.dev/)* coupled with *[Viper](https://github.com/spf13/viper)*
-to implement the command-line interface.
+under the [Apache-2.0](https://github.com/madrisan/go-mattermost-notify/blob/main/LICENSE) license.
 
 <picture>
     <img src="https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png"
          class="mx-auto d-block img-fluid pt-3">
 </picture>
-<p class="text-center pt-3 pb-3">
+<p class="text-center pt-2 pb-1">
     <small>
-       Logo &mdash;
        <a href="https://github.com/madrisan/go-mattermost-notify">
-          <small>GitHub site</small></a>
+          <small>go-mattermost-notify</small></a>'s logo
     </small>
 </p>
+
+This program makes use of the Go libraries *http* and *url* for interacting with a Mattermost
+server (via its [REST API v4](https://api.mattermost.com/v4/))
+and *[Cobra](https://cobra.dev/)* coupled with *[Viper](https://github.com/spf13/viper)*
+to implement the command-line interface.
 
 You can post *text* or *markdown*-formatted messages to a Mattermost channel (via its *ID*):
 ```bash
@@ -45,12 +44,14 @@ go-mattermost-notify post -c @alice -A CI -t "Job Status" -m "The job \#BEEF end
 as explained in the
 [documentation](https://github.com/madrisan/go-mattermost-notify/blob/main/README.md).
 
+A few settings can be configured also in a *yaml* configuration file.
+
 <picture>
     <img src="https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/mattermost_post_example.png"
-         class="mx-auto d-block img-fluid pt-3">
+         class="mx-auto d-block img-fluid pt-1">
 </picture>
 <p class="text-center pt-2 pb-31">
-    <small>Example of a post message</small>
+    <small>Example of a message posted to Mattermost</small>
 </p>
 
 The source code is available at [GitHub](https://github.com/madrisan/go-mattermost-notify/)
