@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mattemost Notify version 1.0.0
+title: Mattemost Notify 1.0.0
 date: 2021-02-09
 language: gb
 location: The Opensource World
@@ -8,8 +8,19 @@ category: projects
 summary: First stable release of go-mattermost-notify, a simple Mattermost notifier written in Go.
 ---
 
-I'm very proud to announce the immediate release of *go-mattermost-notify* version 1.0.0,
-a simple [Mattermost](https://mattermost.com/) notifier written in Go (golang).
+I'm very proud to announce the immediate release of
+
+<div class="p-3 mb-2 h5 text-center font-weight-bold bg-info text-white">
+go-mattermost-notify v1.0.0
+</div>
+
+a simple [Mattermost](https://mattermost.com/) notifier written in Go (golang) and redistributable
+under the [Apache-2.0](https://github.com/madrisan/go-mattermost-notify/blob/main/LICENSE)
+opensource license.
+
+This program makes use of the Go libraries *http* and *url* for interacting with a Mattermost
+server and *[Cobra](https://cobra.dev/)* coupled with *[Viper](https://github.com/spf13/viper)*
+to implement the command-line interface.
 
 <picture>
     <img src="https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png"
