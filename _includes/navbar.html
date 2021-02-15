@@ -33,6 +33,13 @@
 {%- endif %}
                             <a class="nav-link" href="/blog">BLOG</a>
                         </li>
+{%- if page.nav-item-active == "projects" %}
+                        <li class="nav-item active">
+{%- else %}
+                        <li class="nav-item">
+{%- endif %}
+                            <a class="nav-link" href="/projects">PROJECTS</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
