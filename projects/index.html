@@ -13,7 +13,7 @@ title: My Projects
                     <div class="card-header bg-light" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Opensource projects at GitHub
+                                 <h5 class="text-dark">Opensource projects at GitHub</h5>
                             </button>
                         </h5>
                     </div>
@@ -22,19 +22,31 @@ title: My Projects
                         <div class="card-body">
 {% for item in site.data.projects-github.data %}
                             <div class="row">
-                                <button type="button" class="btn btn-info btn-lg btn-block text-left text-white">
+                                <button type="button" class="btn btn-info btn-lg btn-block text-left text-white shadow">
                                     <i class="{{ item.icon  }}"></i>
                                     <span class="font-weight-bold ml-2">{{ item.project }}</span>
                                 </button>
                             </div>
+
                             <div class="row mt-3">
                                 <div class="col">
                                     <i>{{ item.description }}.</i>
                                 </div>
                             </div>
+
+{% if item.image %}
+                            <div class="d-flex justify-content-center pt-3">
+                                <figure class="figure img-fluid">
+                                    <img src="{{ item.image }}"
+                                         class="figure-img img-fluid rounded shadow">
+                                </figure>
+                            </div>
+{% endif %}
 {% if item.long-description %}
-                            <div class="bd-callout bd-callout-info">
-                                <small class="text-dark">{{ item.long-description }}.</small>
+                            <div class="row py-3">
+                                <div class="col">
+                                    <small class="text-secondary">{{ item.long-description }}.</small>
+                                </div>
                             </div>
 {% else %}
                             <div class="mt-3">

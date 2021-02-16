@@ -5,20 +5,29 @@ data:
     license: "GPL-3.0 License"
     long-description: "This project implements several Nagios plugins for monitoring Linux hosts. Nagios is an open source computer system monitoring, network monitoring and infrastructure monitoring software application. These plugins have been reported to also work with Icinga and Icinga2"
     url: https://github.com/madrisan/nagios-plugins-linux
+  - project: "HashiCorp Vault Monitoring Tool"
+    description: "Monitoring tool for HashiCorp Vault servers and clusters"
+    icon: "fa fa-key"
+    license: "MPL-2.0 License"
+    image: https://raw.githubusercontent.com/madrisan/hashicorp-vault-monitor/master/images/HashiCorp-Vault-Monitor-logo.png
+    url: "https://github.com/madrisan/hashicorp-vault-monitor"
   - project: "Mattermost Notify"
     description: "Mattermost Posts via its REST API v4"
     icon: "fas fa-fw fa-bell"
+    image: https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png
     license: "Apache-2.0 License"
     long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries http and url for interacting with a Mattermost server and Cobra coupled with Viper to implement the CLI interface"
     url: https://github.com/madrisan/go-mattermost-notify
   - project: "HadCRUT5"
     description: "Visualize the HadCRUT5 temperature datasets"
     icon: "fas fa-fw fa-chart-area"
+    image: https://raw.githubusercontent.com/madrisan/HadCRUT5/main/plots/HadCRUT5-1880-1920.png
     license: "Apache-2.0 License"
     long-description: "HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia"
     url: https://github.com/madrisan/HadCRUT5
   - project: "Dynamic Systems and Chaos"
     description: "Dynamic Systems and Chaos: plot logistic, cube, and sine orbits, final-state and bifurcation diagrams"
     icon: "fas fa-fw fa-cogs"
+    image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
     license: "GPL-3.0 License"
     url: https://github.com/madrisan/dynamic-systems-and-chaos
