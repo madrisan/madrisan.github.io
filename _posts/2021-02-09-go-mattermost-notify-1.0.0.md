@@ -8,7 +8,7 @@ category: projects
 summary: First stable release of go-mattermost-notify, a simple Mattermost notifier written in Go.
 ---
 
-I'm very proud to announce the immediate release of the opensource project
+I'm very proud to announce the immediate release of my last opensource project
 
 <div class="p-3 mb-3 h5 text-center font-weight-bold bg-info text-white shadow">
 go-mattermost-notify v1.0.0

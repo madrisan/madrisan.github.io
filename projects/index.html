@@ -12,8 +12,8 @@ title: My Projects
                 <div class="card">
                     <div class="card-header bg-light" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                 <h5 class="text-dark">Opensource projects at GitHub</h5>
+                            <button class="btn btn-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 <h5 class="text-dark">Recent Opensource Projects</h5>
                             </button>
                         </h5>
                     </div>
@@ -54,8 +54,12 @@ title: My Projects
 {% endif %}
                                 <ul class="list-unstyled">
                                     <li>
+                                        <i class="fas fa-fw fa-language text-secondary" aria-hidden="true"></i>
+                                        <span class="ml-1">Language: {{ item.main-language }}</span>
+                                    </li>
+                                    <li>
                                         <i class="fa fa-fw fa-github text-secondary" aria-hidden="true"></i>
-                                        <a href="{{ item.url }}" class="ml-1">GitHub URL</a>
+                                        <a href="{{ item.url }}" class="ml-1">Project URL</a>
                                     </li>
                                     <li>
                                         <i class="fa fa-fw fa-gavel text-secondary" aria-hidden="true"></i>

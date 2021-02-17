@@ -367,10 +367,11 @@ agricoltura su larga scala, resa possibile dalla sostanziale stabilità del clim
 <p>
 Oppure nella versione alternativa, descritta da James C. Scott nel suo libro
 "<i>Against the Grain &mdash; A deep history of the earliest states</i>",
-di abbandonare una vita di caccia e raccolta per una vita sedentaria in comunità
-dipendenti dall'allevamento del bestiame e dei cereali, perdendo la sua libertà personale e
-lavorativa. Costretto finanche a subire malattie imprevedibili causate dalla convivenza promiscua
-di uomini ed animali addomesticati, in comunità sempre più affollate.
+di abbandonare una vita di caccia e raccolta, complessa e ricca di attività diverse, per
+auto-addomesticarsi ad una vita sedentaria in comunità dipendenti dall'allevamento del bestiame
+e dei cereali, perdendo la sua libertà personale e lavorativa.
+Costretto finanche a subire malattie zoonotiche imprevedibili, causate dalla convivenza
+promiscua di uomini ed animali, addomesticati o opportunisti, in comunità sempre più affollate.
 </p>
 </div>
 
