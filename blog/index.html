@@ -24,23 +24,23 @@ title: Davide Madrisan's Blog
 
 <div class="container">
     {% for post in site.posts %}
-    <div class="cardi shadow">
+    <div class="card shadow">
+        <div class="card-header">
+            {% if post.language %}
+            <span class="f16 pr-1">
+                <span class="flag {{ post.language }}"></span>
+            </span>
+            {% endif %}
+            <a href="{{ post.url }}" title="{{ post.title }}">
+                <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
+        </div>
         <div class="card-body bg-light">
-            <div class="card-title">
-                {% if post.language %}
-                <span class="f16 pr-1">
-                    <span class="flag {{ post.language }}"></span>
-                </span>
-                {% endif %}
-                <a href="{{ post.url }}" title="{{ post.title }}">
-                    <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
-            </div>
-            <div class="card-subtitle text-muted pl-4">
+            <div class="card-subtitle text-muted">
                 <small>{{ post.date | date_to_long_string: "ordinal" }},</small>
                 {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
             </div>
             {% if post.summary %}
-            <p class="card-text font-italic pt-1">{{ post.summary }}</p>
+            <p class="card-text font-italic pt-2">{{ post.summary }}</p>
             {% endif %}
         </div>
     </div>
