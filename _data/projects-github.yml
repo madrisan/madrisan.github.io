@@ -17,7 +17,7 @@ data:
     url: "https://github.com/madrisan/hashicorp-vault-monitor"
 
   - project: "Keepalived Tracking Script for HashiCorp Vault HA"
-    description: "Keepalived Tracking Script written in Python3 for HashiCorp Vault High Availability Clusters."
+    description: "Keepalived Tracking Script written in Python3 for HashiCorp Vault High Availability Clusters"
     icon: "fa fa-random"
     license: "GPL-3.0 License"
     main-language: Python
