@@ -5,12 +5,12 @@ date: 2021-02-09
 language: gb
 location: The Opensource World
 category: projects
-summary: First stable release of go-mattermost-notify, a simple Mattermost notifier written in Go.
+summary: First stable release of go-mattermost-notify, a simple and open-source Mattermost notifier written in Go and redistributable under the Apache-2.0 license. You can post <i>text</i> or <i>markdown</i>-formatted messages to a Mattermost channel (via its <i>ID</i>) or send <i>direct messages</i> to a user.
 ---
 
 I'm very proud to announce the immediate release of my last opensource project
 
-<div class="p-3 mb-3 h5 text-center font-weight-bold bg-info text-white shadow">
+<div class="p-3 mb-3 h5 text-center bg-info text-white font-weight-bold shadow">
 go-mattermost-notify v1.0.0
 </div>
 

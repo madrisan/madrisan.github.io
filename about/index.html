@@ -63,10 +63,10 @@ title: About Myself
                         DevOps Technologies, Web Technologies, Learning Technics, and so on.
                         More recently I added Health and Climate Science related courses to my learning objectives.</p>
 
-                        <h4 class="pt-1 pb-2">Certifications and Online Courses</h4>
+                        <h5 class="pt-1 pb-2">Certifications and Online Courses</h5>
 
                         {% for item in site.data.courses.data %}
-                            <h6>{{ item.year }}</h6>
+                            <span>{{ item.year }}</span>
                             <div class="container">
                             {% assign courses = item.courses %}
                             <table class="table table-hover table-sm">
@@ -97,7 +97,7 @@ title: About Myself
                             <figure class="figure img-fluid">
                                 <img src="https://github.com/madrisan/cv/raw/master/images/experiences.png"
                                      class="figure-img img-fluid rounded shadow-lg" alt="my job experiences">
-                                <figcaption class="figure-caption text-center font-weight-bold">
+                                <figcaption class="figure-caption text-center">
                                             An annotated scatter plot that should help visualizing my job and learning activities
                                 </figcaption>
                             </figure>
@@ -108,13 +108,13 @@ title: About Myself
                                 <a download href="https://github.com/madrisan/cv/blob/master/README.md#printable-version">
                                     <button type="button" class="btn btn-info btn-lg">
                                         <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                        <span class="font-weight-bold">My Curriculum Vit&aelig; on GitHub</span>
+                                        <span>My Curriculum Vit&aelig; on GitHub</span>
                                     </button>
                                 </a>
                             </div>
                         </div>
 
-                        <h5>TeX Developer</h5>
+                        <h6>TeX Developer</h6>
 
                         <p>My very first job experience (1998-1999) was the development of a collection of TeX macros and document
                            styles written in pure <i>plain</i>TeX language for the Academy of Science of Torino.
@@ -128,7 +128,7 @@ title: About Myself
                            <p>You can see the code in my
                               <a href="https://github.com/madrisan/TeX-macros/tree/master/astmacro">GitHub repository</a>.</p>
 
-                        <h5>Network WAN Engineer</h5>
+                        <h6>Network WAN Engineer</h6>
 
                         <p>In 1999 I started to work in the private IT and Telecommunication sectors as <i>Cisco WAN Engineer</i>.
                            Between 2001 and 2003 I worked at the Atlanet Internet Service Provider (now part of British Telecom)
@@ -136,7 +136,7 @@ title: About Myself
                            implementing, configuring, troubleshooting and testing of MPLS (Multiprotocol Label Switching)
                            networking systems.</p>
 
-                        <h5>Linux distribution developer</h5>
+                        <h6>Linux distribution developer</h6>
 
                         <p>My primary technological interest since 1999 is studying and hacking the Linux environment and playing
                            with the latest open source technologies.</p>
@@ -149,20 +149,20 @@ title: About Myself
                            <a href="https://openmamba.org/en/"><i>openmamba</i></a> <i>GNU/Linux</i> distribution with roots in the
                            discontinued <i>QiLinux</i> distribution but which has quickly moved to a fully independent project.</p>
 
-                        <h5>Linux and VMware Certified Engineer</h5>
+                        <h6>Linux and VMware Certified Engineer</h6>
 
                         <p>Between 2007 and 2011 I worked at <i>IBM Italy</i> and than <i>IBM France</i> as a Linux and VMware system
                            administrator in high pressure working environments. In particular at IBM SSO France, I was assigned
                            on multiple client Linux support and gained <i>incident management</i>, <i>compliance</i> and
                            <i>process skills</i> in a very strict <i>ITIL</i> and <i>GDF</i> environment.</p>
 
-                        <h5>Monitoring Architect and Team Leader</h5>
+                        <h6>Monitoring Architect and Team Leader</h6>
 
                         <p>I switched in october 2011 to a very enriching job as <i>Nagios/Centreon monitoring architect</i>,
                         <i>developer</i>, and <i>team leader</i> of the Nagios monitoring team (France and Poland)
                         at IBM La Gaude. I ended my job experience at IBM in june 2014.</p>
 
-                        <h5>Auto-entrepreneuriship</h5>
+                        <h6>Auto-entrepreneuriship</h6>
 
                         <div class="row">
                             <div class="col-md-12">
@@ -174,14 +174,14 @@ title: About Myself
                             </div>
                         </div>
 
-                        <h5>Infrastructure Lead DevOps</h5>
+                        <h6>Infrastructure Lead DevOps</h6>
 
                         <p>I started working in september 2017 at Qwant, the French startup company that develops the eponymous web
                         search engine that respects the user's privacy. I've worked as <i>Infrastructure Lead DevOps</i> with
                         an expertise in the <i>Infrastructure as Code</i> good practices and technologies
                         (the <i>SaltStack</i> framework essentially), Docker containerization, and Python programming.</p>
 
-                        <h5>Software Engineer</h5>
+                        <h6>Software Engineer</h6>
 
                         <p>In May 2020 I moved to a new position as a <i>Software Engineer</i> at Qwant, focusing on
                         <i>Continuous integration</i> with GitLab CI and applications deployment on Kubernetes.</p>

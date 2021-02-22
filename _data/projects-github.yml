@@ -4,7 +4,7 @@ data:
     icon: "fa fa-fw fa-check-double"
     image: /assets/images/projects-logo-nagios.png
     license: "GPL-3.0 License"
-    long-description: "This project implements several Nagios plugins for monitoring Linux hosts. Nagios is an open source computer system monitoring, network monitoring and infrastructure monitoring software application. These plugins have been reported to also work with Icinga and Icinga2"
+    long-description: "This project implements several Nagios plugins for monitoring Linux hosts. Nagios is an open source computer system monitoring, network monitoring and infrastructure monitoring software application. These plugins have been reported to also work with Icinga and Icinga2."
     main-language: C
     url: https://github.com/madrisan/nagios-plugins-linux
 
@@ -13,13 +13,15 @@ data:
     icon: "fa fa-key"
     license: "MPL-2.0 License"
     image: https://raw.githubusercontent.com/madrisan/hashicorp-vault-monitor/master/images/HashiCorp-Vault-Monitor-logo.png
+    long-description: "The Go binary <i>hashicorp-vault-monitor</i> monitors the status (unsealed/sealed) of the cluster nodes, the HA cluster status, the installed Vault policies, the access to the Vault KV data store, and the expiration date of a Vault token (directly or via its associated token accessor)."
     main-language: Go
     url: "https://github.com/madrisan/hashicorp-vault-monitor"
 
-  - project: "Keepalived Tracking Script for HashiCorp Vault HA"
+  - project: "Keepalived Script for Vault HA"
     description: "Keepalived Tracking Script written in Python3 for HashiCorp Vault High Availability Clusters"
     icon: "fa fa-random"
     license: "GPL-3.0 License"
+    long-description: "<p>To avoid a single point of failure with your HashiCorp Vault infrastructure, one would set up Vault in <i>High Availability Mode</i> (HA) with two identical Vault instances (one <i>active</i> and one <i>standby</i>) and use Keepalived to run <i>VRRP</i> between them.</p><p>The Python3 script <i>vault_ha_active_node.py</i> looks at the environment variable <i>VAULT_ADDR</i> and when set do ask the Vault REST API if the (local) Vault node is the active one. In that case will return 0. The script will return 1 otherwise (<i>VAULT_ADDR</i> unset, vault service not running or running but not <i>unsealed</i>, node in standby mode, a network error). The script requires the Python library <i>Requests</i>."
     main-language: Python
     url: https://github.com/madrisan/keepalived-vault-ha
 
@@ -28,7 +30,7 @@ data:
     icon: "fas fa-fw fa-bell"
     image: https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png
     license: "Apache-2.0 License"
-    long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries http and url for interacting with a Mattermost server and Cobra coupled with Viper to implement the CLI interface"
+    long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries http and url for interacting with a Mattermost server and Cobra coupled with Viper to implement the CLI interface."
     main-language: Go
     url: https://github.com/madrisan/go-mattermost-notify
 
@@ -37,14 +39,15 @@ data:
     icon: "fas fa-fw fa-chart-area"
     image: https://raw.githubusercontent.com/madrisan/HadCRUT5/main/plots/HadCRUT5-1880-1920.png
     license: "Apache-2.0 License"
-    long-description: "HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia"
+    long-description: "<p>HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia.</p><p>The Python script <i>hadcrut5-plot.py</i> parses the HadCRUT5 datasets and plots several graphs. It requires the Python libraries <i>Matplotlib</i>, <i>netCDF4</i>, <i>NumPy</i>, and <i>Requests</i>.</p>"
     main-language: "Python"
     url: https://github.com/madrisan/HadCRUT5
 
   - project: "Dynamic Systems and Chaos"
-    description: "Dynamic Systems and Chaos: plot logistic, cube, and sine orbits, final-state and bifurcation diagrams"
+    description: "Plot logistic/cube/sine orbits, final-state and bifurcation diagrams"
     icon: "fas fa-fw fa-cogs"
     image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
     license: "GPL-3.0 License"
+    long-description: "<p>This software has been developed as part of the (optional) homeworks of the MOOC <b>Introduction to Dynamical Systems and Chaos</b> (Summer, 2016), leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic.</p><p>For more details about the chaos and sync theories, see the Steven Strogatz's books <i>Sync</i> and <i>Nonlinear Dynamics and Chaos</i>. Or the David Feldman's introductory book <i>Chaos and Fractals: An Elementary Introduction<i>.</p>"
     main-language: "Python"
     url: https://github.com/madrisan/dynamic-systems-and-chaos

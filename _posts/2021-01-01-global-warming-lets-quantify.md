@@ -2,14 +2,14 @@
 layout: post
 category: climate-change
 date: 2021-01-01
-highcharts: off
+e-ighcharts: off
 image: /assets/images/blog-climate-changes-glacier.jpg
 language: it
 license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'on'
-summary: A quanto viene stimato il riscaldamento globale attuale?
-title: Misura del Riscaldamento Globale
+summary: Sono disponibili numerose basi dati di misure delle temperature terrestri, ragionevolmente complete, e fin dalla seconda metà del XIX secolo. Il <i>Met Office Hadley Centre</i> in collaboratione con il <i>Climatic Research Unit</i> dalla University of East Anglia ha rilasciato a metà dicembre 2020 una nuova versione della base dati <i>HadCRUT</i>, che copre l'intero globo terrestre e contiene i dati mensili medi di ogni cella di controllo. In questo post visualizziamo questo dataset e calcoliamo una stima del riscaldamento globale attuale.
+title: Misura del Riscaldamento Globale.
 titlejumbotron: 'off'
 ---
 ## Cambiamenti Climatici

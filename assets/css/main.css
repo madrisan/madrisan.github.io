@@ -4,16 +4,17 @@
 @import "highlight-monokai.css";
 
 body {
-    font-family: "Garamond", 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-family: "Verdana", "Geneva", "sans-serif";
+    font-size: 12px;
 }
 
 body, wrapper {
     min-height: 100vh;
 }
 
-* {
-    font-size: 16px;
-    font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 a.anchor-plain {
@@ -43,10 +44,6 @@ a:visited .label {
 /* workaround to avoid a dark color in the share to socials buttons */
 a.btn-social-icon {
     color: white;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 nav a {
@@ -120,10 +117,9 @@ nav a {
     clear: both;
 }
 
-.font-architects-daughter {
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+.image-header {
+    max-height: 200px;
 }
-
 .jumbotron-main {
     background: url("/assets/images/main-mountains.jpg");
     background-position: 20 70%;

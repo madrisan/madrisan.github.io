@@ -3,14 +3,16 @@ layout: default
 nav-item-active: blog
 title: Davide Madrisan's Blog
 ---
-<div class="jumbotron jumbotron-fluid jumbotron-blog align-items-center img-fluid"
+<div class="jumbotron jumbotron-fluid jumbotron-blog img-fluid"
      style="background-image: url({{  site.images.blog.default }});">
-    <h1 class="text-center">Recent Posts</h1>
-    <h5 class="text-center text-secondary">Articles about science and technology</h5>
+    <h2 class="text-center text-uppercase pb-1">Recent Posts</h2>
+    <h3 class="text-center text-secondary">
+        Articles about science and technology
+    </h3>
 </div>
 
 <div class="container">
-    <div class="row pb-3">
+    <div class="row pb-4">
         <div class="col">
             <span class="border">
                 <i class="fa fa-rss-square fa-rss-color ml-1" aria-hidden="true"></i>
@@ -23,28 +25,51 @@ title: Davide Madrisan's Blog
 </div>
 
 <div class="container">
-    {% for post in site.posts %}
-    <div class="card shadow">
-        <div class="card-header">
-            {% if post.language %}
-            <span class="f16 pr-1">
-                <span class="flag {{ post.language }}"></span>
-            </span>
-            {% endif %}
-            <a href="{{ post.url }}" title="{{ post.title }}">
-                <span class="font-weight-bold font-architects-daughter">{{ post.title }}</span></a>
-        </div>
-        <div class="card-body bg-light">
-            <div class="card-subtitle text-muted">
-                <small>{{ post.date | date_to_long_string: "ordinal" }},</small>
+{% for post in site.posts %}
+
+    <div class="row justify-content-md-center mt-3">
+        <div class="col-md-8">
+
+            <h4 class="text-center">
+                <i class="{{ item.icon }}"></i>
+                <span>{{ post.title }}</span>
+            </h4>
+
+            <span class="d-flex justify-content-center text-muted">
+                <!--
+                {% if post.language %}
+                <span class="f16 pr-1">
+                    <span class="flag {{ post.language }}"></span>
+                </span>
+                {% endif %}
+                -->
+                <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
+                <small>/</small>
                 {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
+            </span>
+
+{% if post.summary %}
+            <p class="card-text pt-4">{{ post.summary }}</p>
+{% endif %}
+
+{% if forloop.last != true %}
+            <div class="align-items-md-end d-flex justify-content-center pt-4">
+{% else %}
+            <div class="align-items-md-end d-flex justify-content-center pt-4 pb-3">
+{% endif %}
+                <a href="{{ post.url }}" title="{{ post.title }}"
+                   class="btn btn-info btn-sm text-white" role="button">
+                    <i class="fas fa-anchor"></i>
+                    <span class="text-capitalize">Read more</span>
+                </a>
             </div>
-            {% if post.summary %}
-            <p class="card-text font-italic pt-2">{{ post.summary }}</p>
-            {% endif %}
+
         </div>
     </div>
-    <div class="pt-1">
-    </div>
-    {% endfor %}
+
+{% if forloop.last != true %}
+    <hr class="pb-3">
+{% endif %}
+
+{% endfor %}
 </div>

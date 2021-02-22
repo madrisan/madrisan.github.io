@@ -6,7 +6,7 @@ highcharts: on
 language: gb
 location: Nice
 mathjax: on
-summary: Well. Finally got around to putting this website together...
+summary: Well. Finally got around to putting this website together. Powered by <i>Jekyll</i>, the <i>Liquid</i> template language, it supports HTML and markdown syntaxes in the posts. The layout is enriched by the usage of <i>Bootstrap 4</i>, <i>Font Awesome</i>, <i>Google Fonts</i>, and a few other optional JavaScript engines.
 title: My new website is born
 ---
 
