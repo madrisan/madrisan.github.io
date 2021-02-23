@@ -18,19 +18,19 @@ data:
     url: "https://github.com/madrisan/hashicorp-vault-monitor"
 
   - project: "Keepalived Script for Vault HA"
-    description: "Keepalived Tracking Script written in Python3 for HashiCorp Vault High Availability Clusters"
+    description: "Keepalived Tracking Script for HashiCorp Vault High Availability Clusters"
     icon: "fa fa-random"
     license: "GPL-3.0 License"
-    long-description: "<p>To avoid a single point of failure with your HashiCorp Vault infrastructure, one would set up Vault in <i>High Availability Mode</i> (HA) with two identical Vault instances (one <i>active</i> and one <i>standby</i>) and use Keepalived to run <i>VRRP</i> between them.</p><p>The Python3 script <i>vault_ha_active_node.py</i> looks at the environment variable <i>VAULT_ADDR</i> and when set do ask the Vault REST API if the (local) Vault node is the active one. In that case will return 0. The script will return 1 otherwise (<i>VAULT_ADDR</i> unset, vault service not running or running but not <i>unsealed</i>, node in standby mode, a network error). The script requires the Python library <i>Requests</i>."
+    long-description: "<p>To avoid a single point of failure with your HashiCorp Vault infrastructure, one would set up Vault in <i>High Availability Mode</i> (HA) with two identical Vault instances (one <i>active</i> and one <i>standby</i>) and use Keepalived to run <i>VRRP</i> between them.</p>The Python3 script <i>vault_ha_active_node.py</i> looks at the environment variable <i>VAULT_ADDR</i> and when set do ask the Vault REST API if the (local) Vault node is the active one. In that case will return 0. The script will return 1 otherwise (<i>VAULT_ADDR</i> unset, vault service not running or running but not <i>unsealed</i>, node in standby mode, a network error). It requires the Python library <i>Requests</i>."
     main-language: Python
     url: https://github.com/madrisan/keepalived-vault-ha
 
   - project: "Mattermost Notify"
-    description: "Mattermost Posts via its REST API v4"
+    description: "Post messages to Mattermost via its REST APIv4"
     icon: "fas fa-fw fa-bell"
     image: https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png
     license: "Apache-2.0 License"
-    long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries http and url for interacting with a Mattermost server and Cobra coupled with Viper to implement the CLI interface."
+    long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries <i>http</i> and <i>url</i> for interacting with a Mattermost server and <i>Cobra</i> coupled with <i>Viper</i> to implement the CLI interface."
     main-language: Go
     url: https://github.com/madrisan/go-mattermost-notify
 
@@ -39,7 +39,7 @@ data:
     icon: "fas fa-fw fa-chart-area"
     image: https://raw.githubusercontent.com/madrisan/HadCRUT5/main/plots/HadCRUT5-1880-1920.png
     license: "Apache-2.0 License"
-    long-description: "<p>HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia.</p><p>The Python script <i>hadcrut5-plot.py</i> parses the HadCRUT5 datasets and plots several graphs. It requires the Python libraries <i>Matplotlib</i>, <i>netCDF4</i>, <i>NumPy</i>, and <i>Requests</i>.</p>"
+    long-description: "<p>HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia.</p>The Python script <i>hadcrut5-plot.py</i> parses the HadCRUT5 datasets and plots several graphs. It requires the Python libraries <i>Matplotlib</i>, <i>netCDF4</i>, <i>NumPy</i>, and <i>Requests</i>."
     main-language: "Python"
     url: https://github.com/madrisan/HadCRUT5
 
@@ -48,6 +48,6 @@ data:
     icon: "fas fa-fw fa-cogs"
     image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
     license: "GPL-3.0 License"
-    long-description: "<p>This software has been developed as part of the (optional) homeworks of the MOOC <b>Introduction to Dynamical Systems and Chaos</b> (Summer, 2016), leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic.</p><p>For more details about the chaos and sync theories, see the Steven Strogatz's books <i>Sync</i> and <i>Nonlinear Dynamics and Chaos</i>. Or the David Feldman's introductory book <i>Chaos and Fractals: An Elementary Introduction<i>.</p>"
+    long-description: "This software has been developed as part of the (optional) homeworks of the MOOC <i>Introduction to Dynamical Systems and Chaos</i>, leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic."
     main-language: "Python"
     url: https://github.com/madrisan/dynamic-systems-and-chaos

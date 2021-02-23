@@ -38,20 +38,20 @@ title: My Projects
 {% endif %}
 
 {% if item.long-description %}
-            <small>{{ item.long-description }}</small>
+            {{ item.long-description }}
 {% endif %}
             <ul class="list-unstyled pt-4">
                 <li>
                     <i class="fas fa-fw fa-language text-secondary small" aria-hidden="true"></i>
-                    <span class="small ml-1">Language: {{ item.main-language }}</span>
+                    <span class="text-secondary ml-1">Language: {{ item.main-language }}</span>
                 </li>
                 <li>
                     <i class="fa fa-fw fa-github text-secondary small" aria-hidden="true"></i>
-                    <a href="{{ item.url }}" class="small ml-1">Project URL</a>
+                    <a href="{{ item.url }}" class="text-secondary ml-1">Project URL</a>
                 </li>
                 <li>
                     <i class="fa fa-fw fa-gavel text-secondary small" aria-hidden="true"></i>
-                    <span class="small ml-1">{{ item.license }}</span>
+                    <span class="text-secondary ml-1">{{ item.license }}</span>
                 </li>
             </ul>
         </div>
