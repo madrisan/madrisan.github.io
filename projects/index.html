@@ -18,22 +18,22 @@ title: My Projects
     <div class="row mt-3">
 {% endif %}
 
-{% if mod == 0 %}
-        <div class="col-md-6"
-             style="padding-right:20px; border-right: 1px solid #ccc;">
+{% if forloop.last != true %}
+        <div class="col-md-6 pb-4">
 {% else %}
         <div class="col-md-6">
 {% endif %}
-            <h4 class="text-center pt-2">
+
+            <h3 class="text-center text-info pt-2">
                 <span>{{ item.project }}</span>
-            </h4>
+            </h3>
 
             <h5 class="text-center text-secondary pt-2 pb-4">{{ item.description }}</h5>
 
 {% if item.image %}
-            <div class="text-center py-4">
+            <div class="text-center pb-3">
                 <img src="{{ item.image }}"
-                     class="figure-img img-fluid image-header rounded shadow">
+                     class="figure-img img-fluid image-header rounded">
             </div>
 {% endif %}
 
@@ -58,10 +58,6 @@ title: My Projects
 
 {% if mod == 1 %}
     </div>
-{% endif %}
-
-{% if forloop.last != true %}
-    <hr class="pb-2">
 {% endif %}
 
 {% endfor %}

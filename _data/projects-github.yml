@@ -4,7 +4,7 @@ data:
     icon: "fa fa-fw fa-check-double"
     image: /assets/images/projects-logo-nagios.png
     license: "GPL-3.0 License"
-    long-description: "This project implements several Nagios plugins for monitoring Linux hosts. Nagios is an open source computer system monitoring, network monitoring and infrastructure monitoring software application. These plugins have been reported to also work with Icinga and Icinga2."
+    long-description: "<p>This project implements about thirty Nagios plugins for monitoring Linux hosts (cpu, fiber channel status, filesystems, interrupts, memory, mount points, multipath, network status, number of active processes, number of connected users, paging, swap, system load, pressure, uptime, and time) and some limited aspects of docker and podman containers.</p>Nagios is an open source computer system monitoring, network monitoring and infrastructure monitoring software application. These plugins have been reported to also work with Icinga and Icinga2."
     main-language: C
     url: https://github.com/madrisan/nagios-plugins-linux
 

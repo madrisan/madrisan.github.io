@@ -5,7 +5,7 @@ title: Davide Madrisan's Blog
 ---
 <div class="jumbotron jumbotron-fluid jumbotron-blog img-fluid"
      style="background-image: url({{  site.images.blog.default }});">
-    <h2 class="text-center text-uppercase pb-1">Recent Posts</h2>
+    <h2 class="text-center text-info text-uppercase pb-1">Recent Posts</h2>
     <h3 class="text-center text-secondary">
         Articles about science and technology
     </h3>
@@ -34,10 +34,7 @@ title: Davide Madrisan's Blog
 {% endif %}
         <div class="col-md-8">
 
-            <h4 class="text-center">
-                <i class="{{ item.icon }}"></i>
-                <span>{{ post.title }}</span>
-            </h4>
+            <h4 class="text-center text-info">{{ post.title }}</h4>
 
             <span class="d-flex justify-content-center text-muted">
                 <!--
