@@ -27,7 +27,11 @@ title: Davide Madrisan's Blog
 <div class="container">
 {% for post in site.posts %}
 
-    <div class="row justify-content-md-center mt-3">
+{% if forloop.index == 1 %}
+    <div class="row justify-content-md-center mt-2">
+{% else %}
+    <div class="row justify-content-md-center mt-4">
+{% endif %}
         <div class="col-md-8">
 
             <h4 class="text-center">
@@ -44,7 +48,7 @@ title: Davide Madrisan's Blog
                 {% endif %}
                 -->
                 <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
-                <small>/</small>
+                <small class="mx-2">/</small>
                 {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
             </span>
 
