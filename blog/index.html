@@ -49,6 +49,13 @@ title: Davide Madrisan's Blog
                 {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
             </span>
 
+{% if post.image %}
+            <div class="text-center pt-3 pb-1">
+                <img src="{{ post.image }}"
+                     class="figure-img img-fluid image-header">
+            </div>
+{% endif %}
+
 {% if post.summary %}
             <p class="card-text pt-4">{{ post.summary }}</p>
 {% endif %}
