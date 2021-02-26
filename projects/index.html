@@ -3,11 +3,12 @@ layout: default
 nav-item-active: projects
 title: My Projects
 ---
-
-<div class="jumbotron jumbotron-fluid bg-info img-fluid text-white">
-    <h2 class="text-center text-uppercase pb-1">My most starred GitHub Projects</h2>
+<div class="jumbotron jumbotron-fluid jumbotron-header"
+     style="background-image: url(/assets/images/projets-website-header-image-gray.png);">
+    <div class="container text-white">
+        <h1>My most starred GitHub Project</h1>
+    </div>
 </div>
-
 
 <div class="container">
 {% for item in site.data.projects-github.data %}

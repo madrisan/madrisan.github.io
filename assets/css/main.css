@@ -119,6 +119,27 @@ nav a {
 .image-header {
     max-height: 200px;
 }
+
+.jumbotron-header {
+    align-items: center;
+    background-position: 0 50%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron-header .container {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    padding: 5pt;
+    position: relative;
+    z-index: 2;
+}
+
 .jumbotron-main {
     background: url("/assets/images/main-mountains.jpg");
     background-position: 20 70%;
