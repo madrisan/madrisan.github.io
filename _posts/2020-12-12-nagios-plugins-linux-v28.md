@@ -7,6 +7,9 @@ location: The Opensource World
 category: projects
 summary: A new version of <i>Nagios Plugins for Linux</i> is out! This project contains a quite complete set of enterprise ready Nagios plugins for monitoring Linux boxes. New features include the new plugin <i>check_pressure</i> (that reports the Linux Pressure Stall Information (PSI) exported by Linux kernels 4.20+) and the porting to <i>Linux Alpine</i> 3.12 with packaging available.
 ---
+<div class="pb-2">
+<h2 class="text-info">Nagios Plugins for Linux</h2>
+</div>
 
 The version 28 of the Nagios Plugins for Linux ("*Alpine Hike*") is available
 for download!

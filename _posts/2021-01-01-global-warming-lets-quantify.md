@@ -12,8 +12,11 @@ summary: Sono disponibili numerose basi dati di misure delle temperature terrest
 title: Misura del Riscaldamento Globale
 titlejumbotron: 'off'
 ---
-## Cambiamenti Climatici
-### Misura del Riscaldamento Globale
+<div class="pb-2">
+<h2 class="text-info">Cambiamenti Climatici</h2>
+</div>
+
+#### Misura del Riscaldamento Globale
 
 Nel [post precedente]({% post_url 2020-12-29-climate-changes-physics %})
 abbiamo definito come *cambiamento climatico* una modifica dei valori statistici del clima

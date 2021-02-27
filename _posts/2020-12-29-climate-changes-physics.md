@@ -12,8 +12,11 @@ summary: 'Una breve carrellata sulla fisica dei Cambiamenti Climatici utili a co
 title: Fisica dei Cambiamenti Climatici
 titlejumbotron: 'off'
 ---
-## Cambiamenti Climatici
-### Riscaldamento Globale
+<div class="pb-2">
+<h2 class="text-info">Cambiamenti Climatici</h2>
+</div>
+
+#### Riscaldamento Globale
 
 Cominciamo col definire *cambiamento climatico* la modifica dei valori statistici del clima
 terrestre (variazione dei valori medi ed estremi delle temperature e delle precipitazioni o di
