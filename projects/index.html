@@ -26,6 +26,9 @@ title: My Projects
 {% endif %}
 
             <h3 class="text-center text-info pt-2">
+{% if item.icon %}
+                <i class="{{ item.icon }}"></i>
+{% endif %}
                 <span>{{ item.project }}</span>
             </h3>
 

@@ -25,6 +25,22 @@ data:
     main-language: Python
     url: https://github.com/madrisan/keepalived-vault-ha
 
+  - project: "wtmpclean"
+    description: "A tool for dumping wtmp files and patching wtmp records"
+    icon: "fa fa-user-secret"
+    license: "GPL-3.0 License"
+    long-description: "<i>wtmpclean</i> is a security tool that is able to dump Linux <i>wtmp</i> files and patch or delete <i>wtmp</i> records matching a regular expression or a given date and time."
+    main-language: C
+    url: https://github.com/madrisan/wtmpclean
+
+  - project: "PyXymon"
+    description: "A Python module for writing Xymon external scripts"
+    icon: "fa fa-file-text"
+    license: "GPL-3.0 License"
+    long-description:  "PyXymon provides some methods for rendering the messages you want to display in the Xymon web page and for sending them to the Xymon server. PyXymon reads the required informations from the Xymon environment variables, so you do not need to add any extra configuration file."
+    main-language: Python
+    url: https://github.com/madrisan/pyxymon
+
   - project: "Mattermost Notify"
     description: "Post messages to Mattermost via its REST APIv4"
     icon: "fas fa-fw fa-bell"
