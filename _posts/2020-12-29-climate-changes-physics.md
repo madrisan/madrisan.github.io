@@ -8,14 +8,11 @@ language: it
 license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'on'
+post-title: Cambiamenti Climatici
 summary: 'Una breve carrellata sulla fisica dei Cambiamenti Climatici utili a comprendere i fenomeni che sono alla base del clima, per rendere meno astratta una espressione ormai comunemente usata da tutti, e che costituisce un importante aspetto dei cambiamenti climatici: il <i>riscaldamento globale</i>.'
 title: Fisica dei Cambiamenti Climatici
 titlejumbotron: 'off'
 ---
-<div class="pb-2">
-<h2 class="text-info">Cambiamenti Climatici</h2>
-</div>
-
 #### Riscaldamento Globale
 
 Cominciamo col definire *cambiamento climatico* la modifica dei valori statistici del clima

@@ -6,13 +6,10 @@ highcharts: on
 language: gb
 location: Nice
 mathjax: on
+post-title: New Website and Technologies
 summary: Well. Finally got around to putting this website together. Powered by <i>Jekyll</i>, the <i>Liquid</i> template language, it supports HTML and markdown syntaxes in the posts. The layout is enriched by the usage of <i>Bootstrap 4</i>, <i>Font Awesome</i>, <i>Google Fonts</i>, and a few other optional JavaScript engines.
 title: My new website is born
 ---
-<div class="pb-2">
-<h2 class="text-info">New Website and Technologies</h2>
-</div>
-
 Well. Finally got around to putting this website together.
 
 Powered by [Jekyll](http://jekyllrb.com) and the [Liquid](https://shopify.github.io/liquid/)

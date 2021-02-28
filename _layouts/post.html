@@ -122,7 +122,12 @@
                 <div class="container pt-3">
                     <div class="row">
                         <div class="col">
-                        {{ content }}
+{%if page.post-title %}
+                            <div class="pb-2">
+                                <h2 class="text-info">{{ page.post-title }}</h2>
+                            </div>
+{% endif %}
+                            {{ content }}
                         </div>
                     </div>
                 </div>
