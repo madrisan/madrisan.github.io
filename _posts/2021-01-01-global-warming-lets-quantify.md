@@ -119,15 +119,15 @@ crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agl
 </div>
 
 <picture>
-    <img src="https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/images/about-us/press-office/release-images/global_temps_1920x1080.png"
+    <img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT5-global-1880-1920.png"
          alt="Global average temperature difference 1850-2020"
          class="mx-auto d-block img-fluid pt-3 pb-2">
 </picture>
 <p class="text-center pb-2">
     <small>
         Anomalie delle temperature rispetto al periodo 1850-2020 &mdash;
-        <a href="https://www.metoffice.gov.uk/">
-           <small>MetOffice</small></a>
+        <a href="ihttps://github.com/madrisan/HadCRUT5/">
+           <small>GitHub</small></a>
     </small>
 </p>
 
