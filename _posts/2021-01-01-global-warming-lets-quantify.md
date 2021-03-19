@@ -126,7 +126,7 @@ crescente allontanandosi dall'equatore e superiore sulla terraferma rispetto agl
 <p class="text-center pb-2">
     <small>
         Anomalie delle temperature rispetto al periodo 1850-2020 &mdash;
-        <a href="ihttps://github.com/madrisan/HadCRUT5/">
+        <a href="https://github.com/madrisan/HadCRUT5/">
            <small>GitHub</small></a>
     </small>
 </p>
