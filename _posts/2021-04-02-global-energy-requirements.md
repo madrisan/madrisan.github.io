@@ -156,7 +156,8 @@ distanza tra sole e terra:
 
 $$
 \begin{eqnarray}
-E_s &=& \frac{P_{sun}}{4 \cdot \pi \cdot r^2_{SE}} = \frac{3,845 \cdot 10^{26} W}{4 \pi \cdot (1,496 \cdot 10^{11} m)^2} \\
+E_s &=& \frac{P_{sun}}{4 \cdot \pi \cdot r^2_{SE}} \\
+    &=& \frac{3,845 \cdot 10^{26} W}{4 \pi \cdot (1,496 \cdot 10^{11} m)^2} \\
     &=& 1367\ Wm^{-2}
 \end{eqnarray}
 $$
@@ -177,14 +178,19 @@ per l'area di un cerchio avente il diametro terrestre
 (essendo una metà della terra illuminata e l'altra metà in ombra).
 
 $$
-P_E = E_{STC} \cdot A_E = E_{STC} \cdot \frac{\pi \cdot d^2_E}{4} = 1,278 \cdot 10^{17} W
+\begin{eqnarray}
+P_E &=& E_{STC} \cdot A_E \\
+    &=& E_{STC} \cdot \frac{\pi \cdot d^2_E}{4} \\
+    &=& 1,278 \cdot 10^{17} W
+\end{eqnarray}
 $$
 
 Nel corso di un anno la terra riceve dunque una energia di radiazione dal sole pari a
 
 $$
 \begin{eqnarray}
-W_{Earth} &=& P_E \cdot t = 1,278 \cdot 10^{17} W \cdot 8760\ h \\
+W_{Earth} &=& P_E \cdot t \\
+          &=& 1,278 \cdot 10^{17} W \cdot 8760\ h \\
           &=& 1,119 \cdot 10^{18} kWh
 \end{eqnarray}
 $$
