@@ -2,7 +2,7 @@
 layout: post
 category: climate-change
 date: 2021-01-01
-e-ighcharts: off
+highcharts: off
 image: /assets/images/blog-climate-changes-glacier.jpg
 language: it
 license: 'CC BY-SA 3.0'
