@@ -9,25 +9,33 @@ license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'on'
 post-title: Approvvigionamento energetico
-summary: Negli ultimi decenni è risultato estremamente chiaro che il modello attuale di generazione dell'energia non ha futuro. Finitezza delle risorse di energia fossile, incidenti e disastri nucleari, cambiamenti climatici. Fortunatamente una soluzione esiste, <i>le energie rinnovabili</i>.'
+summary: I risultati accumulati negli ultimi decenni hanno reso estremamente chiaro come il modello attuale di generazione dell'energia non ha futuro. Finitezza delle risorse di energia fossile, incidenti e disastri nucleari, impatto sulla salute, cambiamenti climatici. Fortunatamente una soluzione esiste, <i>le energie rinnovabili</i>. Anche se indubbiamente una completa conversione a queste fonti energetiche richiederà un considerevole sforzo tecnologico ed una grande inventività.
+
 title: Approvvigionamento energetico ed energie rinnovabili
 titlejumbotron: 'off'
 ---
 
-Negli ultimi decenni è risultato estremamente chiaro che il modello attuale di generazione
-dell'energia non ha un futuro.
+I risultati accumulati negli ultimi decenni hanno reso estremamente chiaro come il modello attuale
+di generazione dell'energia non abbia un futuro.
 
 La *finitezza* delle risorse di energia fossile (*carbone*, *petrolio*, *gas*) si riflette in modo
-sempre più marcato in un aumento del loro prezzo di mercato.
-I recenti incidenti e disastri nucleari hanno anche evidenziato come l'energia da fissione
-nucleare ponga gravi problemi ai quali è da aggiungere la questione ancora senza soluzione dello
+sempre più marcato in un aumento del loro prezzo di mercato e della speculazione effettuata su tali
+materie prime.
+I recenti *incidenti e disastri nucleari* hanno evidenziato ancor più come l'energia da
+fissione nucleare ponga gravissimi problemi, ai quali è da aggiungere la questione irrisolta dello
 *stoccaggio dei rifiuti radioattivi*.
+Da ultimo, ma non per importanza, la ricerca medica ci mostra sempre più chiaramente il
+[legame](https://www.who.int/airpollution/household/health-impacts/diseases/en/)
+tra inquinamento e cancro, malattie respiratorie, allergiche, cardio-vascolari e visive.
 
-I problemi legati al rilascio di $$CO_2$$ (e metano) nell'atmosfera ed al suo
-conseguente aumento in concentrazione cominciano a creare effetti ormai visibili a tutti,
+I problemi legati al rilascio nell'atmosfera di gas ad effetto serra ed al loro conseguente
+aumento in concentrazione cominciano a creare effetti ormai visibili a tutti,
 in modo più o meno marcato a seconda della posizione geografica:
 siccità, incendi estesi, carestie, scioglimento delle calotte polari e dei ghiacciai,
 piogge torrenziali, tornadi, erosione delle coste, flussi migratori, distruzioni e guerre.
+
+Una soluzione per soddisfare il fabbisogno energetico mondiale fortunatamente esiste:
+*le energie rinnovabili*.
 
 <div class="container">
     <div class="row">
@@ -46,17 +54,20 @@ piogge torrenziali, tornadi, erosione delle coste, flussi migratori, distruzioni
     </div>
 </div>
 
-Una soluzione per soddisfare il fabbisogno energetico mondiale esiste: *le energie rinnovabili*.
 Queste sorgenti di energia sono virtualmente infinite e disponibili in varie forme:
 *biomasse*, *geotermico*, *eolico*, *fotovoltaico*, *idroelettrico*, ecc. anche se indubbiamente
 una completa conversione a queste fonti energetiche richiederà un considerevole sforzo
-tecnologico ed una grande inventività.
+tecnologico ed una grande inventività e sforzo collettivo.
+
+La tecnologia sarà infatti necessariamente parte della risposta, ma come ogni problema
+(socialmente) complesso, composto cioè da molti elementi differenti mutuamente correlati,
+l'approvvigionamento energetico mondiale richiederà *cambiamenti comportamentali profondi*.
 
 #### Energia primaria, secondaria e finale
 
 Una fonte di energia viene definita *primaria* quando è presente in natura
-(petrolio, gas, carbone, legno, etc)
- e quindi non deriva dalla trasformazione di nessun'altra forma di energia.
+(petrolio, gas, carbone, legno, etc) e quindi non deriva dalla trasformazione di nessun'altra
+forma di energia.
 
 Per essere utilizzabile in modo pratico, deve subire un *processo di conversione*.
 Ad esempio il carbone viene bruciato in una centrale elettrica a carbone generando vapore ad
@@ -72,25 +83,27 @@ L'energia viene infine utilizzata dal consumatore finale.
 Anche in questo caso esistono inefficienze energetiche caratteristiche di questa fase, dovute
 ad esempio a perdite di energia in calore ed attrito.
 
-Prendiamo ad esempio una vettura a benzina o diesel.
+Prendiamo ad esempio una vettura a benzina.
 L'energia primaria è il petrolio, che è raffinato in carburante (energia secondaria) ed infine
 trasportata alle stazioni di servizio, da mezzi a combustione con richiedo anch'essi energia.
 Una volta versata nel serbatoio, viene bruciata nel motore e diviene, al netto delle perdite
 energetiche, energia motrice.
-Una vettura a carburante ha una efficienza inferiore al 30% e quindi soltanto una
-*piccola parte dell'energia iniziale* diviene energia di movimento sulla strada.
+Malgrado un moderno motore a benzina abbia una efficienza di oltre il 50%, una vettura
+omologata da strada ha una efficienza che va dal 20% al 35% anche al punto massimo di efficienza
+termica, e quindi soltanto una *piccola parte dell'energia iniziale* diviene energia di movimento
+sulla strada.
 
-Il caso dell'*energia elettrica domestica* è simile.
-Come regola generale possiamo assumere che un terzo soltanto dell'energia iniziale diventi
+Come regola generale possiamo assumere che non più di un terzo dell'energia primaria diventi
 energia finale.
 
 #### Energie rinnovabili
 
 Il termine *rinnovabile* si riferisce al fatto che caratteristica di queste energie è la loro
-di fatto inesauribilità.
-Ad eccezione del geotermismo che deriva dal calore rilasciato dal nucleo terrestre, esse sono il
-risultato diretto dell'enorme energia irradiata dal nostro sole.
+*inesauribilità*. Il vento soffia più o meno regolarmente nell'arco di ogni anno,
+il sole sorge e tramonta ogni giorno e le piante ricrescono dopo la raccolta.
 
+Ad eccezione del geotermismo che deriva dal calore rilasciato dal nucleo terrestre, esse sono il
+risultato diretto dell'enorme energia irradiata dal sole.
 Le biomasse sono ottenute da materia organica che cresce senza sosta usando l'energia
 solare per sostenere la biochimica cellulare (fotosintesi).
 L'energia eolica sfrutta i venti indotti dalle differenze di temperatura sul globo
@@ -99,8 +112,12 @@ I pannelli solari convertono direttamente la radiazione solare diretta o diffusa
 Infine l'idroelettrico estrae potenza da grandi masse d'acqua che dipendono dal ciclo dell'acqua,
 indotto dell'evaporazione provocata dal calore solare.
 
-Questo flusso di energia si stima duri da circa 4.57 miliardi di anni e che durerà ancora per
+Questo flusso di energia si stima duri da circa 4.57 miliardi di anni e durerà ancora per
 altri 5 miliardi di anni. Un tempo che possiamo considerare infinito.
+
+Per la precisione, il nucleo terrestre, emettendo calore si raffredda progressivamente, e quindi
+l'energia geotermica non è propriamente inesauribile.
+Questo fenomeno avviene però su una scala temporale cosi lunga che lo possiamo considerare tale.
 
 #### Radiazione solare
 
@@ -142,7 +159,7 @@ può essere trasformata in energia (e l'energia può essere trasformata in massa
 </p>
 </div>
 
-La sua massa totale è abbastanza grande perché, anche dopo circa 4.7 miliardi di anni di vita attiva,
+La sua massa totale è abbastanza grande perché, anche dopo circa 4.6 miliardi di anni di vita attiva,
 essa si riduca solo impercettibilmente.
 
 Di questa enorme energia, la terra ne riceve una minima parte, pari a $$1367\ Wm^{-2}$$.
@@ -169,7 +186,12 @@ $$
 Parte di questa energia viene riflessa dall'atmosfera, come spiegato in un
 [post]({% post_url 2020-12-29-climate-changes-physics %})
 precedente sulla fisica dei cambiamenti climatici.
-Circa $$1000\ Wm^{-2}$$ raggiungono mediamente la superficie terrestre.
+Circa $$1000\ W m^{-2}$$ raggiungono mediamente la superficie terrestre.
+
+Valori superiori possono essere misurati in regioni montagnose come le Alpi, in giornate terse,
+grazie al contributo della luce riflessa da neve e ghiaccio.
+O anche in zone pianeggianti in giorni soleggiati nel caso in cui nuvole chiare e sottili
+attorno al sole aumentino la porzione di luce diffusa.
 
 <div class="bd-callout bd-callout-info">
 <p>
@@ -179,17 +201,18 @@ per l'area di un cerchio avente il diametro terrestre
 
 $$
 \begin{eqnarray}
-P_E &=& E_{STC} \cdot A_E \\
-    &=& E_{STC} \cdot \frac{\pi \cdot d^2_E}{4} \\
+P_E &=& \overline{E} \cdot A_E \\
+    &=& \overline{E} \cdot \frac{\pi \cdot d^2_E}{4} \\
     &=& 1,278 \cdot 10^{17} W
 \end{eqnarray}
 $$
 
-Nel corso di un anno la terra riceve dunque una energia di radiazione dal sole pari a
+Nel corso di un anno (pari a 8760 ore) la terra riceve dunque una energia di radiazione dal
+sole che ammonta a
 
 $$
 \begin{eqnarray}
-W_{Earth} &=& P_E \cdot t \\
+W_{Earth} &=& P_E \cdot t_y \\
           &=& 1,278 \cdot 10^{17} W \cdot 8760\ h \\
           &=& 1,119 \cdot 10^{18} kWh
 \end{eqnarray}
@@ -197,12 +220,12 @@ $$
 </p>
 </div>
 
-La quantita $$1,119 \cdot 10^{18} kWh$$ corrisponde a più di 7000 volte la richiesta mondiale
-annuale di energia primaria.
+La quantità $$1,119 \cdot 10^{18} kWh$$ corrisponde a più di 7000 volte la richiesta mondiale
+annuale di energia primaria (pari a circa $$1,5 \cdot 10^{14} kWh$$).
 
-L'immagine seguente (cubo delle energie) mostra questo importante fatto in modo visuale:
+L'immagine seguente mostra questo risultato in modo visuale:
 il cubo giallo rappresenta l'energia solare $$W_{Earth}$$ che raggiunge annulmente la superficie
-terrestre ed il piccolo cubo in basso a destra, la richiesta energetica annuale.
+terrestre ed il piccolo cubo in basso a destra, la richiesta energetica mondiale annuale.
 
 Sulla sinistra sono rappresentate inoltre le riserve fossili e di uranio *totali* conosciute.
 
@@ -213,7 +236,7 @@ Sulla sinistra sono rappresentate inoltre le riserve fossili e di uranio *totali
 </picture>
 <p class="text-center pt-2 pb-3">
     <small>
-       Stima del potenziale dell'energia solare
+       Stima del potenziale dell'energia solare (cubo delle energie)
     </small>
 </p>
 
