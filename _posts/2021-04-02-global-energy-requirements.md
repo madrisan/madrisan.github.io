@@ -220,11 +220,13 @@ $$
 </p>
 </div>
 
-La quantità $$1,119 \cdot 10^{18} kWh$$ corrisponde a più di 7000 volte la richiesta mondiale
-annuale di energia primaria (pari a circa $$1,5 \cdot 10^{14} kWh$$).
+La quantità $$1,119 \cdot 10^{18} kWh$$ corrisponde a più di 7000 volte la
+[richiesta mondiale](https://it.wikipedia.org/wiki/Consumo_di_energia_nel_mondo)
+annuale di energia primaria (pari a circa $$153.000\ TWh$$ nel 2019
+(cioè $$1,53 \cdot 10^{14} kWh$$).
 
 L'immagine seguente mostra questo risultato in modo visuale:
-il cubo giallo rappresenta l'energia solare $$W_{Earth}$$ che raggiunge annulmente la superficie
+il cubo giallo rappresenta l'energia solare $$W_{Earth}$$ che raggiunge *annualmente* la superficie
 terrestre ed il piccolo cubo in basso a destra, la richiesta energetica mondiale annuale.
 
 Sulla sinistra sono rappresentate inoltre le riserve fossili e di uranio *totali* conosciute.
