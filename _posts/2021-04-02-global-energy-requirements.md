@@ -9,7 +9,7 @@ license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'on'
 post-title: Approvvigionamento energetico
-summary: I risultati accumulati negli ultimi decenni hanno reso estremamente chiaro come il modello attuale di generazione dell'energia non ha futuro. Finitezza delle risorse di energia fossile, incidenti e disastri nucleari, impatto sulla salute, cambiamenti climatici. Fortunatamente una soluzione esiste, <i>le energie rinnovabili</i>. Anche se indubbiamente una completa conversione a queste fonti energetiche richiederà un considerevole sforzo tecnologico ed una grande inventività.
+summary: I risultati accumulati negli ultimi decenni hanno reso estremamente chiaro come il modello attuale di generazione dell'energia non abbia futuro. Finitezza delle risorse di energia fossile, incidenti e disastri nucleari, impatto sulla salute, cambiamenti climatici. Fortunatamente una soluzione esiste, <i>le energie rinnovabili</i>. Anche se indubbiamente una completa conversione a queste fonti energetiche richiederà un considerevole sforzo politico, sociale, tecnologico ed una grande inventività.
 
 title: Approvvigionamento energetico ed energie rinnovabili
 titlejumbotron: 'off'
@@ -260,6 +260,9 @@ produrla a zero impatto $$CO_2$$: energia per l'industria, per l'utilizzo pubbli
 per il riscaldamento, per i trasporti su strada, marittimi e d'aria, ...
 
 L'enorme sfida che si pone all'umanità per evitare una catastrofe climatica è dunque di natura
+*[politica](https://thebulletin.org/2021/04/green-investing-definitely-not-going-to-work-former-blackrock-exec/amp/)*,
 *comportamentale*, *scientifica* e *tecnologica*.
 Parte della soluzione sarà da trovare nell'utiilizzo esteso e diffuso dell'energia che il sole
 giornalmente regala al nostro pianeta da miliardi di anni.
+Senza cadere nel falso mito ottimistico che indica la tecnologia come mezzo necessario ma anche
+sufficiente a raggiungere la sostenibilità.
