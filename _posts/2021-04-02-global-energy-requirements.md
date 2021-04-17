@@ -10,7 +10,6 @@ location: Nice
 mathjax: 'on'
 post-title: Approvvigionamento energetico
 summary: I risultati accumulati negli ultimi decenni hanno reso estremamente chiaro come il modello attuale di generazione dell'energia non abbia futuro. Finitezza delle risorse di energia fossile, incidenti e disastri nucleari, impatto sulla salute, cambiamenti climatici. Fortunatamente una soluzione esiste, <i>le energie rinnovabili</i>. Anche se indubbiamente una completa conversione a queste fonti energetiche richiederà un considerevole sforzo politico, sociale, tecnologico ed una grande inventività.
-
 title: Approvvigionamento energetico ed energie rinnovabili
 titlejumbotron: 'off'
 ---
@@ -22,8 +21,8 @@ La *finitezza* delle risorse di energia fossile (*carbone*, *petrolio*, *gas*) s
 sempre più marcato in un aumento del loro prezzo di mercato e della speculazione effettuata su tali
 materie prime.
 I recenti *incidenti e disastri nucleari* hanno evidenziato ancor più come l'energia da
-fissione nucleare ponga gravissimi problemi, ai quali è da aggiungere la questione irrisolta dello
-*stoccaggio dei rifiuti radioattivi*.
+fissione nucleare ponga gravissimi problemi, ai quali sono da aggiungere la questione irrisolta dello
+*stoccaggio dei rifiuti radioattivi* e la proliferazione delle armi atomiche.
 Da ultimo, ma non per importanza, la ricerca medica ci mostra sempre più chiaramente il
 [legame](https://www.who.int/airpollution/household/health-impacts/diseases/en/)
 tra inquinamento e cancro, malattie respiratorie, allergiche, cardio-vascolari e visive.
@@ -62,6 +61,102 @@ tecnologico ed una grande inventività e sforzo collettivo.
 La tecnologia sarà infatti necessariamente parte della risposta, ma come ogni problema
 (socialmente) complesso, composto cioè da molti elementi differenti mutuamente correlati,
 l'approvvigionamento energetico mondiale richiederà *cambiamenti comportamentali profondi*.
+
+Nel 2014 il Quinto rapporto (AR5) prodotto dal Gruppo Intergovernativo sul Cambiamento Climatico
+([IPCC](https://it.wikipedia.org/wiki/Gruppo_intergovernativo_sul_cambiamento_climatico))
+includeva pubblicazioni relative ad un grande numero di scenari futuri, modellizzati dai lavori
+di scienziati provenienti da tutto il mondo. Quelli consistenti con un contenimento dell'incremento
+della temperature entro i 2°C rispetto all'epoca pre-industriale, forniscono i dati della tabella
+seguente (espressi in GWe).
+
+<table class="table table-sm table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">2020</th>
+      <th scope="col">2050</th>
+      <th scope="col">2100</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Solare</th>
+      <td>30</td>
+      <td>650</td>
+      <td>3720</td>
+    </tr>
+    <tr>
+      <th scope="row">Nucleare</th>
+      <td>400</td>
+      <td>1120</td>
+      <td>2230</td>
+    </tr>
+    <tr>
+      <th scope="row">Eolico</th>
+      <td>150</td>
+      <td>930</td>
+      <td>2170</td>
+    </tr>
+    <tr>
+      <th scope="row">Biomasse</th>
+      <td>40</td>
+      <td>540</td>
+      <td>1500</td>
+    </tr>
+    <tr>
+      <th scope="row">Idroelettrico</th>
+      <td>410</td>
+      <td>640</td>
+      <td>850</td>
+    </tr>
+    <tr>
+      <th scope="row">Carbone/Petrolio</th>
+      <td>920</td>
+      <td>860</td>
+      <td>770</td>
+    </tr>
+    <tr>
+      <th scope="row">Gas</th>
+      <td>780</td>
+      <td>980</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <th scope="row">Geotermico</th>
+      <td>30</td>
+      <td>80</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">Totale</th>
+      <td>2760</td>
+      <td>5800</td>
+      <td>11960</td>
+    </tr>
+  </tbody>
+</table>
+
+L'energia solare come si vede è posta al vertice delle sorgenti energetiche di fine secolo.
+Essendo per sua natura fortemente variabile sia su scala giornaliera che stagionale, viene dato
+per assunto che le necessarie tecnologie di stoccaggio saranno velocemente sviluppate.
+
+Anche le biomasse sono indicate come fonte importante. Tuttavia il livello indicato necessiterà
+una superficie enorme di terreni agricoli, in contrasto con il problema della scarsità
+di terre arabili cui andremo incontro, causata da una parte dal previsto incremento della
+popolazione mondiale e dall'altra dalle gravi siccità che già colpiranno larghe fasce del mondo
+nel caso di un incremento di 2°C delle temperature globali.
+
+Si vede anche dalla tabella che il consumo di carbone e petrolio non è indicato come nullo, perchè
+anche in questo caso ci si affida a tecnologie di cattura di $$CO_2$$ dall'atmosfera e suo
+stoccaggio in siti geologicamente stabili. Tecnologie attualmente inesistenti o almeno non
+efficaci e scalabili a livello planetario.
+
+Per quanto riguarda il nucleare rimangono valide le riserve di cui sopra, relativamente all'energia
+da fissione dell'atomo. Auspicabilmente entro la fine del secolo i progressi nel campo della
+*fusione nucleare* cominceranno a dare i loro (indispensabili) frutti.
+
+Ci occupiamo ora più specificatamente di energie rinnovabili, solare in particolar modo,
+dopo aver brevemente definito il concetto di *energia primaria*, *secondaria* e *finale*.
 
 #### Energia primaria, secondaria e finale
 
@@ -262,7 +357,8 @@ per il riscaldamento, per i trasporti su strada, marittimi e d'aria, ...
 L'enorme sfida che si pone all'umanità per evitare una catastrofe climatica è dunque di natura
 *[politica](https://thebulletin.org/2021/04/green-investing-definitely-not-going-to-work-former-blackrock-exec/amp/)*,
 *comportamentale*, *scientifica* e *tecnologica*.
-Parte della soluzione sarà da trovare nell'utiilizzo esteso e diffuso dell'energia che il sole
+
+Parte della soluzione sarà da trovare nell'utilizzo esteso e diffuso dell'energia che il sole
 giornalmente regala al nostro pianeta da miliardi di anni.
-Senza cadere nel falso mito ottimistico che indica la tecnologia come mezzo necessario ma anche
-sufficiente a raggiungere la sostenibilità.
+Senza cadere nel falso mito ottimistico che indica la tecnologia come mezzo sufficiente a
+raggiungere la sostenibilità.
