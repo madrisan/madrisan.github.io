@@ -1,6 +1,9 @@
 data:
   - year: 2021
     courses:
+      - course: "Giving Helpful Feedback"
+        provider: "University of Colorado Boulder"
+        badge: "management"
       - course: "Understanding Dementia"
         provider: "The Wicking Demence Centre, University of Tasmania"
       - course: "Introduction to solar cells"
