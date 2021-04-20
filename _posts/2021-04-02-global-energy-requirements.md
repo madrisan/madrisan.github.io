@@ -140,11 +140,12 @@ L'energia solare come si vede è posta al vertice delle sorgenti energetiche di 
 Essendo per sua natura fortemente variabile sia su scala giornaliera che stagionale, viene dato
 per assunto che le necessarie tecnologie di stoccaggio saranno velocemente sviluppate.
 
-Anche le biomasse sono indicate come fonte importante. Tuttavia il livello indicato necessiterà
-una superficie enorme di terreni agricoli, in contrasto con il problema della scarsità
-di terre arabili cui andremo incontro, causata da una parte dal previsto incremento della
-popolazione mondiale e dall'altra dalle gravi siccità che già colpiranno larghe fasce del mondo
-nel caso di un incremento di 2°C delle temperature globali.
+Anche le biomasse sono indicate come fonte importante. Tuttavia il livello indicato necessiterà una
+superficie enorme di terreni agricoli, in contrasto con il problema della scarsità di terre arabili
+cui andremo incontro, causata da una parte dal previsto incremento della popolazione mondiale
+(anche se [non scontato](http://www.climatecodered.org/2019/08/at-4c-of-warming-would-billion-people.html))
+e dall'altra dalle gravi siccità che già colpiranno larghe fasce del mondo nel caso di un
+incremento di 2°C delle temperature globali.
 
 Si vede anche dalla tabella che il consumo di carbone e petrolio non è indicato come nullo, perchè
 anche in questo caso ci si affida a tecnologie di cattura di $$CO_2$$ dall'atmosfera e suo
