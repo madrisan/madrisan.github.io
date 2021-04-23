@@ -55,19 +55,20 @@ Una soluzione per soddisfare il fabbisogno energetico mondiale fortunatamente es
 
 Queste sorgenti di energia sono virtualmente infinite e disponibili in varie forme:
 *biomasse*, *geotermico*, *eolico*, *fotovoltaico*, *idroelettrico*, ecc. anche se indubbiamente
-una completa conversione a queste fonti energetiche richiederà un considerevole sforzo
-tecnologico ed una grande inventività e sforzo collettivo.
+una completa conversione a queste fonti energetiche richiederà un enorme sforzo tecnologico ed
+una grande inventività e impegno collettivo.
 
 La tecnologia sarà infatti necessariamente parte della risposta, ma come ogni problema
-(socialmente) complesso, composto cioè da molti elementi differenti mutuamente correlati,
-l'approvvigionamento energetico mondiale richiederà *cambiamenti comportamentali profondi*.
+(socialmente) complesso, composto cioè da molti elementi differenti e mutuamente correlati,
+un'approvvigionamento energetico rispettoso degli equilibri fisico-ambientali richiederà
+*cambiamenti comportamentali profondi*.
 
 Nel 2014 il Quinto rapporto (AR5) prodotto dal Gruppo Intergovernativo sul Cambiamento Climatico
 ([IPCC](https://it.wikipedia.org/wiki/Gruppo_intergovernativo_sul_cambiamento_climatico))
 includeva pubblicazioni relative ad un grande numero di scenari futuri, modellizzati dai lavori
 di scienziati provenienti da tutto il mondo. Quelli consistenti con un contenimento dell'incremento
-della temperature entro i 2°C rispetto all'epoca pre-industriale, forniscono i dati della tabella
-seguente (espressi in GWe).
+della temperature a fine secolo entro i 2°C rispetto all'epoca pre-industriale,
+forniscono i dati della tabella seguente (espressi in GWe).
 
 <table class="table table-sm table-striped">
   <thead>
@@ -141,16 +142,25 @@ Essendo per sua natura fortemente variabile sia su scala giornaliera che stagion
 per assunto che le necessarie tecnologie di stoccaggio saranno velocemente sviluppate.
 
 Anche le biomasse sono indicate come fonte importante. Tuttavia il livello indicato necessiterà una
-superficie enorme di terreni agricoli, in contrasto con il problema della scarsità di terre arabili
-cui andremo incontro, causata da una parte dal previsto incremento della popolazione mondiale
-(anche se [non scontato](http://www.climatecodered.org/2019/08/at-4c-of-warming-would-billion-people.html))
-e dall'altra dalle gravi siccità che già colpiranno larghe fasce del mondo nel caso di un
+superficie enorme di terreni agricoli dedicati a monoculture (canna da zucchero per il *bioetanolo*
+ed olio di palma per il *biodiesel*, entrambi coltivati nella zona tropicale con un impatto
+devastante sulla biodiversità), in contrasto con il problema della scarsità di terre arabili
+cui andremo incontro, causata da una parte dal previsto incremento
+(anche se [per nulla scontato](http://www.climatecodered.org/2019/08/at-4c-of-warming-would-billion-people.html))
+della popolazione mondiale
+e dall'altra dalle gravi siccità che già colpiranno larghe fasce del mondo, anche nel caso di un
 incremento di 2°C delle temperature globali.
 
 Si vede anche dalla tabella che il consumo di carbone e petrolio non è indicato come nullo, perchè
 anche in questo caso ci si affida a tecnologie di cattura di $$CO_2$$ dall'atmosfera e suo
-stoccaggio in siti geologicamente stabili. Tecnologie attualmente inesistenti o almeno non
-efficaci e scalabili a livello planetario.
+stoccaggio in siti geologicamente stabili. Tecnologie attualmente inesistenti, malgrado diversi
+progetti siano stati condotti e finanziati a partire dagli anni '70 del secolo scorso.
+O almeno non efficaci e scalabili a livello planetario per il costo ed energia necessarie al
+loro funzionamento.
+Difficile pensare come, con questi fallimenti alle spalle, potremmo passare rapidamente dalla
+situazione odierna in cui pompiamo nell'atmosfera 40 miliardi di tonnellate di anidride carbonica
+all'anno, alla situazione opposta di rimozione netta di decina di miliardi di tonnellate.
+
 
 Per quanto riguarda il nucleare rimangono valide le riserve di cui sopra, relativamente all'energia
 da fissione dell'atomo. Auspicabilmente entro la fine del secolo i progressi nel campo della
