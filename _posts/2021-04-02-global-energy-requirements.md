@@ -27,8 +27,9 @@ Da ultimo, ma non per importanza, la ricerca medica ci mostra sempre più chiara
 [legame](https://www.who.int/airpollution/household/health-impacts/diseases/en/)
 tra inquinamento e cancro, malattie respiratorie, allergiche, cardio-vascolari e visive.
 
-I problemi legati al rilascio nell'atmosfera di gas ad effetto serra ed al loro conseguente
-aumento in concentrazione cominciano a creare effetti ormai visibili a tutti,
+I problemi legati al rilascio nell'atmosfera di gas
+[ad effetto serra]({% post_url 2020-12-29-climate-changes-physics %})
+ed al loro conseguente aumento in concentrazione cominciano a creare effetti ormai visibili a tutti,
 in modo più o meno marcato a seconda della posizione geografica:
 siccità, incendi estesi, carestie, scioglimento delle calotte polari e dei ghiacciai,
 piogge torrenziali, tornadi, erosione delle coste, flussi migratori, distruzioni e guerre.
@@ -353,6 +354,47 @@ produzione di energie fossili con la sola energia nucleare, che ha effettivament
 di $$CO_2$$, la riserve del pianeta sarebbero sufficienti per coprire le necessità mondiale di
 energia per soli 4 anni circa.
 
+##### Il miracolo del Sahara
+
+Ora che abbiamo una idea della quantità di energia di radiazione solare che raggiunge la
+superficie terrestre, possiamo chiederci quale dovrebbe essere la superficie da dedicare ad un
+ipotetico impianto solare che sia in grado di coprire il fabbisogno energetico mondiale.
+
+Assumiamo per semplicità che i pannelli solari siano posti nella zona del Sahara.
+I migliori pannelli solari disponibili attualmente sul mercato hanno un rendimento del 22%,
+ma per avere un margine di sicurezza e considerare le perdite di energia nelle varie componenti
+e nella sua trasmissione via cavo dell'elettricità, utilizzamo un valore più basso:
+$$\eta_{tot} = 10$$%.
+
+Annualmente il Sahara riceve una energia di radiazione approssivamente di
+$$2500 \ kW\ h\ m^{-2}$$. L'area necessaria può essere facilemente calcolata:
+
+$$
+\begin{eqnarray}
+A &=& \frac{W_{World}}{250 \ kW h m^{-2}} = \frac{1,512 \cdot 10^{14} kWh}{250 \ kW h m^{-2}} \\
+  &=& 6,048 \cdot 10^5 km^2
+\end{eqnarray}
+$$
+
+Una superficie "visualizzabile" come un quadrato di circa 778 km di lato, il 7% della superficie
+del Sahara. In questo senso si parla di "Miracolo del Sahara".
+
+Nella pratica, naturalmente non avrebbe senso concentrare la produzione di energia fotovoltaica
+in un unico sito nel mondo, se non altro per il fatto che l'energia sarebbe facilmente disponibile
+solo durante il periodo diurno del Sahara.
+Per avere un flusso continuo di energia una installazione di centrali fotovoltaiche distribuite
+in un gran numero di paesi diversi è una migliore soluzione.
+
+Ciononostante questo calcolo mostra che l'energia fotovoltaica sia una soluzione percorribile
+e non richieda affatto di coprire l'intero pianeta di pannelli solari.
+
+Secondo la ricerca
+[*The Sky's the Limit*](ihttps://carbontracker.org/reports/the-skys-the-limit-solar-wind/)
+di *Carbon Tracker* anzi, la superficie di pannelli
+solari necessari a coprire il fabbisogno energetico mondiale sarebbe inferiore a quella
+attualmente dedicata alle energie fossili, che è solo per gli USA di $$126000\ km^2$$,
+pari all'1,3% del suo territorio.
+
 #### Rivoluzione energetica
 
 Per mantenere l'incremento di temperatura globale sotto i 2°C a fine secolo (con una
@@ -371,5 +413,9 @@ L'enorme sfida che si pone all'umanità per evitare una catastrofe climatica è 
 
 Parte della soluzione sarà da trovare nell'utilizzo esteso e diffuso dell'energia che il sole
 giornalmente regala al nostro pianeta da miliardi di anni.
-Senza cadere nel falso mito ottimistico che indica la tecnologia come mezzo sufficiente a
+Ormai le tecnologie fotovoltaica ed idroelettrica possono fornire elettricità *a costi inferiori*
+delle energie fossili, e le previsioni mostrano che i costi diminuiranno ancora nei prossimi anni
+e decenni.
+Senza però cadere nel falso mito ottimistico che indica la tecnologia come mezzo sufficiente a
 raggiungere la sostenibilità.
+Un enorme impegno collettivo e cambiamenti comportamentali profondi saranno comunque necessari.
