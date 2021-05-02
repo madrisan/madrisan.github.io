@@ -385,7 +385,7 @@ solo durante il periodo diurno del Sahara.
 Per avere un flusso continuo di energia una installazione di centrali fotovoltaiche distribuite
 in un gran numero di paesi diversi è una migliore soluzione.
 
-Ciononostante questo calcolo mostra che l'energia fotovoltaica sia una soluzione percorribile
+Ciononostante, questo calcolo mostra che l'energia fotovoltaica sia una soluzione percorribile
 e non richieda affatto di coprire l'intero pianeta di pannelli solari.
 
 Secondo la ricerca
@@ -413,9 +413,9 @@ L'enorme sfida che si pone all'umanità per evitare una catastrofe climatica è 
 
 Parte della soluzione sarà da trovare nell'utilizzo esteso e diffuso dell'energia che il sole
 giornalmente regala al nostro pianeta da miliardi di anni.
-Ormai le tecnologie fotovoltaica ed idroelettrica possono fornire elettricità *a costi inferiori*
+Ormai le tecnologie fotovoltaica ed eolica possono fornire elettricità *a costi inferiori*
 delle energie fossili, e le previsioni mostrano che i costi diminuiranno ancora nei prossimi anni
 e decenni.
 Senza però cadere nel falso mito ottimistico che indica la tecnologia come mezzo sufficiente a
 raggiungere la sostenibilità.
-Un enorme impegno collettivo e cambiamenti comportamentali profondi saranno comunque necessari.
+*Un enorme impegno collettivo e cambiamenti comportamentali profondi saranno necessari.*
