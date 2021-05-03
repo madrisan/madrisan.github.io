@@ -401,21 +401,20 @@ Per mantenere l'incremento di temperatura globale sotto i 2°C a fine secolo (co
 probabilità sufficientemente elevata) è necessario diminuire drasticamente le emissioni di
 anidride carbonica e degli altri principali gas ad effetto serra.
 
-Una non piccola parte di questo risultato si può e deve ottenere rapidamente con un incremento
+Una non piccola parte di questo risultato si può (e deve) ottenere rapidamente con un incremento
 dell'*efficienza energetica* ed azzeramento dei *consumi inutili*.
-A termine tuttavia occorrerà elettrificare pressoché ogni forma di utilizzo dell'energia e
+A termine occorrerà tuttavia elettrificare pressoché ogni forma di utilizzo dell'energia e
 produrla a zero impatto $$CO_2$$: energia per l'industria, per l'utilizzo pubblico e privato,
-per il riscaldamento, per i trasporti su strada, marittimi e d'aria, ...
+per il riscaldamento, per i trasporti su strada, marittimi e d'aria.
 
-L'enorme sfida che si pone all'umanità per evitare una catastrofe climatica è dunque di natura
-*[politica](https://thebulletin.org/2021/04/green-investing-definitely-not-going-to-work-former-blackrock-exec/amp/)*,
-*comportamentale*, *scientifica* e *tecnologica*.
+La soluzione sarà da trovare nell'utilizzo esteso e diffuso dell'energia che il sole giornalmente
+regala al nostro pianeta da miliardi di anni.
+Le tecnologie fotovoltaica ed eolica possono ormai fornire elettricità *a costi inferiori* rispetto
+alle energie fossili, ed i costi in previsione diminuiranno ancora nei prossimi anni.
 
-Parte della soluzione sarà da trovare nell'utilizzo esteso e diffuso dell'energia che il sole
-giornalmente regala al nostro pianeta da miliardi di anni.
-Ormai le tecnologie fotovoltaica ed eolica possono fornire elettricità *a costi inferiori*
-delle energie fossili, e le previsioni mostrano che i costi diminuiranno ancora nei prossimi anni
-e decenni.
 Senza però cadere nel falso mito ottimistico che indica la tecnologia come mezzo sufficiente a
 raggiungere la sostenibilità.
-*Un enorme impegno collettivo e cambiamenti comportamentali profondi saranno necessari.*
+Un enorme impegno collettivo e cambiamenti comportamentali profondi saranno comunque necessari.
+L'enorme sfida che si pone all'umanità per evitare una catastrofe climatica reste di natura
+*[politica](https://thebulletin.org/2021/04/green-investing-definitely-not-going-to-work-former-blackrock-exec/amp/)*,
+*comportamentale*, *scientifica* e *tecnologica*.
