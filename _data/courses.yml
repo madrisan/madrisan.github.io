@@ -1,6 +1,9 @@
 data:
   - year: 2021
     courses:
+      - course: "Greening the Economy: Lessons from Scandinavia"
+        provider: "Lund University"
+        badge: "environment"
       - course: "Giving Helpful Feedback"
         provider: "University of Colorado Boulder"
         badge: "management"
