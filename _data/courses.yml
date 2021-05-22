@@ -1,6 +1,8 @@
 data:
   - year: 2021
     courses:
+      - course: "Greening the Economy: Sustainable Cities"
+        provider: "Lund University"
       - course: "Greening the Economy: Lessons from Scandinavia"
         provider: "Lund University"
         badge: "environment"
