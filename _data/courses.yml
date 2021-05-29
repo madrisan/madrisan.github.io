@@ -1,6 +1,8 @@
 data:
   - year: 2021
     courses:
+      - course: "Urban Nature: Connecting Cities, Nature and Innovation"
+        provider: "Lund University"
       - course: "Greening the Economy: Sustainable Cities"
         provider: "Lund University"
       - course: "Greening the Economy: Lessons from Scandinavia"
