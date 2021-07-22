@@ -10,7 +10,7 @@ location: Korbielów
 mathjax: 'off'
 post-title: Geo-ingegnerizzazione del clima
 summary: A mali estremi estremi rimedi. Negli ultimi anni a fronte di cambiamenti del clima senza precedenti, sono state proposte alcune soluzioni rischiose per porre fine alla catena dei disastri climatici, o almeno per tentare di rallentarne la sua corsa. Questi metodi, raggruppati sotto il titolo di <i>geo-ingegneria del clima</i>, mirano a ridurre l'impatto dei gas serra sulle temperature globali.
-title: Geo-ingegnerizzazione del clima 
+title: Geo-ingegnerizzazione del clima
 titlejumbotron: 'off'
 ---
 #### Cos'è la geo-ingegnerizzazione del clima
