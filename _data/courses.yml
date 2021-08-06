@@ -1,7 +1,7 @@
 data:
   - year: 2021
     courses:
-      - course: "Introduction di GitOps (LFS169)"
+      - course: "Introduction to GitOps (LFS169)"
         provider: "Linux Foundation"
       - course: "Urban Nature: Connecting Cities, Nature and Innovation"
         provider: "Lund University"
