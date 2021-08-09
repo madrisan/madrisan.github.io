@@ -115,13 +115,16 @@ La curva in basso è ottenuta da simulazioni che considerano esclusivamente feno
 Si noti come la linea nera (valori osservati) corrisponda invece molto bene ai dati di simulazione
 che prendono in conto sia i fenomeni naturali che gli effetti dovuti all'uomo.
 
-Infine l'AR6 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project* (ZECMIP)
-e conclude osservando che la migliore stima attuale ci porta a dire che il riscaldamento globale si
-fermerà quando arriveremo al netto zero delle emissioni di gas serra.
-La calotta polare artica ed i ghiacciai continueranno invece a sciogliersi ed il livello degli oceani
-ad aumentare ancora per decenni o forse per secoli.
+Infine l'AR6 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project* (ZECMIP).
+Le temperature globali continueranno ad aumentare fino ad almeno il 2050 e molti dei cambiamenti
+dovuto alle emissioni di gas serra passati e futuri sono irreversibili in un arco di tempo che va
+da secoli a millenni, specialmente per quel che riguarda gli oceani, lo scioglimento delle calotte
+polari e dei ghiacciai e l'aumento del livello degli oceani.
+Da un punto di vista fisico, limitare il riscaldamento globale ad un certo livello richiede
+almeno il raggiungimento del netto zero delle emissioni di $$CO_2$$ ed una forte diminizione
+di emissione nell'atmosfera degli altri gas ad effetto serra.
 
 E naturalmente, dietro tutta l'analisi scientifica dettagliata risuona forte e chiaro un messaggio
 semplice: siamo noi i responsabili, la situazione è grave, ma c'è ancora del tempo per fare
 qualcosa al riguardo.
-Il nostro futuro climatico, in definitiva, sta a noi deciderlo.
+Il nostro futuro climatico, in definitiva, è nelle nostre mani.
