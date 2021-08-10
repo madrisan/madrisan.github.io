@@ -33,7 +33,7 @@ I *rapporti di valutazione* periodicamente diffusi dall'IPCC sono alla base dei 
 in materia ambientale e climatica:
  * Vertice sulla Terra di Rio de Janeiro (1992)
  * Protocollo di Kyōto (1997)
- * Accordo (fallito accordo in realtà) di Copenaghen (2009)
+ * (Fallito) accordo di Copenaghen (2009)
  * Accordo di Parigi (2015)
 
 #### La nuova pubblicazione in sintesi
@@ -58,7 +58,8 @@ tutti.*
 ##### Sensibilità climatica
 
 Un avanzamento scientifico importante rispetto alla precedente pubblicazione è dato dall'aver
-potuto ridurre l'intervallo di *sensibilità climatica*,
+potuto ridurre l'intervallo di
+[*sensibilità climatica*](https://it.wikipedia.org/wiki/Sensitivit%C3%A0_climatica),
 che era rimasto sostanzialmente invariato
 dal 1979 ad un *probabile* riscaldamento tra 1,5°C e 4,5°C a fronte di un raddoppio di
 concentrazione di $$CO_2$$ nell'atmosfera.
@@ -78,8 +79,8 @@ Per maggiori dettagli si veda il lavoro di Sherwood et al 2020
 </div>
 
 Questo intervallo di sensibilità più ristretto è sia una buona notizia che una cattiva notizia.
-La cattiva notizia è che abbiamo molte meno probabilità di essere fortunati e che i cambiamenti
-climatici siano più miti di quanto gli scienziati si aspettino.
+La cattiva notizia è che abbiamo molte meno probabilità di essere fortunati, cioè che i
+cambiamenti climatici saranno più miti di quanto gli scienziati prevedano.
 La buona notizia è che i risultati precedenti fondati su una sensibilità molto elevata,
 pari a 5°C o superiore, sono ora considerati molto improbabili
 (anche se non è possibile escluderli completamente).
@@ -98,21 +99,32 @@ pari a 5°C o superiore, sono ora considerati molto improbabili
 </p>
 
 Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6 rispetto a quanto previsto
-precedentemente ed inoltre tale intervallo viene ora qualificato come *molto probabile*,
+precedentemente (AR5) ed inoltre tale intervallo viene ora qualificato come *molto probabile*,
 cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo.
 
 L'AR6 indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
-pre-industriali *nei primi anni 2030*, in tutti gli scenari di emissione presi in considerazione,
-eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere raggiunta
-addirittura prima.
+pre-industriali *nei primi anni 2030*, in tutti e cinque gli scenari di emissione presi in
+considerazione, eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere
+raggiunta addirittura prima.
 
 La soglia dei 2°C sarà superata nel corso del secolo (scenari ad alta emissione SSP5-8.5, SSP3-7.0
 e media emissione SSP2-4.5)
-a meno che non saranno messe in atto azioni di riduzione rapida delle emissioni di $$CO_2$$ e degli
+a meno che non siano messe in atto azioni di riduzione rapida delle emissioni di $$CO_2$$ e degli
 altri gas serra *nei prossimi decenni*.
-Ci sono evidentemente ben più ampie incertezze in questo caso, che riflettono le differenze tra i
+Ci sono più ampie incertezze per questa seconda soglia, che riflettono le differenze tra i
 modelli utilizzati (che modellizzano a loro volta diverse possibili scelte politiche ed economiche
-future).
+future che porteranno a diversi livelli di emissione di gas serra).
+
+<picture>
+   <img width="600" alt="Future emissioni di gas serra nei cinque scenari"
+    src="/assets/images/blog-climate-changes-ipcc-ar6-future-emissions.png"
+    class="mx-auto d-block img-fluid">
+</picture>
+<p class="text-center pt-3 pb-3">
+    <small>
+       Future emissioni di gas serra nei cinque scenari &mdash; SPM-16
+    </small>
+</p>
 
 ##### Cause dei cambiamenti climatici
 
@@ -145,16 +157,17 @@ ma è stato causato da lente (multi-millenarie) variazioni dell'orbita terrestre
 
 I cambiamenti climatici indotti dall'uomo *stanno già influenzando* molti eventi meteorologici e
 climatici estremi *in ogni regione del mondo*. La prova che i cambiamenti estremi osservati a
-partire dagli anni cinquanta del secolo scorso, quali le ondate di calore, le forti precipitazioni,
-i fenomeni di siccità, l'aumento di intensità dei cicloni tropicali siano da attribuirei
-all'influenza umana si è rafforzata rispetto alla pubblicazione AR5.
-In particolare per la maggior parte degli eventi estremi dal 2006 ad oggi (causa molto probabile).
+partire dagli anni cinquanta del secolo scorso, quali le ondate di caldo, le forti precipitazioni,
+i fenomeni di siccità, l'aumento di intensità dei cicloni tropicali, siano da attribuire
+all'influenza umana, si è rafforzata rispetto alla pubblicazione AR5.
+In particolare per la maggior parte degli eventi estremi dal 2006 ad oggi, l'origine antropica è
+data per molto probabile.
 
-La dimunuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stata causata dalle
+La diminuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stata causata dalle
 *emissioni di aerosol* dell'emisfero nord terrestre mentre il loro aumento a partire da tale anno è
 dovuto molto probabilmente all'aumento delle concentrazioni di gas serra nell'atmosfera.
 
-Gli avanzamenti nel campo scientifico permettono inoltre ora di avere un quadro di tali impatti
+Gli avanzamenti nel campo scientifico permettono inoltre di avere ora un quadro di tali impatti
 a livello regionale, almeno per quel che riguarda l'aumento delle temperature sulla superficie
 terrestre.
 
@@ -171,7 +184,7 @@ terrestre.
 
 Per quel che riguarda le precipitazioni e gli eventi di grave siccità, solo in alcune
 regioni del mondo è stato raggiunto un accordo con una confidenza almeno media.
-Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Eurora
+Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Europa
 (confidenza massima) e nella zona centrale degli Stati Uniti,
 o dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati Uniti.
 
@@ -193,35 +206,35 @@ o dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati U
 </picture>
 <p class="text-center pt-3 pb-3">
     <small>
-       Variazione di intensità nei periodi di siccità &mdash; SPM-12
+       Variazione di intensità dei periodi di siccità &mdash; SPM-12
     </small>
 </p>
 
 Molti cambiamenti nel sistema climatico diverranno via via più importanti in relazione diretta
 all'aumento del riscaldamento globale.
-Sono da includere l'aumento in frequenza ed intensità periodi di caldo estremo,
-ondate di calore e forti precipitazioni, siccità agricola ed ecologica in alcune regioni
-ed un aumento nel numero di cicloni tropicali ad alta intensità, nonché la riduzione della
+Sono da includere l'aumento in frequenza ed intensità dei periodi di caldo estremo,
+le forti precipitazioni, la siccità agricola ed ecologica in alcune regioni
+ed un aumento del numero di cicloni tropicali ad alta intensità, nonché la riduzione della
 calotta polare artica, del manto nevoso in generale e del permafrost.
 
 La superficie terrestre continuerà a scaldarsi più della superfichie oceanica
-(da 1.4 ad 1.7 volte). La zona artica si scalderà ad un ritmo molto probabilmente pari a due volte
+(da 1.4 a 1.7 volte). La zona artica si scalderà ad un ritmo molto probabilmente pari a due volte
 la media del riscaldamento globale e sarà con estrema probabilità priva di giacci nel mese di
-settembre almeno una volta prima del 2050 (in tutti e cinque gli scenari presi in considerazione).
+settembre almeno una volta prima del 2050 (in tutti e cinque gli scenari di emissione).
 
-Su scala planetaria, è prevista una intesificazione delle precipitazioni giornaliere estreme
-pari a circa il 7% per ogni 1°C di riscaldamento globale, dovuta al fatto che l'atmosfera
+Su scala planetaria, è prevista una intensificazione delle precipitazioni giornaliere estreme
+pari a circa il 7% per ogni grado di riscaldamento globale, dovuta al fatto che l'atmosfera
 riscaldandosi è in grado di accumulare più vapor acqueo prima di scaricarne l'eccesso
-tramite la pioggia.
+in pioggia.
 
 ##### Azioni di limitazione del riscaldamento globale
 
 Infine l'AR6 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project* (ZECMIP).
 
 Le temperature globali continueranno ad aumentare fino ad almeno il 2050 e molti dei cambiamenti
-dovuto alle emissioni di gas serra passati e futuri *sono irreversibili in un arco di tempo che va
+dovuto alle emissioni di gas serra passati e futuri *saranno irreversibili in un arco di tempo che va
 da secoli a millenni*, specialmente per quel che riguarda gli oceani
-(stratificazione, acidificazione anche in acque profonde e de-ossigenazione),
+(stratificazione, acidificazione anche nelle acque profonde e de-ossigenazione),
 lo scioglimento delle calotte polari e dei ghiacciai e l'aumento del livello degli oceani.
 
 In particolare sul lungo termine, il livello del mare è destinato ad aumentare per secoli e millenni
@@ -229,13 +242,13 @@ a causa del riscaldamento profondo degli oceani e dello scioglimento delle calot
 rimarrà a livelli elevati per migliaia di anni.
 Nei prossimi 2000 anni, il livello medio globale del mare aumenterà di circa 2-3 metri se il
 riscaldamento rimarrà limitato a 1,5°C, da 2 a 6 metri se limitato a 2°C e da 19 a 22 metri
-a 5°C di riscaldamento, e continuerà a salire nei successivi millenni.
+a 5°C di riscaldamento, e continuerà probabilmente a salire nei successivi millenni.
 
-Da un punto di vista fisico, limitare il riscaldamento globale ad un certo livello richiede
+Da un punto di vista fisico, limitare il riscaldamento globale ad un dato livello richiede
 *almeno il raggiungimento del netto zero delle emissioni di $$CO_2$$ ed una forte diminizione
 di emissione nell'atmosfera degli altri gas ad effetto serra*.
 C'è infatti una relazione quasi-lineare tra incremento di temperature e $$CO_2$$
-cumulata nell'atmosfera.
+*cumulata* nell'atmosfera.
 
 <picture>
    <img width="600" alt="Linearità tra CO_2 cumulato ed aumento delle temperature"
@@ -249,21 +262,22 @@ cumulata nell'atmosfera.
 </p>
 
 Una *forte diminuzione delle emissioni di metano* limiterebbe inoltre l'aumento della temperatura
-dovuto alla diminuzione degli aerosol da combusione fossile e migliorerebbe anche la qualità
-dell'aria.
+dovuto alla diminuzione degli aerosol emessi attualmente dalla combusione di combustibili fossili
+e migliorerebbe anche la qualità dell'aria.
 
 Eventuali tecnologie di rimozione di $$CO_2$$ dall'atmosfera (CDR) e stoccaggio a tempo indefinito
 in opportuni giacimenti geologici potranno potenzialmente compensare le emissioni residue ed
-aiutare il raggiungimento del netto zero di emissioni.
-A più lungo termine, se esisteranno technologie tali da portare la rimozione di $$CO_2$$ a livelli
-superiori alle emissioni (emissioni negative), sarà possibile ridurre il riscaldamento globale e
-probabilmente anche il livello di acidità degli oceani.
-Tuttavia gli effetti cominceranno ad essere visibili su scale temporali di un paio di decenni
-nel primo caso e molto più lunghe nel secondo.
+aiutare il raggiungimento del netto zero delle emissioni.
+A più lungo termine, se esisteranno tecnologie tali da portare la rimozione di $$CO_2$$ a livelli
+superiori alle emissioni (situazione che viene comunemente chiamata *emissione negativa*),
+sarà possibile ridurre il riscaldamento globale e probabilmente anche il livello di acidità
+degli oceani.
+Tuttavia gli effetti cominceranno ad essere visibili su un periodo di almeno un paio di
+decenni nel primo caso e molto più lungo nel secondo.
 
 Naturalmente, dietro tutta l'analisi scientifica dettagliata risuona forte e chiaro un messaggio
-semplice: siamo noi i responsabili, ne siamo assolutamente sicuri, la situazione è grave, ma c'è
-ancora del tempo per agire ed evitare gli impatti più devastanti dei cambiamenti climatici che
+semplice: siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
+ancora del tempo per agire ed *evitare gli impatti più devastanti* dei cambiamenti climatici che
 abbiamo indotto.
-Il nostro futuro climatico, in definitiva, è ancora nelle nostre mani ma potrebbe non esserlo
-ancora a lungo.
+Il nostro futuro climatico, in definitiva, è ancora nelle nostre mani, ma
+[potrebbe non esserlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
