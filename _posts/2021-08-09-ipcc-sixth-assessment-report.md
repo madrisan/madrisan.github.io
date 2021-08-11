@@ -118,13 +118,22 @@ pre-industriali *nei primi anni 2030*, in tutti e cinque gli scenari di emission
 considerazione, eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere
 raggiunta addirittura prima.
 
-La soglia dei 2°C sarà superata nel corso del secolo (scenari ad alta emissione SSP5-8.5, SSP3-7.0
-e media emissione SSP2-4.5)
-a meno che non siano messe in atto azioni di riduzione rapida delle emissioni di $$CO_2$$ e degli
+<div class="bd-callout bd-callout-warning">
+<p>
+Si noti che nei due modelli ad emissione minima (SSP1-1.9 e SSP1-2.6) il valore della temperature
+globale, dopo aver raggiunto un picco superiore a 1,5°C, descrescerebbe fino a raggiungere un valore
+"ben inferiore ai 2°C a fine secolo" e nel caso del SSP1-1.9 inferiore a 1,5°C.
+Questi due modelli sono dunque i soli compatibili con l'accordo di Parigi del 2015.
+</p>
+</div>
+
+La soglia dei 2°C sarà superata nel corso del secolo negli scenari ad alta emissione
+(SSP5-8.5 e SSP3-7.0) e media emissione (SSP2-4.5),
+a meno che non siano messe in atto azioni di *riduzione rapida* delle emissioni di $$CO_2$$ e degli
 altri gas serra *nei prossimi decenni*.
 Ci sono più ampie incertezze per questa seconda soglia, che riflettono le differenze tra i
 modelli utilizzati (che modellizzano a loro volta diverse possibili scelte politiche ed economiche
-future che porteranno a diversi livelli di emissione di gas serra).
+future che porteranno quindi a diversi livelli di emissione di gas serra).
 
 <picture>
    <img width="600" alt="Future emissioni di gas serra nei cinque scenari"
@@ -155,14 +164,17 @@ leggero raffreddamento del clima.
     </small>
 </p>
 
-La curva in basso è ottenuta da simulazioni che considerano esclusivamente fenomeni naturali
+La curva in basso è ottenuta da simulazioni che considerano *esclusivamente fenomeni naturali*
 (variazioni cicliche solari ed eruzioni vulcaniche).
 Si noti come la linea nera (valori osservati) corrisponda invece molto bene ai dati di simulazione
-che prendono in conto sia i fenomeni naturali che gli effetti dovuti all'uomo.
+che prendono in conto sia i *fenomeni naturali* che gli *effetti dovuti all'uomo*.
 
-L'aumento delle temperature indotto dalle azioni umane sta inoltre avvenendo ad una velocità che
-non si ritrova nel passato terrestre. Il precedente periodo caldo risale a circa 125000 anni fa,
+L'aumento delle temperature indotto dalle azioni umane sta inoltre avvenendo *ad una velocità che
+non si ritrova in nessuno dei periodi geologici passati*.
+Il precedente periodo caldo risale a circa 125000 anni fa,
 ma è stato causato da lente (multi-millenarie) variazioni dell'orbita terrestre.
+Questo avrà un impatto rilevante e potenzialmente carastrofico sulla possibilità di adattabilità
+di molti degli organismi viventi che popolano il nostro pianeta.
 
 ##### Impatto dei cambiamenti climatici
 
@@ -172,7 +184,7 @@ partire dagli anni cinquanta del secolo scorso, quali le ondate di caldo, le for
 i fenomeni di siccità, l'aumento di intensità dei cicloni tropicali, siano da attribuire
 all'influenza umana, si è rafforzata rispetto alla pubblicazione AR5.
 In particolare per la maggior parte degli eventi estremi dal 2006 ad oggi, l'origine antropica è
-data per molto probabile.
+data ora come molto probabile.
 
 La diminuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stata causata dalle
 *emissioni di aerosol* dell'emisfero nord terrestre mentre il loro aumento a partire da tale anno è
@@ -196,8 +208,7 @@ terrestre.
 Per quel che riguarda le precipitazioni e gli eventi di grave siccità, solo in alcune
 regioni del mondo è stato raggiunto un accordo con una confidenza almeno media.
 Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Europa
-(confidenza massima) e nella zona centrale degli Stati Uniti,
-o dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati Uniti.
+(confidenza massima) e nella zona centrale degli Stati Uniti.
 
 <picture>
    <img width="600" alt="Variazione nelle precipitazioni estreme"
@@ -209,6 +220,8 @@ o dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati U
        Precipitazioni estreme &mdash; SPM-12
     </small>
 </p>
+
+O dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati Uniti.
 
 <picture>
    <img width="600" alt="Situazione della variazione nei periodi di siccità"
@@ -228,10 +241,10 @@ le forti precipitazioni, la siccità agricola ed ecologica in alcune regioni
 ed un aumento del numero di cicloni tropicali ad alta intensità, nonché la riduzione della
 calotta polare artica, del manto nevoso in generale e del permafrost.
 
-La superficie terrestre continuerà a scaldarsi più della superfichie oceanica
+La superficie terrestre continuerà a scaldarsi più della superficie oceanica
 (da 1.4 a 1.7 volte). La zona artica si scalderà ad un ritmo molto probabilmente pari a due volte
-la media del riscaldamento globale e sarà con estrema probabilità priva di giacci nel mese di
-settembre almeno una volta prima del 2050 (in tutti e cinque gli scenari di emissione).
+la media del riscaldamento globale e sarà con estrema probabilità priva di giacci a fine estate
+(mese di settembre), almeno una volta prima del 2050 (in tutti e cinque gli scenari di emissione).
 
 Su scala planetaria, è prevista una intensificazione delle precipitazioni giornaliere estreme
 pari a circa il 7% per ogni grado di riscaldamento globale, dovuta al fatto che l'atmosfera
@@ -241,12 +254,12 @@ in pioggia.
 ##### Azioni di limitazione del riscaldamento globale
 
 Infine l'AR6-WGI discute i risultati del nuovo *Zero Emissions Model Intercomparison Project*
-(ZECMIP).
+(ZECMIP) ed il restante budget $$CO_2$$ che permetta di rispettare gli accordi di Parigi.
 
 Le temperature globali continueranno ad aumentare fino ad almeno il 2050 e molti dei cambiamenti
-dovuto alle emissioni di gas serra passati e futuri *saranno irreversibili in un arco di tempo che va
+dovuti alle emissioni di gas serra passati e futuri *saranno irreversibili in un arco di tempo che va
 da secoli a millenni*, specialmente per quel che riguarda gli oceani
-(stratificazione, acidificazione anche nelle acque profonde e de-ossigenazione),
+(*stratificazione*, *acidificazione* anche nelle acque profonde e *de-ossigenazione*),
 lo scioglimento delle calotte polari e dei ghiacciai e l'aumento del livello degli oceani.
 
 In particolare sul lungo termine, il livello del mare è destinato ad aumentare per secoli e millenni
@@ -258,7 +271,7 @@ a 5°C di riscaldamento, e continuerà probabilmente a salire nei successivi mil
 
 Da un punto di vista fisico, limitare il riscaldamento globale ad un dato livello richiede
 *almeno il raggiungimento del netto zero delle emissioni di $$CO_2$$ ed una forte diminizione
-di emissione nell'atmosfera degli altri gas ad effetto serra*.
+delle emissioni nell'atmosfera degli altri gas ad effetto serra*.
 C'è infatti una relazione quasi-lineare tra incremento di temperature e $$CO_2$$
 *cumulata* nell'atmosfera.
 
@@ -289,7 +302,7 @@ decenni nel primo caso e molto più lungo nel secondo.
 
 Naturalmente, dietro tutta l'analisi scientifica dettagliata risuona forte e chiaro un messaggio
 semplice: siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
-ancora del tempo per agire ed *evitare gli impatti più devastanti* dei cambiamenti climatici che
+ancora del tempo per agire ed *evitare gli impatti più devastanti dei cambiamenti climatici* che
 abbiamo indotto.
 Il nostro futuro climatico, in definitiva, è ancora nelle nostre mani, ma
-[potrebbe non esserlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
+[potrebbe non restarlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
