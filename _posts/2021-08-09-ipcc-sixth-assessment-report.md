@@ -191,7 +191,25 @@ La diminuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stat
 dovuto molto probabilmente all'aumento delle concentrazioni di gas serra nell'atmosfera.
 
 Gli avanzamenti nel campo scientifico permettono inoltre di avere ora un quadro di tali impatti
-a livello regionale, almeno per quel che riguarda l'aumento delle temperature sulla superficie
+a livello regionale.
+
+<div class="bd-callout bd-callout-info">
+<p>
+Si tratta di risultati basato sul recente e rivoluzionario metodo noto con il nome di
+"World Weather Attribution" (WWA) e nato dalle attività di ricerca della climatologa tedesca
+Friederike Otto. Attraverso l'esecuzione di centinaia di scenari di simulazione, vengono
+comparate la probabilità di un evento estremo che si è verificato nel mondo nella situazione
+climatica attuale ed in quella che avremmo senza i gas serra riversati nell'atmosfera dall'uomo
+nel corso degli ultimi due secoli.
+In questo modo è possibile classificare rapidamente eventi estremi reali come causati dai
+cambiamenti climatici indotti dall'uomo oppure, al contrario, non facilmente o debolmente
+correlabili a questi.
+Per un approfondimento si rimanda al libro di Friederike Otto "Angry Weather", pubblicato nel
+settembre 2020.
+</p>
+</div>
+
+La situazione più chiara riguarda l'aumento delle temperature sulla superficie
 terrestre.
 
 <picture>
