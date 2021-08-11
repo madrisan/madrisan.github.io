@@ -38,7 +38,7 @@ in materia ambientale e climatica:
 
 #### La nuova pubblicazione in sintesi
 
-L'ultimo rapporto (AR6) dell'IPCC
+L'ultimo rapporto (AR6-WGI) dell'IPCC
 ([*The Physical Science Basis of Climate Change*](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/))
 pubblicato il 9 agosto 2021 dal gruppo di lavoro I, descrive con un livello di chiarezza
 senza precedenti il futuro del nostro pianeta, e la *necessità di ridurre rapidamente fino ad eliminarle*,
@@ -64,14 +64,25 @@ che era rimasto sostanzialmente invariato
 dal 1979 ad un *probabile* riscaldamento tra 1,5°C e 4,5°C a fronte di un raddoppio di
 concentrazione di $$CO_2$$ nell'atmosfera.
 
-Il nuovo rapporto AR6 fornisce un intervallo di sensibilità climatica *probabile*
+Il nuovo rapporto AR6-WGI fornisce un intervallo di sensibilità climatica *probabile*
 (probabilità del 67%) compreso tra 2,5°C e 4°C ed un intervallo *molto probabile*
 (circa il 90%) tra 2°C e 5°C.
 Quest'ultimo era precedentemente stimato tra 1°C e 6°C.
 
+Allo stato attuale delle conoscenze la miglior stima della *sensibilità climatica* è dunque
+di 3°C. Cioè ogni raddoppio della concentrazione di $$CO_2$$ nell'atmosfera è associato ad
+un incremento medio di 3°C della temperatura globale.
+Ricordiamo che il valore pre-industriale è di 278ppm mentre la
+[concentrazione attuale](https://climate.nasa.gov/vital-signs/carbon-dioxide/)
+(giugno 2021) ha ormai raggiunto il valore di 417ppm (+50%).
+Si veda il post sulla
+[fisica dei cambiamenti climatici]({% post_url 2020-12-29-climate-changes-physics %})
+per maggiori dettagli.
+
 <div class="bd-callout bd-callout-info">
 <p>
-Per maggiori dettagli si veda il lavoro di Sherwood et al 2020
+Se interessati alla ricerca scientifica che ha portato a questo risultato, si veda il
+lavoro di Sherwood et al 2020:
 <a href="http://dx.doi.org/10.1029/2019RG000678">
      <i>An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence</i>
 </a>.
@@ -98,11 +109,11 @@ pari a 5°C o superiore, sono ora considerati molto improbabili
     </small>
 </p>
 
-Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6 rispetto a quanto previsto
+Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6-WGI rispetto a quanto previsto
 precedentemente (AR5) ed inoltre tale intervallo viene ora qualificato come *molto probabile*,
 cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo.
 
-L'AR6 indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
+L'AR6-WGI indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
 pre-industriali *nei primi anni 2030*, in tutti e cinque gli scenari di emissione presi in
 considerazione, eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere
 raggiunta addirittura prima.
@@ -128,7 +139,7 @@ future che porteranno a diversi livelli di emissione di gas serra).
 
 ##### Cause dei cambiamenti climatici
 
-L'AR6 sostiene ormai *con sicurezza* che il riscaldamento globale è dovuto all'azione umana.
+L'AR6-WGI sostiene ormai *con sicurezza* che il riscaldamento globale è dovuto all'azione umana.
 Gli effetti naturali (cicli di variabilità della radiazione solare, variazioni periodiche
 dell'orbita terrestre attorno al sole, ...) avrebbero portato a temperature stazionarie o ad un
 leggero raffreddamento del clima.
@@ -229,7 +240,8 @@ in pioggia.
 
 ##### Azioni di limitazione del riscaldamento globale
 
-Infine l'AR6 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project* (ZECMIP).
+Infine l'AR6-WGI discute i risultati del nuovo *Zero Emissions Model Intercomparison Project*
+(ZECMIP).
 
 Le temperature globali continueranno ad aumentare fino ad almeno il 2050 e molti dei cambiamenti
 dovuto alle emissioni di gas serra passati e futuri *saranno irreversibili in un arco di tempo che va
