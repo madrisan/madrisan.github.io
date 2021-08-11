@@ -9,7 +9,7 @@ license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'off'
 post-title: Sesto rapporto IPCC
-summary: L'IPCC è ora nel suo sesto ciclo di valutazione dell'evoluzione dei cambiamenti climatici. Verranno pubblicati a breve il sesto rapporto di valutazione (AR6) con i contributi dei suoi tre gruppi di lavoro ed un rapporto di sintesi, tre rapporti speciali ed un perfezionamento del suo ultimo rapporto metodologico.
+summary: L'IPCC è ora nel suo sesto ciclo di valutazione dell'evoluzione dei cambiamenti climatici. Verranno pubblicati a breve il sesto rapporto di valutazione (AR6) con i contributi dei suoi tre gruppi di lavoro ed un rapporto di sintesi, tre rapporti speciali ed un perfezionamento del suo ultimo rapporto metodologico. Analizziamo il primo documento pubblicato.
 title: Sesto rapporto di valutazione IPCC
 titlejumbotron: 'off'
 ---
@@ -38,7 +38,7 @@ in materia ambientale e climatica:
 
 #### La nuova pubblicazione in sintesi
 
-L'ultimo rapporto (AR6-WGI) dell'IPCC
+L'ultimo rapporto (AR6-WG1) dell'IPCC
 ([*The Physical Science Basis of Climate Change*](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/))
 pubblicato il 9 agosto 2021 dal gruppo di lavoro I, descrive con un livello di chiarezza
 senza precedenti il futuro del nostro pianeta, e la *necessità di ridurre rapidamente fino ad eliminarle*,
@@ -64,7 +64,7 @@ che era rimasto sostanzialmente invariato
 dal 1979 ad un *probabile* riscaldamento tra 1,5°C e 4,5°C a fronte di un raddoppio di
 concentrazione di $$CO_2$$ nell'atmosfera.
 
-Il nuovo rapporto AR6-WGI fornisce un intervallo di sensibilità climatica *probabile*
+Il nuovo rapporto AR6-WG1 fornisce un intervallo di sensibilità climatica *probabile*
 (probabilità del 67%) compreso tra 2,5°C e 4°C ed un intervallo *molto probabile*
 (circa il 90%) tra 2°C e 5°C.
 Quest'ultimo era precedentemente stimato tra 1°C e 6°C.
@@ -109,11 +109,11 @@ pari a 5°C o superiore, sono ora considerati molto improbabili
     </small>
 </p>
 
-Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6-WGI rispetto a quanto previsto
+Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6-WG1 rispetto a quanto previsto
 precedentemente (AR5) ed inoltre tale intervallo viene ora qualificato come *molto probabile*,
 cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo.
 
-L'AR6-WGI indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
+L'AR6-WG1 indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
 pre-industriali *nei primi anni 2030*, in tutti e cinque gli scenari di emissione presi in
 considerazione, eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere
 raggiunta addirittura prima.
@@ -152,7 +152,7 @@ future che porteranno quindi a diversi livelli di emissione di gas serra).
 
 ##### Cause dei cambiamenti climatici
 
-L'AR6-WGI sostiene ormai *con sicurezza* che il riscaldamento globale è dovuto all'azione umana.
+L'AR6-WG1 sostiene ormai *con sicurezza* che il riscaldamento globale è dovuto all'azione umana.
 Gli effetti naturali (cicli di variabilità della radiazione solare, variazioni periodiche
 dell'orbita terrestre attorno al sole, ...) avrebbero portato a temperature stazionarie o ad un
 leggero raffreddamento del clima.
@@ -275,7 +275,7 @@ in pioggia.
 
 ##### Azioni di limitazione del riscaldamento globale
 
-Infine l'AR6-WGI discute i risultati del nuovo *Zero Emissions Model Intercomparison Project*
+Infine l'AR6-WG1 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project*
 (ZECMIP) ed il restante budget $$CO_2$$ che permetta di rispettare gli accordi di Parigi.
 
 Le temperature globali continueranno ad aumentare fino ad almeno il 2050 e molti dei cambiamenti
