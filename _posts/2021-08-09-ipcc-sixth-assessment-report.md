@@ -124,6 +124,10 @@ Si noti che nei due modelli ad emissione minima (SSP1-1.9 e SSP1-2.6) il valore 
 globale, dopo aver raggiunto un picco superiore a 1,5°C, descrescerebbe fino a raggiungere un valore
 "ben inferiore ai 2°C a fine secolo" e nel caso del SSP1-1.9 inferiore a 1,5°C.
 Questi due modelli sono dunque i soli compatibili con l'accordo di Parigi del 2015.
+SSP1-1.9 si basa in particolare su ipotesi non realistiche, o quantomeno azzardate allo stato
+tecnologico attuale, di emissione "negativa", a causa del limitato budget carbone rimasto prima del
+superamento della soglia di 1.5°C.
+Si veda oltre.
 </p>
 </div>
 
