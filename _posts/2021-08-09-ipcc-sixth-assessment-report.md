@@ -308,9 +308,10 @@ C'è infatti una relazione quasi-lineare tra incremento di temperature e $$CO_2$
     </small>
 </p>
 
-Una *forte diminuzione delle emissioni di metano* limiterebbe inoltre l'aumento della temperatura
-dovuto alla diminuzione degli aerosol emessi attualmente dalla combusione di combustibili fossili
-e migliorerebbe anche la qualità dell'aria.
+Una *forte diminuzione delle emissioni di metano* limiterebbe inoltre sul breve periodo l'aumento
+della temperatura dovuto alla diminuzione degli aerosol emessi attualmente dalla combusione
+fossile e migliorerebbe anche la qualità dell'aria, con effetti benefici sulla salute e
+sull'ambiente.
 
 Eventuali tecnologie di rimozione di $$CO_2$$ dall'atmosfera (CDR) e stoccaggio a tempo indefinito
 in opportuni giacimenti geologici potranno potenzialmente compensare le emissioni residue ed
@@ -322,9 +323,41 @@ degli oceani.
 Tuttavia gli effetti cominceranno ad essere visibili su un periodo di almeno un paio di
 decenni nel primo caso e molto più lungo nel secondo.
 
-Naturalmente, dietro tutta l'analisi scientifica dettagliata risuona forte e chiaro un messaggio
-semplice: siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
+<div class="bd-callout bd-callout-info">
+<h6>Il metano è temporaneo, CO2 è per sempre</h6>
+<p>
+Il documento AR6-WG1 si concentra particolarmente sulle emissioni di metano.
+Il metano è un potente gas ad effetto serra &mdash; circa 100 volte più efficace dell'anidride
+carbonica nell'intrappolare l'enegia solare che raggiunge l'atmosfera,
+ed è responsabile di circa il 28% del riscaldamento gobale.
+Tuttavia il metano ha una <i>vita relativamente breve</i> nell'atmosfera (circa un decennio),
+poichè interagisce con i radicali idrossilici (OH), riducendosi essenzialmente in anidride
+carbonica ed acqua.
+Questo porta ad una <i>importante implicazione</i>:
+la quantità di metano presente nell'atmosfera dipende principalmente <i>dal tasso di emissione</i>
+ed una diminizione di emissioni porterà rapidamente ad une diminizione della sua concentrazione
+così come del suo impatto climatico.
+<br>
+L'anidride carbonica si comporta in modo molto diverso: rimanendo stabilmente nell'atmosfera
+<i>per decine di migliaia di anni</i>, la sua concentrazione ed il suo effetto climatico è dato
+<i>dalla quantità accumulata</i> durante questo lunghissimo periodo.
+Contrariamente al metano dunque, una stabilizzazione delle emissioni annuali di anidride
+carbonica avrà come effetto un aumento progressivo e continuo della temperatura globale.
+<i>Non sarà nemmeno possibile raffreddare il pianeta diminuendo le emissioni</i>,
+poichè la quantità cumulata nell'atmosfera continuerà comunque a crescere
+(ad un ritmo soltando rallentato).
+Occorrerà elimininarne più di quanto ne produciamo, ripiantando/ripristinando enormi estensioni
+di boschi e foreste o sviluppando apposite tecnologie CDR.
+</p>
+</div>
+
+Dietro tutta l'analisi scientifica dettagliata risuona forte e chiaro un semplice ma terribile
+messaggio: siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
 ancora del tempo per agire ed *evitare gli impatti più devastanti dei cambiamenti climatici* che
 abbiamo indotto.
-Il nostro futuro climatico, in definitiva, è ancora nelle nostre mani, ma
-[potrebbe non restarlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
+Il nostro futuro (climatico) in definitiva è ancora, almeno in parte, nelle nostre mani,
+ma [potrebbe non restarlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
+Politiche forti di riduzione delle emissioni sono da mettere in atto da subito così come
+un miglioramento sostanziale delle nostre capacità di prevenzione, risposta ed adattabilità
+agli eventi estremi ormai in atto ovunque e che sappiamo si intensificheranno in frequenza ed
+intensità nei prossimi anni e decenni.
