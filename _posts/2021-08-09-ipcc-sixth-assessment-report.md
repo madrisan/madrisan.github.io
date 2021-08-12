@@ -328,8 +328,7 @@ decenni nel primo caso e molto più lungo nel secondo.
 <p>
 Il documento AR6-WG1 si concentra particolarmente sulle emissioni di metano.
 Il metano è un potente gas ad effetto serra &mdash; circa 100 volte più efficace dell'anidride
-carbonica nell'intrappolare l'enegia solare che raggiunge l'atmosfera,
-ed è responsabile di circa il 28% del riscaldamento gobale.
+carbonica nell'intrappolare il calore, ed è responsabile di circa il 28% del riscaldamento gobale.
 Tuttavia il metano ha una <i>vita relativamente breve</i> nell'atmosfera (circa un decennio),
 poichè interagisce con i radicali idrossilici (OH), riducendosi essenzialmente in anidride
 carbonica ed acqua.

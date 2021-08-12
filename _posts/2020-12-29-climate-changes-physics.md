@@ -275,7 +275,7 @@ ppb nell'agosto 2020, con un incremento vicino al 270%.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-Questi ultimi gas descritti (<i>vapore acqueo</i>, <i>diossido di carbonio</i> e <i>metano</i>i
+Questi ultimi gas descritti (<i>vapore acqueo</i>, <i>diossido di carbonio</i> e <i>metano</i>
 essenzialmente), pur essendo presenti soltanto in tracce nell'atmosfera, hanno un ruolo vitale e
 vengono indicati con il nome di <i>gas ad effetto serra</i>.
 Essi infatti assorbono parte dei fotoni infrarossi emessi dalla superficie terrestre, impedendone
