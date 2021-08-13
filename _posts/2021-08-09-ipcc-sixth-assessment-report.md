@@ -40,39 +40,52 @@ in materia ambientale e climatica:
 
 L'ultimo rapporto (AR6-WG1) dell'IPCC
 ([*The Physical Science Basis of Climate Change*](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/))
-pubblicato il 9 agosto 2021 dal gruppo di lavoro I, descrive con un livello di chiarezza
-senza precedenti il futuro del nostro pianeta, e la *necessità di ridurre rapidamente fino ad eliminarle*,
+pubblicato il 9 agosto 2021 dal gruppo di lavoro I (WG1), descrive con un livello di chiarezza
+senza precedenti il futuro del nostro pianeta, e la
+*necessità di ridurre rapidamente fino ad eliminarle* (netto zero),
 le nostre emissioni di gas serra.
 
 Come il professor Albert Klein Tank, direttore del Met Office Hadley Centre
 [ha detto](https://www.metoffice.gov.uk/about-us/press-office/news/weather-and-climate/2021/ipcc-report-stresses-urgency-to-protect-ambitious-paris-aspiration):
-*Questo rapporto dipinge il quadro più chiaro che abbiamo mai avuto degli impatti globali e
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <span>
+                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border text-info"
+                   aria-hidden="true"></i>
+                <p class="text-left font-italic small">
+Questo rapporto dipinge il quadro più chiaro che abbiamo mai avuto degli impatti globali e
 regionali del cambiamento climatico.
 Il tempo stringe per evitare gli impatti peggiori del cambiamento climatico, ed il rapporto ci
 ricorda anche che non esiste motivo scientifico per ritardare l'azione.
 La situazione è chiara.
 Proiezioni più mirate del futuro cambiamento climatico stanno rendendo alcuni risultati più
 ottimistici ancora più impegnativi da raggiungere, e questo dovrebbe essere un avvertimento per
-tutti.*
+tutti.
+                </p>
+            </span>
+        </div>
+    </div>
+</div>
 
 ##### Sensibilità climatica
 
 Un avanzamento scientifico importante rispetto alla precedente pubblicazione è dato dall'aver
-potuto ridurre l'intervallo di
+potuto ridurre l'ampiezza dell'intervallo di
 [*sensibilità climatica*](https://it.wikipedia.org/wiki/Sensitivit%C3%A0_climatica),
-che era rimasto sostanzialmente invariato
-dal 1979 ad un *probabile* riscaldamento tra 1,5°C e 4,5°C a fronte di un raddoppio di
-concentrazione di $$CO_2$$ nell'atmosfera.
+che rappresenta l'aumento in gradi centigradi della temperatura media globale ad ogni raddoppio
+della concentrazione di $$CO_2$$ nell'atmosfera.
+Tale valore era rimasto sostanzialmente invariato dal 1979.
 
 Il nuovo rapporto AR6-WG1 fornisce un intervallo di sensibilità climatica *probabile*
 (probabilità del 67%) compreso tra 2,5°C e 4°C ed un intervallo *molto probabile*
 (circa il 90%) tra 2°C e 5°C.
-Quest'ultimo era precedentemente stimato tra 1°C e 6°C.
 
 Allo stato attuale delle conoscenze la miglior stima della *sensibilità climatica* è dunque
-di 3°C. Cioè ogni raddoppio della concentrazione di $$CO_2$$ nell'atmosfera è associato ad
-un incremento medio di 3°C della temperatura globale.
-Ricordiamo che il valore pre-industriale è di 278ppm mentre la
+di 3°C.
+Ricordiamo che il valore pre-industriale (anno 1750) di $$CO_2$$ era di
+278[ppm](https://it.wikipedia.org/wiki/Parti_per_milione) mentre la
 [concentrazione attuale](https://climate.nasa.gov/vital-signs/carbon-dioxide/)
 (giugno 2021) ha ormai raggiunto il valore di 417ppm (+50%).
 Si veda il post sulla
@@ -81,7 +94,7 @@ per maggiori dettagli.
 
 <div class="bd-callout bd-callout-info">
 <p>
-Se interessati alla ricerca scientifica che ha portato a questo risultato, si veda il
+Se interessati alla ricerca scientifica che ha portato a questo risultato, rimandiamo al
 lavoro di Sherwood et al 2020:
 <a href="http://dx.doi.org/10.1029/2019RG000678">
      <i>An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence</i>
@@ -109,30 +122,32 @@ pari a 5°C o superiore, sono ora considerati molto improbabili
     </small>
 </p>
 
-Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6-WG1 rispetto a quanto previsto
+Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6-WG1 rispetto a quanto calcolato
 precedentemente (AR5) ed inoltre tale intervallo viene ora qualificato come *molto probabile*,
 cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo.
 
 L'AR6-WG1 indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
-pre-industriali *nei primi anni 2030*, in tutti e cinque gli scenari di emissione presi in
+pre-industriali *nei primi anni 2030*, *in tutti e cinque gli scenari di emissione* presi in
 considerazione, eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere
 raggiunta addirittura prima.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-Si noti che nei due modelli ad emissione minima (SSP1-1.9 e SSP1-2.6) il valore della temperature
-globale, dopo aver raggiunto un picco superiore a 1,5°C, descrescerebbe fino a raggiungere un valore
-"ben inferiore ai 2°C a fine secolo" e nel caso del SSP1-1.9 inferiore a 1,5°C.
+Si noti che nei due modelli ad emissione minima
+(SSP1-1.9 e SSP1-2.6, le due curve in basso del grafico precedente)
+il valore della temperature globale, dopo aver raggiunto un picco superiore a 1,5°C,
+descrescerebbe fino a raggiungere un valore "ben inferiore ai 2°C a fine secolo".
+Nel caso SSP1-1.9 inferiore anche a 1,5°C.
 Questi due modelli sono dunque i soli compatibili con l'accordo di Parigi del 2015.
 SSP1-1.9 si basa in particolare su ipotesi non realistiche, o quantomeno azzardate allo stato
 tecnologico attuale, di emissione "negativa", a causa del limitato budget carbone rimasto prima del
-superamento della soglia di 1.5°C.
+superamento di tali soglie di temperatura.
 Si veda oltre.
 </p>
 </div>
 
 La soglia dei 2°C sarà superata nel corso del secolo negli scenari ad alta emissione
-(SSP5-8.5 e SSP3-7.0) e media emissione (SSP2-4.5),
+(SSP5-8.5 e SSP3-7.0, le due curve più alte) e media emissione (SSP2-4.5, la curva mediana),
 a meno che non siano messe in atto azioni di *riduzione rapida* delle emissioni di $$CO_2$$ e degli
 altri gas serra *nei prossimi decenni*.
 Ci sono più ampie incertezze per questa seconda soglia, che riflettono le differenze tra i
@@ -149,6 +164,14 @@ future che porteranno quindi a diversi livelli di emissione di gas serra).
        Future emissioni di gas serra nei cinque scenari &mdash; SPM-16
     </small>
 </p>
+
+<div class="bd-callout bd-callout-warning">
+<p>
+L'ultima volta che la temperatura superficiale globale terrestre ha raggiunto una temperatura pari
+o superiore a 2,5°C, rispetto al periodo di riferimento 1850-1900, è stata oltre 3 milioni di anni,
+fa quando la nostra specie non era ancora comparsa sulla terra.
+</p>
+</div>
 
 ##### Cause dei cambiamenti climatici
 
@@ -179,6 +202,12 @@ Il precedente periodo caldo risale a circa 125000 anni fa,
 ma è stato causato da lente (multi-millenarie) variazioni dell'orbita terrestre.
 Questo avrà un impatto rilevante e potenzialmente carastrofico sulla possibilità di adattabilità
 di molti degli organismi viventi che popolano il nostro pianeta.
+Ma significa anche che il passato climatico difficilmente può fornirci un quadro preciso
+sull'evoluzione del clima futuro sulla terra e sul suo impatto sull'ecosistema
+(ricordiamo che ogni grande cambiamento climato terrestre passato si è sempre associata una
+[*estinzione di massa*](https://it.wikipedia.org/wiki/Estinzione_di_massa)
+delle specie viventi, sia terrestri che marine, seguita da lunghi periodi della durata di milioni
+di anni di ripopolamento del pianeta).
 
 ##### Impatto dei cambiamenti climatici
 
@@ -195,7 +224,7 @@ La diminuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stat
 dovuto molto probabilmente all'aumento delle concentrazioni di gas serra nell'atmosfera.
 
 Gli avanzamenti nel campo scientifico permettono inoltre di avere ora un quadro di tali impatti
-a livello regionale.
+*a livello regionale*.
 
 <div class="bd-callout bd-callout-info">
 <p>
@@ -230,7 +259,7 @@ terrestre.
 Per quel che riguarda le precipitazioni e gli eventi di grave siccità, solo in alcune
 regioni del mondo è stato raggiunto un accordo con una confidenza almeno media.
 Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Europa
-(confidenza massima) e nella zona centrale degli Stati Uniti.
+(NEW, confidenza massima) e nella zona centrale degli Stati Uniti (CNA).
 
 <picture>
    <img width="600" alt="Variazione nelle precipitazioni estreme"
@@ -243,7 +272,7 @@ Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Europa
     </small>
 </p>
 
-O dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati Uniti.
+O dell'aumento della siccità nella fascia mediterranea (MED) e nell'est degli Stati Uniti (WNA).
 
 <picture>
    <img width="600" alt="Situazione della variazione nei periodi di siccità"
@@ -259,24 +288,23 @@ O dell'aumento della siccità nella fascia mediterranea e nell'est degli Stati U
 Molti cambiamenti nel sistema climatico diverranno via via più importanti in relazione diretta
 all'aumento del riscaldamento globale.
 Sono da includere l'aumento in frequenza ed intensità dei periodi di caldo estremo,
-le forti precipitazioni, la siccità agricola ed ecologica in alcune regioni
+le forti precipitazioni (già aumentate in modo rapido a partire dagli anni 80 del secolo scorso),
+la siccità agricola ed ecologica in alcune regioni,
+con un conseguente aumento di probabilità di portare a grandi incendi,
 ed un aumento del numero di cicloni tropicali ad alta intensità, nonché la riduzione della
 calotta polare artica, del manto nevoso in generale e del permafrost.
 
 La superficie terrestre continuerà a scaldarsi più della superficie oceanica
 (da 1.4 a 1.7 volte). La zona artica si scalderà ad un ritmo molto probabilmente pari a due volte
 la media del riscaldamento globale e sarà con estrema probabilità priva di giacci a fine estate
-(mese di settembre), almeno una volta prima del 2050 (in tutti e cinque gli scenari di emissione).
+(mese di settembre), almeno una volta prima del 2050, in tutti e cinque gli scenari di emissione.
+La superficie è già diminuita del 40% rispetto al 1979, anno di inizio delle osservazioni
+satellitari.
 
 Su scala planetaria, è prevista una intensificazione delle precipitazioni giornaliere estreme
 pari a circa il 7% per ogni grado di riscaldamento globale, dovuta al fatto che l'atmosfera
 riscaldandosi è in grado di accumulare più vapor acqueo prima di scaricarne l'eccesso
 in pioggia.
-
-##### Azioni di limitazione del riscaldamento globale
-
-Infine l'AR6-WG1 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project*
-(ZECMIP) ed il restante budget $$CO_2$$ che permetta di rispettare gli accordi di Parigi.
 
 Le temperature globali continueranno ad aumentare fino ad almeno il 2050 e molti dei cambiamenti
 dovuti alle emissioni di gas serra passati e futuri *saranno irreversibili in un arco di tempo che va
@@ -285,17 +313,53 @@ da secoli a millenni*, specialmente per quel che riguarda gli oceani
 lo scioglimento delle calotte polari e dei ghiacciai e l'aumento del livello degli oceani.
 
 In particolare sul lungo termine, il livello del mare è destinato ad aumentare per secoli e millenni
-a causa del riscaldamento profondo degli oceani e dello scioglimento delle calotte glaciali e
-rimarrà a livelli elevati per migliaia di anni.
+a causa del riscaldamento profondo degli oceani
+(che secondo recenti studi ha già raggiunto i 700m di profondità)
+e dello scioglimento delle calotte glaciali e rimarrà a livelli elevati per migliaia di anni.
+Il livello medio dei mari si è innalzato di 20 cm dal 1901 al 2018, e la sua crescità,
+pari attualmente a 3.7 mm annui, sta accelerando.
+Ciò significa una minaccia maggiore per gli insediamenti costieri a causa dell'erosione
+delle coste dell'aumento del rischio di inondazioni e mareggiate.
+Il 5O% della crescita dei mari nel periodo 1971–2018 è dovuto all'espansione termica.
 Nei prossimi 2000 anni, il livello medio globale del mare aumenterà di circa 2-3 metri se il
 riscaldamento rimarrà limitato a 1,5°C, da 2 a 6 metri se limitato a 2°C e da 19 a 22 metri
 a 5°C di riscaldamento, e continuerà probabilmente a salire nei successivi millenni.
 
+##### Azioni di limitazione del riscaldamento globale
+
+Infine l'AR6-WG1 discute i risultati del nuovo *Zero Emissions Model Intercomparison Project*
+(ZECMIP) ed il restante budget $$CO_2$$ che permetta di rispettare gli accordi di Parigi,
+che in quest'ultimo rapporto di valutazione ha avuto diversi miglioramenti.
+
+<picture>
+   <img width="600" alt="Budget carbone e temperature"
+    src="/assets/images/blog-climate-changes-ipcc-ar6-carbon-budget.png"
+    class="mx-auto d-block img-fluid">
+</picture>
+<p class="text-center pt-3 pb-3">
+    <small>
+       Stima delle emissioni storiche e budget carbone residuo &mdash; Table SPM.2
+    </small>
+</p>
+
+Abbiamo emesso un totale di circa 2390 gigatonnellate di $$CO_2$$ nel periodo 1850-2019.
+La quantità rimanente che possiamo emettere dipende dalle nostre ambizioni di mantenere
+la temperatura media globale al di sotto di 1,5°C o 2,0°C.
+
+<div class="bd-callout bd-callout-info">
+<p>
+Per un'idea del budget carbone restante, citiamo i
+<a href="https://ourworldindata.org/co2-emissions">dati <i>ourworldindata.org</i></a>
+secondo i quali le emissioni hanno raggiunto nel 2018-2019 il valore di 36
+gigatonnellate annue, con un trend in continua ascesa.
+</p>
+</div>
+
 Da un punto di vista fisico, limitare il riscaldamento globale ad un dato livello richiede
 *almeno il raggiungimento del netto zero delle emissioni di $$CO_2$$ ed una forte diminizione
 delle emissioni nell'atmosfera degli altri gas ad effetto serra*.
-C'è infatti una relazione quasi-lineare tra incremento di temperature e $$CO_2$$
-*cumulata* nell'atmosfera.
+Esiste infatti in prima approssimazione, una relazione quasi-lineare tra incremento di
+temperature e $$CO_2$$ *cumulata* nell'atmosfera.
 
 <picture>
    <img width="600" alt="Linearità tra CO_2 cumulato ed aumento delle temperature"
@@ -308,9 +372,9 @@ C'è infatti una relazione quasi-lineare tra incremento di temperature e $$CO_2$
     </small>
 </p>
 
-Una *forte diminuzione delle emissioni di metano* limiterebbe inoltre sul breve periodo l'aumento
-della temperatura dovuto alla diminuzione degli aerosol emessi attualmente dalla combusione
-fossile e migliorerebbe anche la qualità dell'aria, con effetti benefici sulla salute e
+Una *forte diminuzione delle emissioni di metano* è inoltre necessaria per limitare inoltre sul breve
+periodo l'aumento della temperatura dovuto alla diminuzione degli aerosol emessi attualmente dalla
+combusione fossile e migliorerebbe anche la qualità dell'aria, con effetti benefici sulla salute e
 sull'ambiente.
 
 Eventuali tecnologie di rimozione di $$CO_2$$ dall'atmosfera (CDR) e stoccaggio a tempo indefinito
@@ -350,13 +414,17 @@ di boschi e foreste o sviluppando apposite tecnologie CDR.
 </p>
 </div>
 
-Dietro tutta l'analisi scientifica dettagliata risuona forte e chiaro un semplice ma terribile
-messaggio: siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
+##### Conclusioni
+
+Dietro tutta l'analisi scientifica dettagliata e l'enorme quantità di materiale e studi
+scientifici su cui si basa, risuona forte e chiaro un semplice ma importante messaggio:
+siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
 ancora del tempo per agire ed *evitare gli impatti più devastanti dei cambiamenti climatici* che
 abbiamo indotto.
 Il nostro futuro (climatico) in definitiva è ancora, almeno in parte, nelle nostre mani,
 ma [potrebbe non restarlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
-Politiche forti di riduzione delle emissioni sono da mettere in atto da subito così come
+
+Politiche forti di riduzione delle emissioni sono da mettere in atto da subito, così come
 un miglioramento sostanziale delle nostre capacità di prevenzione, risposta ed adattabilità
-agli eventi estremi ormai in atto ovunque e che sappiamo si intensificheranno in frequenza ed
-intensità nei prossimi anni e decenni.
+agli eventi estremi, ormai in atto ovunque e che sappiamo si intensificheranno in frequenza e
+gravità nei prossimi anni e decenni.
