@@ -220,8 +220,24 @@ In particolare per la maggior parte degli eventi estremi dal 2006 ad oggi, l'ori
 data ora come molto probabile.
 
 La diminuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stata causata dalle
-*emissioni di aerosol* dell'emisfero nord terrestre mentre il loro aumento a partire da tale anno è
+*emissioni di [aerosol](https://it.wikipedia.org/wiki/Aerosol#Aerosol_atmosferico)*
+dell'emisfero nord terrestre mentre il loro aumento a partire da tale anno è
 dovuto molto probabilmente all'aumento delle concentrazioni di gas serra nell'atmosfera.
+
+<div class="bd-callout bd-callout-info">
+<p>
+Gli aerosol causano un <i>raffreddamento</i>, riflettendo la luce solare nello spazio e provocando
+uno squilibrio energetico temporaneo: più energia in uscita che in entrata.
+La terra ripristina l'equilibrio energetico raffreddandosi, riducendo così la radiazione
+di calore nello spazio.
+Secondo
+<a href="http://www.columbia.edu/~jeh1/">James Hansen</a>
+l'effetto di forzatura degli aerosol prodotti dall'uomo
+<i>è grande quasi quanto quello dovuta all'anidride carbonica</i>, ma di segno opposto.
+Malgrado questa importante influenza sul bilancio energetico climatico, non sono monitorati
+accuratamente come i gas serra.
+</p>
+</div>
 
 Gli avanzamenti nel campo scientifico permettono inoltre di avere ora un quadro di tali impatti
 *a livello regionale*.
@@ -317,13 +333,39 @@ a causa del riscaldamento profondo degli oceani
 (che secondo recenti studi ha già raggiunto i 700m di profondità)
 e dello scioglimento delle calotte glaciali e rimarrà a livelli elevati per migliaia di anni.
 Il livello medio dei mari si è innalzato di 20 cm dal 1901 al 2018, e la sua crescità,
-pari attualmente a 3.7 mm annui, sta accelerando.
-Ciò significa una minaccia maggiore per gli insediamenti costieri a causa dell'erosione
-delle coste dell'aumento del rischio di inondazioni e mareggiate.
-Il 5O% della crescita dei mari nel periodo 1971–2018 è dovuto all'espansione termica.
+pari attualmente a 3.7 mm annui, sta accelerando ma dovrebbe restare al di sotto del metro
+a fine secolo.
+Si noti che il 5O% della crescita dei mari nel periodo 1971–2018 è dovuto all'espansione
+termica dell'enorme volume oceanico.
+L'innalzamenti dei mari si traduce in una minaccia crescente per gli insediamenti costieri a causa
+dell'erosione delle coste e dell'aumento del rischio di inondazioni e mareggiate.
 Nei prossimi 2000 anni, il livello medio globale del mare aumenterà di circa 2-3 metri se il
 riscaldamento rimarrà limitato a 1,5°C, da 2 a 6 metri se limitato a 2°C e da 19 a 22 metri
 a 5°C di riscaldamento, e continuerà probabilmente a salire nei successivi millenni.
+
+<div class="bd-callout bd-callout-warning">
+<p>
+Su questo punto è interessante quanto riportato nel libro
+"<i>Global Warming, Understanding the Forecast</i>" di David Archer.
+Se poniamo su un grafico i dati del livello dei mari nelle varie epoche geologiche rispetto
+alla temperatura globale media,
+
+<picture>
+   <img width="600" alt="Livello dei mari nel passato e proiezione IPCC"
+    src="/assets/images/blog-climate-changes-ipcc-ar6-sea-level-raise-david-archer.png"
+    class="mx-auto d-block img-fluid">
+</picture>
+<p class="text-center pt-3 pb-3">
+    <small>
+       Livello dei mari nel passato terreste e proiezione IPCC
+    </small>
+</p>
+notiamo come questi dati stiano con buonissima approssimazione su di una linea retta.
+La previsione IPCC per l'anno 2100 è di meno di 1 m, ma le ricostruzioni geologiche
+suggeriscono che se la Terra rimanesse abbastanza a lungo più calda di 3°C, il livello
+del mare potrebbe aumentare di circa 50 m.
+</p>
+</div>
 
 ##### Azioni di limitazione del riscaldamento globale
 
