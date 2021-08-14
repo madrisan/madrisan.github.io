@@ -331,24 +331,58 @@ lo scioglimento delle calotte polari e dei ghiacciai e l'aumento del livello deg
 In particolare sul lungo termine, il livello del mare è destinato ad aumentare per secoli e millenni
 a causa del riscaldamento profondo degli oceani
 (che secondo recenti studi ha già raggiunto i 700m di profondità)
-e dello scioglimento delle calotte glaciali e rimarrà a livelli elevati per migliaia di anni.
+e dello scioglimento dei ghiacciai e delle calotte glaciali e rimarrà a livelli elevati per migliaia
+di anni.
+
+L'innalzamenti dei mari si traduce in una *minaccia crescente* per gli insediamenti costieri a causa
+dell'*erosione* delle coste, dell'aumento del rischio di *inondazioni* e *mareggiate* e della
+*salinizzazione* dei suoli in ambiente costiero.
+
 Il livello medio dei mari si è innalzato di 20 cm dal 1901 al 2018, e la sua crescità,
-pari attualmente a 3.7 mm annui, sta accelerando ma dovrebbe restare al di sotto del metro
-a fine secolo.
-Si noti che il 5O% della crescita dei mari nel periodo 1971–2018 è dovuto all'espansione
-termica dell'enorme volume oceanico.
-L'innalzamenti dei mari si traduce in una minaccia crescente per gli insediamenti costieri a causa
-dell'erosione delle coste e dell'aumento del rischio di inondazioni e mareggiate.
-Nei prossimi 2000 anni, il livello medio globale del mare aumenterà di circa 2-3 metri se il
-riscaldamento rimarrà limitato a 1,5°C, da 2 a 6 metri se limitato a 2°C e da 19 a 22 metri
-a 5°C di riscaldamento, e continuerà probabilmente a salire nei successivi millenni.
+pari attualmente a 3.7 mm annui, sta accelerando in modo molto rapido.
+Era quasi tre volte inferiore nel periodo 1901-1971 (1,3 mm all'anno).
+Un innalzamento di tale entità non si è mai verificato negli ultimi 3000 anni
+e sta già provocando problemi seri ad esempio in Florida e lungo la costa orientale degli Stati Uniti
+ed in Bangladesh (in cui il 50% del territorio è a meno di un metro dal livello del mare).
+
+Si noti che la prima causa delle crescita del livello dei mari nel periodo 1971–2018 (circa il 5O%)
+è stata l'*espansione termica*.
+
+<picture>
+   <img width="600" alt="Situazione della variazione nei periodi di siccità"
+    src="/assets/images/blog-climate-changes-ipcc-ar6-sea-level-raise-2100.png"
+    class="mx-auto d-block img-fluid">
+</picture>
+<p class="text-center pt-3 pb-3">
+    <small>
+       Variazione del livello globale dei mari dal 1900 &mdash; SPM-29
+    </small>
+</p>
+
+Secondo tutti gli scenari IPCC di emissione dovrebbe restare al di sotto del metro
+a fine secolo. La metà se gli accordi di Parigi saranno rispettati.
+Questi valori sono più elevati di quelli presentati nella relazione AR5, che a loro volta erano
+circa un 60% più elevati dei valori AR4.
+
+Si noti tuttavia che una ulteriore curva (quella tratteggiata) è stata aggiunta nel rapporto AR6.
+Essa rappresenta l'aumento ben più importante che si avrebbe in scenari ritenuti attualmente
+poco probabili (ma non irrealisti ed ignorabili), quelli cioè in cui si verificasse una improvvisa
+e diffusa instabilità della calotta glaciale marina e delle scogliere di ghiaccio marino
+dell'Antartide o cambiamenti più rapidi del previsto nel bilancio di massa superficiale e perdita
+dinamica di ghiaccio in Groenlandia.
+
+Sul più lungo periodo, nei prossimi 2000 anni, il livello medio globale del mare aumenterà di
+circa 2-3 metri se il riscaldamento rimarrà limitato a 1,5°C, da 2 a 6 metri se limitato a 2°C e
+da 19 a 22 metri a 5°C di riscaldamento, e continuerà probabilmente a salire nei successivi
+millenni.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-Su questo punto è interessante quanto riportato nel libro
-"<i>Global Warming, Understanding the Forecast</i>" di David Archer.
+Riporto un interessante punto trattato nel libro
+"<i>Global Warming, Understanding the Forecast</i>" di David Archer,
+professore e ricercatore in scienze geofisiche all'Università dell'Indiana.
 Se poniamo su un grafico i dati del livello dei mari nelle varie epoche geologiche rispetto
-alla temperatura globale media,
+alla temperatura globale media di ogni periodo,
 
 <picture>
    <img width="600" alt="Livello dei mari nel passato e proiezione IPCC"
@@ -361,9 +395,9 @@ alla temperatura globale media,
     </small>
 </p>
 notiamo come questi dati stiano con buonissima approssimazione su di una linea retta.
-La previsione IPCC per l'anno 2100 è di meno di 1 m, ma le ricostruzioni geologiche
-suggeriscono che se la Terra rimanesse abbastanza a lungo più calda di 3°C, il livello
-del mare potrebbe aumentare di circa 50 m.
+Nel grafico è rappresentata anche la previsione IPCC per l'anno 2100.
+Le ricostruzioni geologiche suggeriscono che se la Terra rimanesse abbastanza a lungo più calda
+di 3°C, il livello del mare potrebbe aumentare di circa 50 m.
 </p>
 </div>
 
