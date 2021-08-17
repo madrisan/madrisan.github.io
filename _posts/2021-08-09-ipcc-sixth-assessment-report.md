@@ -122,6 +122,47 @@ pari a 5°C o superiore, sono ora considerati molto improbabili
     </small>
 </p>
 
+<div class="bd-callout bd-callout-info">
+<h6>Nota sugli scenari di emissione IPCC</h6>
+<p>
+Il rapporto AR6-WG1 valuta la risposta del clima relativamente a <i>cinque scenari</i> che coprono
+l'andamento delle possibili <i>emissioni future</i> di CO<sub>2</sub> ed altri gas ad effetto serra
+e che sono comunemente utilizzati nella
+letteratura scientifica (GHG: "<i>greenhouse gas</i>" o gas serra in italiano).
+
+<table class="table table-sm table-striped small">
+  <thead>
+    <tr>
+      <th scope="col">Identificativo</th>
+      <th scope="col">Emissioni</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">SSP3-8.5</th>
+      <td>Emissioni GHG molto elevate ed emissioni CO<sub>2</sub> doppie dell'attuale intorno al 2050</td>
+    </tr>
+    <tr>
+      <th scope="row">SSP3-7.0</th>
+      <td>Emissioni GHG elevate ed emissioni CO<sub>2</sub> doppie dell'attuale a fine secolo</td>
+    </tr>
+    <tr>
+      <th scope="row">SSP2-4.5</th>
+      <td>Emissioni GHG intermedie ed emissioni CO<sub>2</sub> attorno ai valori attuali fino al 2050 e poi decrescenti</td>
+    </tr>
+    <tr>
+      <th scope="row">SSP1-2.6</th>
+      <td>Emissioni GHG basse ed emissioni CO<sub>2</sub> a netto zero dopo il 2050 e negative in seguito</td>
+    </tr>
+    <tr>
+      <th scope="row">SSP1-1.9</th>
+      <td>Emissioni GHG molto basse ed emissioni CO<sub>2</sub> a netto zero entro il 2050 e negative in seguito</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+</div>
+
 Il riscaldamento medio previsto è da 0,1°C a 0,3°C più alto nell'AR6-WG1 rispetto a quanto calcolato
 precedentemente (AR5) ed inoltre tale intervallo viene ora qualificato come *molto probabile*,
 cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo.
