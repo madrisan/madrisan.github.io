@@ -221,7 +221,9 @@ globale terrestre ha raggiunto una temperatura pari o superiore a 2,5°C
 (rispetto al periodo di riferimento 1850-1900, considerato come assimilabile al valore del
 periodo pre-industriale) è stata oltre 3 milioni di anni fa, quando la nostra specie non erai
 ancora comparsa sulla terra.
-Queste condizioni climatiche non sono dunque mai state incontrate dai nostri antenati.
+Queste condizioni climatiche non sono dunque mai state incontrate dai nostri antenati
+e con estrema probabilità sono incompatibiliti con il modello di società globalizzata a cui
+siamo abituati oggi.
 </p>
 </div>
 
