@@ -29,19 +29,33 @@ L'IPCC non svolge direttamente attività di ricerca né di monitoraggio o raccol
 l'IPCC fonda le sue valutazioni principalmente su letteratura scientifica pubblicata in seguito a
 [revisione paritaria](https://it.wikipedia.org/wiki/Revisione_paritaria)
 e su rapporti delle maggiori istituzioni mondiali.
-I *rapporti di valutazione* periodicamente diffusi dall'IPCC sono alla base dei passati accordi internazionali
-in materia ambientale e climatica:
+
+Questo post è un sunto brevemente commentato dell'ultimo rapporto (AR6-WG1) dell’IPCC
+([*The Physical Science Basis of Climate Change*](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/),
+la scienza fisica alla base del cambiamento climatico)
+pubblicato il 9 agosto 2021 dal gruppo di lavoro I (WG1).
+
+###### Il nuovo rapporto in cifre
+ * 14000 pubblicazioni scientifiche valutate.
+ * 234 autori provenienti da 65 paesi (28% donne, 72% uomini) hanno contribuito alla pubblicazione.
+ * Il 63% degli autori non aveva partecipato alla redazione delle pubblicazioni IPCC precedenti.
+ * Centinaia di ore di volontariato di scienziati accreditati.
+ * 78000 commenti di scienziati e personale governativo sono stati trattati ed integrati nel documento finale!;
+ * 46 paesi hanno partecipato alla fase di rilettura (in video-conferenza viste le restrizioni sanitarie degli ultimi mesi).
+
+I *rapporti di valutazione* periodicamente diffusi dall'IPCC sono alla base dei
+passati accordi internazionali in materia ambientale e climatica degli ultimi 30 anni:
  * Vertice sulla Terra di Rio de Janeiro (1992)
  * Protocollo di Kyōto (1997)
  * (Fallito) accordo di Copenaghen (2009)
  * Accordo di Parigi (2015)
 
+ma, pur essendo politicamente rilevanti, non sono documenti di carattere politico,
+bensì rappresentano lo stato dell'arte della scienza dei cambiamenti climatici attuale.
+
 #### La nuova pubblicazione in sintesi
 
-L'ultimo rapporto (AR6-WG1) dell'IPCC
-([*The Physical Science Basis of Climate Change*](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/),
-la scienza fisica alla base del cambiamento climatico)
-pubblicato il 9 agosto 2021 dal gruppo di lavoro I (WG1), descrive con un livello di chiarezza
+L'ultimo rapporto dell'IPCC descrive con un livello di chiarezza
 senza precedenti il futuro del nostro pianeta, e la
 *necessità di ridurre rapidamente fino ad eliminarle* (netto zero),
 le nostre emissioni di gas serra.
@@ -578,13 +592,19 @@ di boschi e foreste o sviluppando apposite tecnologie CDR.
 
 Dietro tutta l'analisi scientifica dettagliata e l'enorme quantità di materiale e studi
 scientifici su cui si basa, risuona forte e chiaro un semplice ma importante messaggio:
-siamo noi i responsabili e ne siamo assolutamente sicuri, la situazione è grave, ma c'è
-ancora del tempo per agire ed *evitare gli impatti più devastanti dei cambiamenti climatici* che
-abbiamo indotto.
-Il nostro futuro (climatico) in definitiva è ancora, almeno in parte, nelle nostre mani,
+l'utilizzo massivo di combustibili fossili e la deforestazione su larghissima scala hanno
+provocare un riscaldamento rapido della Terra,
+siamo noi i responsabili e ne siamo assolutamente sicuri.
+
+Il risultato della nostra passata inazione ha già fatto si che gli episodi di calore estremo,
+le piogge torrenziali, le siccità e gli incendi siano più frequenti e severi in ogni parte del
+mondo. E lo saranno ancor più in futuro.
+La situazione è grave, ma c'è ancora del tempo per agire ed
+*evitare almeno gli impatti più devastanti dei cambiamenti climatici* da noi indotti.
+Il nostro futuro (climatico) in definitiva è ancora almeno in parte nelle nostre mani,
 ma [potrebbe non restarlo ancora a lungo](https://www.pnas.org/content/115/33/8252).
 
 Politiche forti di riduzione delle emissioni sono da mettere in atto da subito, così come
 un miglioramento sostanziale delle nostre capacità di prevenzione, risposta ed adattabilità
-agli eventi estremi, ormai in atto ovunque e che sappiamo si intensificheranno in frequenza e
-gravità nei prossimi anni e decenni.
+(se mai questo sarà possibile) agli eventi estremi ormai in atto ovunque e che sappiamo si
+intensificheranno in frequenza e gravità nei prossimi anni e decenni.
