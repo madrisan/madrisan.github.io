@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre');
 /* @import "highlight-github.css"; */
 @import "highlight-monokai.css";
 
 body {
-    font-family: "Verdana", "Geneva", "sans-serif";
+    font-family: 'Raleway', 'Verdana', 'Geneva', 'sans-serif';
 }
 
 body, wrapper {
@@ -13,7 +14,7 @@ body, wrapper {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Averia Libre', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 a.anchor-plain {
@@ -168,10 +169,10 @@ nav a {
 }
 .jumbotron-404 h1,
 .jumbotron-404 h3 {
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Averia Libre', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 .navbar-brand {
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Averia Libre', 'Helvetica Neue', Helvetica, Arial, serif;
     font-weight: normal;
 }
