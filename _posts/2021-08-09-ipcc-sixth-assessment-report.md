@@ -33,14 +33,14 @@ e su rapporti delle maggiori istituzioni mondiali.
 Questo post è un sunto brevemente commentato dell'ultimo rapporto (AR6-WG1) dell’IPCC
 ([*The Physical Science Basis of Climate Change*](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/),
 la scienza fisica alla base del cambiamento climatico)
-pubblicato il 9 agosto 2021 dal gruppo di lavoro I (WG1).
+pubblicato il 9 agosto 2021 dal gruppo di lavoro I.
 
 ###### Il nuovo rapporto in cifre
  * 14000 pubblicazioni scientifiche valutate.
  * 234 autori provenienti da 65 paesi (28% donne, 72% uomini) hanno contribuito alla pubblicazione.
  * Il 63% degli autori non aveva partecipato alla redazione delle pubblicazioni IPCC precedenti.
  * Centinaia di ore di volontariato di scienziati accreditati.
- * 78000 commenti di scienziati e personale governativo sono stati trattati ed integrati nel documento finale!;
+ * 78000 commenti di scienziati e personale governativo sono stati trattati ed integrati nel documento finale.
  * 46 paesi hanno partecipato alla fase di rilettura (in video-conferenza viste le restrizioni sanitarie degli ultimi mesi).
 
 I *rapporti di valutazione* periodicamente diffusi dall'IPCC sono alla base dei
@@ -50,7 +50,7 @@ passati accordi internazionali in materia ambientale e climatica degli ultimi 30
  * (Fallito) accordo di Copenaghen (2009)
  * Accordo di Parigi (2015)
 
-ma, pur essendo politicamente rilevanti, non sono documenti di carattere politico,
+Pur essendo politicamente rilevanti, non sono documenti di carattere politico,
 bensì rappresentano lo stato dell'arte della scienza dei cambiamenti climatici attuale.
 
 #### La nuova pubblicazione in sintesi
@@ -102,8 +102,8 @@ di 3°C.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-Ricordiamo che il valore pre-industriale (anno 1750) di CO<sub>2</sub> era di
-278 <a href="https://it.wikipedia.org/wiki/Parti_per_milione">ppm</a>) mentre la
+Ricordiamo che il valore pre-industriale (nell'anno 1750) della concentrazione di CO<sub>2</sub>
+era di 278 <a href="https://it.wikipedia.org/wiki/Parti_per_milione">ppm</a>) mentre la
 <a href="https://climate.nasa.gov/vital-signs/carbon-dioxide/">concentrazione attuale</a>
 (giugno 2021) ha ormai raggiunto il valore di 417 ppm (+50%, esattamente a metà strada).
 Si veda il post precedente sulla
@@ -147,9 +147,10 @@ pari a 5°C o superiore, sono ora considerati molto improbabili
 <p>
 Il rapporto AR6-WG1 valuta la risposta del clima in <i>cinque scenari</i>
 di <i>emissioni future</i> di CO<sub>2</sub> ed altri gas serra
-(GHG: dall'equivalente inglese "<i>greenhouse gas</i>").
-Questi scenari sono inoltre comunemente utilizzati nella
-letteratura scientifica.
+(GHG: dall'inglese <i>greenhouse gas</i>).
+Essi modellizzano le diverse possibili scelte politiche ed economiche
+future che porteranno quindi a diversi livelli di emissione di gas serra.
+Questi scenari sono comunemente utilizzati nella letteratura scientifica.
 
 <table class="table table-sm table-striped small">
   <thead>
@@ -161,19 +162,19 @@ letteratura scientifica.
   <tbody>
     <tr>
       <th scope="row">SSP3-8.5</th>
-      <td>Emissioni GHG molto elevate ed emissioni CO<sub>2</sub> doppie dell'attuale intorno al 2050</td>
+      <td>Emissioni GHG molto elevate ed in particolare emissioni CO<sub>2</sub> doppie dell'attuale intorno al 2050</td>
     </tr>
     <tr>
       <th scope="row">SSP3-7.0</th>
-      <td>Emissioni GHG elevate ed emissioni CO<sub>2</sub> doppie dell'attuale a fine secolo</td>
+      <td>Emissioni GHG elevate ed emissioni CO<sub>2</sub> a fine secolo doppie rispetto al valore attuale</td>
     </tr>
     <tr>
       <th scope="row">SSP2-4.5</th>
-      <td>Emissioni GHG intermedie ed emissioni CO<sub>2</sub> attorno ai valori attuali fino al 2050 e poi decrescenti</td>
+      <td>Emissioni GHG intermedie, emissioni CO<sub>2</sub> attorno ai valori attuali fino al 2050 e poi decrescenti</td>
     </tr>
     <tr>
       <th scope="row">SSP1-2.6</th>
-      <td>Emissioni GHG basse ed emissioni CO<sub>2</sub> a netto zero dopo il 2050 e negative in seguito</td>
+      <td>Emissioni GHG basse, emissioni CO<sub>2</sub> a netto zero dopo il 2050 e negative in seguito</td>
     </tr>
     <tr>
       <th scope="row">SSP1-1.9</th>
@@ -185,14 +186,15 @@ letteratura scientifica.
 </div>
 
 Il riscaldamento medio previsto è ora da 0,1°C a 0,3°C più alto rispetto a quanto calcolato
-precedentemente (AR5, pubblicato nell'ottobre 2014) ed inoltre tale intervallo viene ora
-qualificato come *molto probabile*,
-cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo.
+precedentemente (AR5, pubblicato nell'ottobre 2014) ed inoltre gli intervalli indicati vengono ora
+qualificati come *molto probabili*,
+cioè con solo una possibilità su dieci che il valore reale risulti al di fuori di tale intervallo
+(o equivalentemente affidabili al 90%).
 
 L'AR6-WG1 indica che molto probabilmente verra raggiunta la soglia dei +1,5°C rispetto alle temperature
 pre-industriali *nei primi anni 2030*, *in tutti e cinque gli scenari di emissione* presi in
-considerazione, eccetto quelli con le emissioni più alte, per i quali tale soglia potrebbe essere
-raggiunta prima.
+considerazione (sic!), eccetto quelli ad emissioni più alte, per i quali tale soglia potrebbe essere
+raggiunta precedentemente.
 
 <div class="bd-callout bd-callout-warning">
 <p>
@@ -202,9 +204,9 @@ il valore della temperature globale, dopo aver raggiunto un picco superiore a 1,
 descrescerebbe fino a raggiungere un valore "ben inferiore ai 2°C a fine secolo".
 Nel caso SSP1-1.9 inferiore anche a 1,5°C.
 Questi due modelli sono dunque i soli compatibili con l'accordo di Parigi del 2015.
-SSP1-1.9 si basa in particolare su ipotesi non realistiche, o quantomeno azzardate allo stato
-tecnologico attuale, di emissione "negativa", a causa del limitato budget carbone rimasto prima del
-superamento di tali soglie di temperatura.
+SSP1-1.9 in particolare si basa pesantemente su ipotesi di <i>emissione negativa</i>,
+non realistiche o quantomeno azzardate allo stato tecnologico attuale, visto l'ormai
+limitato <i>budget carbone</i> rimasto prima del superamento di tali soglie di temperatura.
 Si veda oltre.
 </p>
 </div>
@@ -213,9 +215,8 @@ La soglia dei 2°C sarà superata nel corso del secolo negli scenari ad alta emi
 (SSP5-8.5 e SSP3-7.0, le due curve più alte) e media emissione (SSP2-4.5, la curva mediana),
 a meno che non siano messe in atto azioni di *riduzione rapida* delle emissioni di CO<sub>2</sub>
 e degli altri gas serra *nei prossimi decenni*.
-Ci sono più ampie incertezze per questa seconda soglia, che riflettono le differenze tra i
-modelli utilizzati (che modellizzano a loro volta diverse possibili scelte politiche ed economiche
-future che porteranno quindi a diversi livelli di emissione di gas serra).
+Ci sono più ampie incertezze e variabilità per questa seconda soglia, legate soprattutto alle
+risposta alle differenti emissioni future.
 
 <picture>
    <img width="600" alt="Future emissioni di gas serra nei cinque scenari"
@@ -228,39 +229,24 @@ future che porteranno quindi a diversi livelli di emissione di gas serra).
     </small>
 </p>
 
+Il grafico precedente mostra gli andamenti previsti, nei differenti scenari di emissione,
+delle concentrazioni rispettivamente di CO<sub>2</sub> (a sinistra),
+e di metano (CH<sub>4</sub>), protossido di azoto (N<sub>2</sub>O) ed
+anidride solforica (SO<sub>2</sub>).
+(a destra dall'alto in basso).
+
 <div class="bd-callout bd-callout-warning">
 <p>
-Forse è utile sottolineare a questo punto che l'ultima volta che la temperatura superficiale
-globale terrestre ha raggiunto una temperatura pari o superiore a 2,5°C
-(rispetto al periodo di riferimento 1850-1900, considerato come assimilabile al valore del
-periodo pre-industriale) è stata oltre 3 milioni di anni fa, quando la nostra specie non erai
-ancora comparsa sulla terra.
+Forse è utile sottolineare a questo punto che l'ultima volta che la superficie terrestre ha
+raggiunto un incremento di temperatura pari o superiore a 2,5°C rispetto al periodo
+pre-industriale (o più precisamente rispetto alla temperatura media del periodo 1850-1900,
+considerata come assimilabile al valore del periodo pre-industriale) è stata oltre 3 milioni di
+anni fa, quando la nostra specie non era ancora comparsa sulla terra.
 Queste condizioni climatiche non sono dunque mai state incontrate dai nostri antenati
-e con estrema probabilità sono incompatibiliti con il modello di società globalizzata a cui
-siamo abituati oggi.
+e con estrema probabilità sono <i>incompatibiliti con il modello di società globalizzata
+a cui siamo abituati oggi</i>.
 </p>
 </div>
-
-Per una migliore contestualizzazione dei dati,
-dopo aver trattato delle temperature future previste, secondo la sintesi del documento AR6-WG1,
-concludiamo con un grafico che mostra l'anomalia delle temperature passate registrate dal 1850
-ad oggi.
-
-<picture>
-    <img src="https://github.com/madrisan/HadCRUT5/raw/main/plots/HadCRUT5-global-1850-1900.png"
-         alt="Global average temperature difference 1850-2020"
-         class="mx-auto d-block img-fluid pt-3 pb-2">
-</picture>
-<p class="text-center pb-2">
-    <small>
-        Anomalie delle temperature rispetto al periodo 1850-1900 &mdash;
-        <a href="https://github.com/madrisan/HadCRUT5/">
-           <small>GitHub</small></a>
-    </small>
-</p>
-
-Risulta già evidente il deciso spostamento verso l'alto (temperature crescenti) a partire dagli
-anni '70 del secolo scorso.
 
 ##### Cause dei cambiamenti climatici
 
@@ -285,19 +271,22 @@ La curva in basso è ottenuta da simulazioni che considerano *esclusivamente fen
 Si noti come la linea nera (valori osservati) corrisponda invece molto bene ai dati di simulazione
 che prendono in conto sia i *fenomeni naturali* che gli *effetti dovuti all'uomo*.
 
+Si noti anche come sia già evidente un deciso spostamento verso l'alto (temperature crescenti)
+cominciato soprattutto a partire dagli anni '70 del secolo scorso.
+
 L'aumento delle temperature indotto dalle azioni umane sta inoltre avvenendo *ad una velocità che
 non si ritrova in nessuno dei periodi geologici passati*.
 Il precedente periodo caldo risale a circa 125000 anni fa,
 ma è stato causato da lente (multi-millenarie) variazioni dell'orbita terrestre.
-Questo avrà un impatto rilevante e potenzialmente carastrofico sulla possibilità di adattabilità
+Questo avrà un impatto rilevante e potenzialmente carastrofico sulla possibilità di adattamento
 di molti degli organismi viventi che popolano il nostro pianeta.
-Ma significa anche che il passato climatico difficilmente può fornirci un quadro preciso
-sull'evoluzione del clima futuro sulla terra e sul suo impatto sull'ecosistema
+Ma questo significa anche che il passato climatico difficilmente può fornirci un quadro preciso
+sull'evoluzione del clima futuro sulla terra e sul suo impatto sull'ecosistema.
 
 <div class="bd-callout bd-callout-warning">
 <p>
-Ricordiamo che <i>ogni grande cambiamento climato terrestre passato</i> si è sempre associata una
-<a href="https://it.wikipedia.org/wiki/Estinzione_di_massa"><i>estinzione di massa</i></a>
+Ricordiamo che ad <i>ogni grande cambiamento climato terrestre passato</i> si è sempre associata
+una <a href="https://it.wikipedia.org/wiki/Estinzione_di_massa"><i>estinzione di massa</i></a>
 delle specie viventi, sia terrestri che marine, seguita da lunghi periodi della durata di milioni
 di anni di ripopolamento del pianeta.
 </p>
@@ -311,7 +300,7 @@ partire dagli anni cinquanta del secolo scorso, quali le ondate di caldo, le for
 i fenomeni di siccità, l'aumento di intensità dei cicloni tropicali, siano da attribuire
 all'influenza umana, si è rafforzata rispetto alla pubblicazione AR5.
 In particolare per la maggior parte degli eventi estremi dal 2006 ad oggi, l'origine antropica è
-data ora come molto probabile.
+data ora come molto probabile (90% di probabilità).
 
 La diminuzione delle precipitazioni monsoniche dal 1950 al 1980 è in parte stata causata dalle
 *emissioni di [aerosol](https://it.wikipedia.org/wiki/Aerosol#Aerosol_atmosferico)*
@@ -327,6 +316,7 @@ di calore nello spazio.
 Secondo
 <a href="http://www.columbia.edu/~jeh1/">James Hansen</a>
 l'effetto di forzatura degli aerosol prodotti dall'uomo
+(inquinamento da combustione di carbone e petrolio)
 <i>è grande quasi quanto quello dovuta all'anidride carbonica</i>, ma di segno opposto.
 Malgrado questa importante influenza sul bilancio energetico climatico, non sono purtroppo
 monitorati accuratamente come i gas serra.
@@ -339,14 +329,14 @@ Gli avanzamenti nel campo scientifico permettono inoltre di avere ora un quadro 
 <div class="bd-callout bd-callout-info">
 <p>
 Si tratta di risultati basati sul recente e rivoluzionario metodo noto con il nome di
-"World Weather Attribution" (WWA) e nato dalle attività di ricerca della climatologa tedesca
+<i>World Weather Attribution</i> (WWA), nato dall'attività di ricerca della climatologa tedesca
 Friederike Otto. Attraverso l'esecuzione di centinaia di scenari di simulazione, vengono
 comparate la probabilità di un evento estremo che si è verificato nel mondo nella situazione
 climatica attuale ed in quella che avremmo senza i gas serra riversati nell'atmosfera dall'uomo
 nel corso degli ultimi due secoli.
 In questo modo è possibile classificare rapidamente eventi estremi reali come causati dai
-cambiamenti climatici indotti dall'uomo, oppure al contrario non facilmente o debolmente
-correlabili a questi.
+cambiamenti climatici indotti dall'uomo, (con nuove implicazioni politiche e processuali)
+oppure al contrario non facilmente o debolmente correlabili a questi.
 Per un approfondimento si rimanda al libro di Friederike Otto "Angry Weather", pubblicato nel
 settembre 2020.
 </p>
@@ -369,7 +359,7 @@ terrestre.
 Per quel che riguarda le precipitazioni e gli eventi di grave siccità, solo in alcune
 regioni del mondo è stato raggiunto un accordo con una confidenza almeno media.
 Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Europa
-(NEW, confidenza massima) e nella zona centrale degli Stati Uniti (CNA).
+(NEU, confidenza massima) e nella zona centrale degli Stati Uniti (CNA).
 
 <picture>
    <img width="600" alt="Variazione nelle precipitazioni estreme"
@@ -383,7 +373,7 @@ Ad esempio per quel che riguarda l'aumento delle precipitazioni nel nord Europa
 </p>
 
 O dell'aumento della siccità nella fascia mediterranea (MED) e nell'est degli Stati Uniti (WNA).
-Quest'ultimo già evidente da alcuni anni.
+Quest'ultimo fenomeno già evidente da alcuni anni.
 
 <picture>
    <img width="600" alt="Situazione della variazione nei periodi di siccità"
@@ -437,10 +427,11 @@ Il livello medio dei mari si è innalzato di 20 cm dal 1901 al 2018, e la sua cr
 pari attualmente a 3.7 mm annui, sta accelerando in modo molto rapido.
 Era quasi tre volte inferiore nel periodo 1901-1971 (1,3 mm all'anno).
 Un innalzamento di tale entità non si è mai verificato negli ultimi 3000 anni
-e sta già provocando problemi seri ad esempio in Florida e lungo la costa orientale degli Stati Uniti
-ed in Bangladesh (in cui il 50% del territorio è a meno di un metro dal livello del mare).
+e sta già provocando problemi seri, per citare solo alcuni esempi, in Florida e lungo la costa
+orientale degli Stati Uniti ed in Bangladesh (in cui il 50% del territorio è a meno di un metro
+dal livello del mare).
 
-Si noti che la prima causa delle crescita del livello dei mari nel periodo 1971–2018 (circa il 5O%)
+La prima causa delle crescita del livello dei mari nel periodo 1971–2018 (circa il 5O%)
 è stata l'*espansione termica*.
 
 <picture>
@@ -461,7 +452,7 @@ circa un 60% più elevati dei valori AR4.
 
 Si noti tuttavia che una ulteriore curva (quella tratteggiata) è stata aggiunta nel rapporto AR6.
 Essa rappresenta l'aumento ben più importante che si avrebbe in scenari ritenuti attualmente
-poco probabili (ma non irrealisti ed ignorabili), quelli cioè in cui si verificasse una improvvisa
+poco probabili (ma non irrealistici ed ignorabili), quelli cioè in cui si verificasse una improvvisa
 e diffusa instabilità della calotta glaciale marina e delle scogliere di ghiaccio marino
 dell'Antartide o cambiamenti più rapidi del previsto nel bilancio di massa superficiale e perdita
 dinamica di ghiaccio in Groenlandia.
@@ -513,18 +504,18 @@ che in quest'ultimo rapporto di valutazione ha avuto diversi miglioramenti.
     </small>
 </p>
 
-Abbiamo emesso un totale di circa 2390 gigatonnellate di CO<sub>2</sub> nel periodo 1850-2019.
+L'umanità ha emesso un totale di circa 2390 gigatonnellate di CO<sub>2</sub> nel periodo 1850-2019.
 La quantità rimanente che possiamo emettere dipende dalle nostre ambizioni di mantenere
 la temperatura media globale al di sotto di 1,5°C o 2,0°C.
 
-<div class="bd-callout bd-callout-info">
+<div class="bd-callout bd-callout-warning">
 <p>
 Per un'idea del budget carbone restante, citiamo i
 <a href="https://ourworldindata.org/co2-emissions">dati <i>ourworldindata.org</i></a>
 secondo i quali le emissioni hanno raggiunto nel 2018-2019 il valore di 36
 gigatonnellate annue, con un trend in continua ascesa.
 Il che significa che per restare entro gli 1.5°C con una probabilità alta (83%), restano
-solo 8 anni di emissioni al livello attuale!
+solo 8 anni di emissioni al livello attuale, ed in seguito passare di colpo al netto zero!
 </p>
 </div>
 
@@ -578,8 +569,9 @@ così come del suo impatto climatico.
 L'anidride carbonica si comporta in modo molto diverso: rimanendo stabilmente nell'atmosfera
 <i>per decine di migliaia di anni</i>, la sua concentrazione ed il suo effetto climatico è dato
 <i>dalla quantità accumulata</i> durante questo lunghissimo periodo.
+
 Contrariamente al metano dunque, una stabilizzazione delle emissioni annuali di anidride
-carbonica avrà come effetto un aumento progressivo e continuo della temperatura globale.
+carbonica avrebbe come effetto un aumento progressivo e continuo della temperatura globale.
 <i>Non sarà nemmeno possibile raffreddare il pianeta diminuendo le emissioni</i>,
 poichè la quantità cumulata nell'atmosfera continuerà comunque a crescere
 (ad un ritmo soltando rallentato).
