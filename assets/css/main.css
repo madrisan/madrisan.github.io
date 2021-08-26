@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre');
 /* @import "highlight-github.css"; */
@@ -145,15 +144,11 @@ nav a {
     background: url("/assets/images/main-mountains.jpg");
     background-position: 20 70%;
     background-size: cover;
-    font-family: 'Permanent Marker';
+    color: white;
+    font-family: 'Averia Libre';
     height: 562pt;
     margin-bottom: 0px;
     max-width: 100%;
-}
-.jumbotron-main h1,
-.jumbotron-main h3 {
-    font-family: 'Permanent Marker';
-    color: white;
 }
 .jumbotron-main .text-container {
     position:relative;
