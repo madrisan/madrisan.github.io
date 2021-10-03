@@ -9,6 +9,8 @@ license: 'CC BY-SA 3.0'
 location: Nice
 mathjax: 'off'
 post-title: Sesto rapporto IPCC
+redirect_from:
+ - /blog/2021/08/09/ipcc-sixth-assessment-report
 summary: L'IPCC è ora nel suo sesto ciclo di valutazione dell'evoluzione dei cambiamenti climatici. Verranno pubblicati a breve il sesto rapporto di valutazione (AR6) con i contributi dei suoi tre gruppi di lavoro ed un rapporto di sintesi, tre rapporti speciali ed un perfezionamento del suo ultimo rapporto metodologico. Analizziamo il primo documento pubblicato.
 title: Sesto rapporto di valutazione IPCC
 titlejumbotron: 'off'

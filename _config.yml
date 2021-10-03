@@ -15,6 +15,7 @@ markdown: kramdown
 permalink: /blog/:categories/:year/:month/:day/:title
 plugins:
   - jemoji
+  - jekyll-redirect-from
 socials:
   facebookappid: '383695016267763'
   github: https://github.com/madrisan
