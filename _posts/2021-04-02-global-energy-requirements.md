@@ -11,6 +11,8 @@ mathjax: 'on'
 post-title: Approvvigionamento energetico
 redirect_from:
  - /blog/2021/04/02/global-energy-requirements
+ - /blog/2021/04/
+ - /blog/2021/04/02/
 summary: I risultati accumulati negli ultimi decenni hanno reso estremamente chiaro come il modello attuale di generazione dell'energia non abbia futuro. Finitezza delle risorse di energia fossile, incidenti e disastri nucleari, impatto sulla salute, cambiamenti climatici. Fortunatamente una soluzione esiste, <i>le energie rinnovabili</i>. Anche se indubbiamente una completa conversione a queste fonti energetiche richiederà un considerevole sforzo politico, sociale, tecnologico ed una grande inventività.
 title: Approvvigionamento energetico ed energie rinnovabili
 titlejumbotron: 'off'
