@@ -1,6 +1,6 @@
 ---
 layout: post
-category: climate-change
+category: climate-changes
 date: 2020-12-29
 highcharts: off
 image: /assets/images/blog-climate-changes.jpg

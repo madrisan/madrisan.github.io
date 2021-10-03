@@ -1,6 +1,6 @@
 ---
 layout: post
-category: climate-change
+category: climate-changes
 date: 2021-04-02
 highcharts: 'off'
 image: /assets/images/blog-climate-changes-energy-supply.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: climate-change
+category: climate-changes
 date: 2021-01-01
 highcharts: off
 image: /assets/images/blog-climate-changes-glacier.jpg
