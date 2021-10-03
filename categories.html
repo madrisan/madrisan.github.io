@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /blog/categories/
+title: Blog Posts by Category
+---
+<div class="jumbotron jumbotron-fluid jumbotron-header"
+     style="background-image: url(/assets/images/blog-categories-header-image-gray.png);">
+    <div class="container text-white">
+        <h1>Blog Posts by Category</h1>
+    </div>
+</div>
+
+<div class="container">
+
+<div class="container">
+{% for category in site.categories %}
+   <div class="pt-3">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div>
+         <a href="#{{ category_name }}"><h3 class="text-capitalize text-info pt-3">{{ category_name | replace: "-", " " }}</h3></a>
+      </div>
+      <hr>
+      <div class="container">
+         <ul class="list-group">
+            {% for post in site.categories[category_name] %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+         </ul>
+      </div>
+   </div>
+{% endfor %}
+</div>
