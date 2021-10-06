@@ -1,12 +1,6 @@
-{%- if include.post_language == "it" %}
-{%-     assign category_txt = "categoria" %}
-{%- else %}
-{%-     assign category_txt = "category" %}
-{%- endif %}
-
 <div class="text-hidden text-right">
    <p>
-   {{ category_txt }}: <a href="/blog/categories/#{{ page.category }}">
+   <i class="fas fa-map-signs mr-1"></i> <a href="/blog/categories/#{{ page.category }}">
       <span class="font-weight-bold text-capitalize text-info">
          {{ page.category | replace: "-", " " }}
       </span></a>
