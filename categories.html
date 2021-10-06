@@ -22,7 +22,10 @@ title: Blog Posts by Category
       <div class="container">
          <ul class="list-group">
             {% for post in site.categories[category_name] %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	    <li>
+               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	       <small class="text-secondary ml-1"> - {{ post.date | date: "%Y-%m-%d" }}</small>
+            </li>
             {% endfor %}
          </ul>
       </div>
