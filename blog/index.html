@@ -23,60 +23,131 @@ title: Davide Madrisan's Blog
     </div>
 </div>
 
-<div class="container">
+<div class="container pt-3 pb-3">
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="tabs" role="tablist">
+                <li class="nav-item">
+                     <a class="nav-link active" id="science-tab" href="#science" data-toggle="tab" aria-controls="science" aria-selected="true">Articoli di carattere scientifico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="projects-tab" href="#projects" data-toggle="tab" aria-controls="projects" aria-selected="false">My Projects</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card-body">
+            <div class="tab-content mt-1">
+
+                <div class="tab-pane active" id="science" aria-labelledby="science-tab">
 {% for post in site.posts %}
+{% if post.category == "climate-changes" %}
+{% assign post_date = post.date | date: "%Y-%m-%d" %}
 
-{% if forloop.index == 1 %}
-    <div class="row justify-content-md-center mt-2">
-{% else %}
-    <div class="row justify-content-md-center mt-4">
-{% endif %}
-        <div class="col-md-8">
-
-            <h4 class="text-center text-info">{{ post.title }}</h4>
-
-            <span class="d-flex justify-content-center text-muted">
-                <!--
-                {% if post.language %}
-                <span class="f16 pr-1">
-                    <span class="flag {{ post.language }}"></span>
-                </span>
-                {% endif %}
-                -->
-                <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
-                <small class="mx-2">/</small>
-                {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
-            </span>
+                <div class="row justify-content-md-center mt-4 mb-2">
+                    <div class="col-md-8">
+                        <h4 class="text-center text-info">{{ post.title }}</h4>
+                        <span class="d-flex justify-content-center text-muted">
+                            <!--
+                            {% if post.language %}
+                            <span class="f16 pr-1">
+                                <span class="flag {{ post.language }}"></span>
+                            </span>
+                            {% endif %}
+                            -->
+                            <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
+                            <small class="mx-2">/</small>
+                            {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
+                        </span>
 
 {% if post.image %}
-            <div class="text-center pt-3 pb-1">
-                <img src="{{ post.image }}"
-                     class="figure-img img-fluid image-header">
-            </div>
+                        <div class="text-center pt-3 pb-1">
+                            <img src="{{ post.image }}"
+                                 class="figure-img img-fluid image-header">
+                        </div>
 {% endif %}
 
 {% if post.summary %}
-            <p class="card-text pt-4">{{ post.summary }}</p>
+                        <p class="card-text pt-4">{{ post.summary }}</p>
 {% endif %}
 
-{% if forloop.last != true %}
-            <div class="align-items-md-end d-flex justify-content-center pt-4">
+{% if post_date != "2020-12-29" %}
+                        <div class="align-items-md-end d-flex justify-content-center pt-2">
 {% else %}
-            <div class="align-items-md-end d-flex justify-content-center pt-4 pb-3">
+                        <div class="align-items-md-end d-flex justify-content-center pt-2 pb-4">
 {% endif %}
-                <a href="{{ post.url }}" title="{{ post.title }}"
-                   class="btn btn-info btn-sm text-white" role="button">
-                    <i class="fas fa-anchor"></i>
-                    <span class="text-capitalize">Read more</span>
-                </a>
-            </div>
+                            <a href="{{ post.url }}" title="{{ post.title }}"
+                               class="btn btn-info btn-sm text-white" role="button">
+                                <i class="fas fa-anchor"></i>
+                                <span class="text-capitalize">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-    </div>
-
-{% if forloop.last != true %}
-    <hr class="pb-3">
+{% if post_date != "2020-12-29" %}
+                <hr class="pb-3">
 {% endif %}
 
+{% endif %}
 {% endfor %}
+                </div>
+
+                <div class="tab-pane" id="projects" aria-labelledby="projects-tab">
+{% for post in site.posts %}
+{% if post.category == "projects" %}
+{% assign post_date = post.date | date: "%Y-%m-%d" %}
+
+                <div class="row justify-content-md-center mt-4 mb-2">
+                    <div class="col-md-8">
+                        <h4 class="text-center text-info">{{ post.title }}</h4>
+                        <span class="d-flex justify-content-center text-muted">
+                            <!--
+                            {% if post.language %}
+                            <span class="f16 pr-1">
+                                <span class="flag {{ post.language }}"></span>
+                            </span>
+                            {% endif %}
+                            -->
+                            <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
+                            <small class="mx-2">/</small>
+                            {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
+                        </span>
+
+{% if post.image %}
+                        <div class="text-center pt-3 pb-1">
+                            <img src="{{ post.image }}"
+                                 class="figure-img img-fluid image-header">
+                        </div>
+{% endif %}
+
+{% if post.summary %}
+                        <p class="card-text pt-4">{{ post.summary }}</p>
+{% endif %}
+
+{% if post_date != "2020-11-28" %}
+                        <div class="align-items-md-end d-flex justify-content-center pt-2">
+{% else %}
+                        <div class="align-items-md-end d-flex justify-content-center pt-2 pb-4">
+{% endif %}
+                            <a href="{{ post.url }}" title="{{ post.title }}"
+                               class="btn btn-info btn-sm text-white" role="button">
+                                <i class="fas fa-anchor"></i>
+                                <span class="text-capitalize">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+{% if post_date != "2020-11-28" %}
+                <hr class="pb-3">
+{% endif %}
+
+{% endif %}
+{% endfor %}
+                </div>
+
+            </div>
+       </div>
+   </div>
 </div>
