@@ -54,7 +54,7 @@ title: Davide Madrisan's Blog
                             </span>
                             {% endif %}
                             -->
-                            <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
+                            {% include datelocales.html post_date=post.date post_language=post.language textsize="small" %}
                             <small class="mx-2">/</small>
                             {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
                         </span>
@@ -106,7 +106,7 @@ title: Davide Madrisan's Blog
                             </span>
                             {% endif %}
                             -->
-                            <small>{{ post.date | date_to_long_string: "ordinal" }}</small>
+                            {% include datelocales.html post_date=post.date post_language=post.language textsize="small" %}
                             <small class="mx-2">/</small>
                             {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
                         </span>
