@@ -2,6 +2,7 @@
 layout: post
 category: climate-changes
 date: 2020-12-29
+first-post: true
 highcharts: off
 image: /assets/images/blog-climate-changes.jpg
 language: it
