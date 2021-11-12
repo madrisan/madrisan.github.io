@@ -38,7 +38,6 @@
         <script src="{{ _sources.bootstrap.js }}"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
-        {% include analytics-mixpanel.html %}
         <!-- Highcharts -->
 {%- if page.highcharts %}
         <script type="text/javascript" src="{{ _sources.highcharts.js }}"></script>
@@ -48,6 +47,10 @@
         <!-- MathJax -->
 {%- if page.mathjax %}
         <script type="text/javascript" src="{{ _sources.mathjax }}"></script>
+{%- endif %}
+        {% include analytics-mixpanel.html %}
+{%- if site.google_analytics %}
+        {% include analytics-google.html %}
 {%- endif %}
         <!-- Custom CSS -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">

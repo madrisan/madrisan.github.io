@@ -1,5 +1,6 @@
 name: Davide Madrisan
 description: My Personal Website and Blog with articles about science and technology
+google_analytics: G-9WLHJ1RP91
 images:
   blog:
     default: /assets/images/blog-default.jpg
