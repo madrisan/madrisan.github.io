@@ -1,7 +1,6 @@
 <div class="row justify-content-md-center position-relative mt-4 mb-2">
     <div class="col-md-8">
-        <h4 class="text-center text-info">{{ post.title }}</h4>
-        <span class="d-flex justify-content-center text-muted">
+        <span class="d-flex justify-content-left text-muted pb-3">
             <!--
             {% if post.language %}
             <span class="f16 pr-1">
@@ -13,10 +12,11 @@
             <i class="bi bi-dot mx-1"></i>
             {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
         </span>
+        <h1 class="text-left">{{ post.title }}</h1>
 
 {% if post.image %}
         <figure class="figure pt-3">
-            <img src="{{ post.image }}" class="figure-img img-fluid rounded">
+	    <img src="{{ post.image }}" class="figure-img img-fluid" alt="post image">
         </figure>
 {% endif %}
 

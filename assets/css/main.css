@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Averia+Libre');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 /* @import "highlight-github.css"; */
 @import "highlight-monokai.css";
 
 body {
-    font-family: 'Raleway', 'Verdana', 'Geneva', 'sans-serif';
+    font-family: 'Raleway', sans-serif;
 }
 
 body, wrapper {
@@ -12,8 +13,7 @@ body, wrapper {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    font-family: 'Averia Libre', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'EB Garamond', serif;
 }
 
 a.anchor-plain {
@@ -120,6 +120,11 @@ nav a {
     max-height: 200px;
 }
 
+.jumbotron h1,
+.jumbotron h5 {
+    font-family: 'Averia Libre', cursive;
+}
+
 .jumbotron-header {
     align-items: center;
     background-position: 0 50%;
@@ -145,7 +150,7 @@ nav a {
     background-position: 20 70%;
     background-size: cover;
     color: white;
-    font-family: 'Averia Libre';
+    font-family: 'Averia Libre', cursive;
     height: 562pt;
     margin-bottom: 0px;
     max-width: 100%;
@@ -158,16 +163,19 @@ nav a {
     border:1px solid rgba(0,0,0,0.1);
     border-radius:3px;
 }
-
+.jumbotron-main h1,
+.jumbotron-main h5 {
+    font-family: 'Averia Libre', cursive;
+}
 .jumbotron-404 {
     background: transparent;
 }
 .jumbotron-404 h1,
 .jumbotron-404 h3 {
-    font-family: 'Averia Libre', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Averia Libre', cursive;
 }
 
 .navbar-brand {
-    font-family: 'Averia Libre', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Averia Libre', cursive;
     font-weight: normal;
 }
