@@ -1,5 +1,5 @@
             <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand ms-2" href="#">
 {%- if page.layout == "post" %}
                     Davide Madrisan's Blog
 {%- else %}
@@ -7,11 +7,11 @@
 {%- endif %}
                 </a>
                 <button class="navbar-toggler" type="button"
-                        data-toggle="collapse" data-target="#collapsibleNavbar">
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ms-2">
 {%- if page.nav-item-active == "home" %}
                         <li class="nav-item active">
 {%- else %}

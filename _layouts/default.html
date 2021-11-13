@@ -5,7 +5,7 @@
     <head>
         <title>{{ page.title }}</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="fb:app_id" content="{{ site.socials.facebookappid }}"/>
         <meta property="og:description" content="{{ site.description }}">
         <meta property="og:image" content="{{ site.url | append: site.images.home }}">
@@ -17,13 +17,9 @@
         <!-- favicon -->
         <link rel="shortcut icon" type="image/png" href="{{ site.images.favicon }}">
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="{{ _sources.bootstrap.css }}">
-        <!-- jQuery library -->
-        <script src="{{ _sources.jquery }}"></script>
-        <!-- Popper JS -->
-        <script src="{{ _sources.popper }}"></script>
+        <link rel="stylesheet" href="{{ _sources.bootstrap.css.href }}" integrity="{{ _sources.bootstrap.css.integrity }}" crossorigin="anonymous">
         <!-- Latest compiled JavaScript -->
-        <script src="{{ _sources.bootstrap.js }}"></script>
+        <script src="{{ _sources.bootstrap.js.href }}" integrity="{{ _sources.bootstrap.js.integrity }}" crossorigin="anonymous"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
 {%- if site.google_analytics %}
