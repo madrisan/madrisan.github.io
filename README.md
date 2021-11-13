@@ -10,3 +10,20 @@ The layout is enriched by the usage of
 [Google Fonts](https://fonts.google.com/).
 
 The site URL is https://madrisan.github.io/
+
+## Development
+
+### Setup
+```
+gem install jekyll bundler
+# then istall all the missing packages
+#   gem install bundler:2.2.31
+#   gem install sassc:2.4.0
+#   ...
+```
+
+### Run a local web server
+```
+bundle exec jekyll serve --livereload
+```
+Open a browser tab at `http://127.0.0.1:4000/

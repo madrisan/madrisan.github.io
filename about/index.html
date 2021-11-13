@@ -10,7 +10,7 @@ title: About Myself
     </div>
 </div>
 
-<div class="container pt-2">
+<div class="container pt-4">
     <div class="row">
         <div class="col">
 
@@ -29,13 +29,13 @@ title: About Myself
         <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs" id="tabs" role="tablist">
                 <li class="nav-item">
-                     <a class="nav-link active" id="education-tab" href="#education" data-toggle="tab" aria-controls="education" aria-selected="true">Education</a>
+                     <a class="nav-link active" id="education-tab" href="#education" data-bs-toggle="tab" aria-controls="education" aria-selected="true">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="job-tab" href="#job" data-toggle="tab" aria-controls="education" aria-selected="false">Job</a>
+                    <a class="nav-link" id="job-tab" href="#job" data-bs-toggle="tab" aria-controls="education" aria-selected="false">Job</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="interests-tab" href="#interests" data-toggle="tab" aria-controls="education" aria-selected="false">Interests</a>
+                    <a class="nav-link" id="interests-tab" href="#interests" data-bs-toggle="tab" aria-controls="education" aria-selected="false">Interests</a>
                 </li>
             </ul>
         </div>
@@ -82,7 +82,7 @@ title: About Myself
                                         <td>
                                         <span>{{ items.course }}
                                         {% if items.badge %}
-                                        <span class="badge badge-info">{{ items.badge }}</span>
+                                        <span class="badge bg-info">{{ items.badge }}</span>
                                         {% endif %}
                                         </span>
                                         {% if items.provider %}
@@ -239,9 +239,9 @@ title: About Myself
                                         <ol class="carousel-indicators">
                                             {% for i in (0..6) %}
                                             {% if i == 0 %}
-                                            <li data-target="#carouselInterests" data-slide-to="{{ i }}" class="active"></li>
+                                            <li data-bs-target="#carouselInterests" data-slide-to="{{ i }}" class="active"></li>
                                             {% else %}
-                                            <li data-target="#carouselInterests" data-slide-to="{{ i }}"></li>
+                                            <li data-bs-target="#carouselInterests" data-slide-to="{{ i }}"></li>
                                             {% endif %}
                                             {% endfor %}
                                         </ol>

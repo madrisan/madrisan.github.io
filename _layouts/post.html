@@ -24,18 +24,14 @@
 {%- if page.image_alt %}
         <meta name="twitter:image:alt" content="{{ page.image_alt }}">
 {%- endif %}
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="{{ site.images.favicon }}">
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="{{ _sources.bootstrap.css }}">
-        <!-- jQuery library -->
-        <script src="{{ _sources.jquery }}"></script>
-        <!-- Popper JS -->
-        <script src="{{ _sources.popper }}"></script>
+        <link rel="stylesheet" href="{{ _sources.bootstrap.css.href }}" integrity="{{ _sources.bootstrap.css.integrity }}" crossorigin="anonymous">
         <!-- Latest compiled JavaScript -->
-        <script src="{{ _sources.bootstrap.js }}"></script>
+        <script src="{{ _sources.bootstrap.js.href }}" integrity="{{ _sources.bootstrap.js.integrity }}" crossorigin="anonymous"></script>
         <!-- Font Awsome -->
         <script src="{{ _sources.fontawesome }}"></script>
         <!-- Highcharts -->
@@ -78,7 +74,7 @@
                     </div>
                 </div>
 
-                <div class="container pb-2">
+                <div class="container pb-2 pt-2">
                     <div class="d-flex justify-content-between">
                         <div>
                             <div>
