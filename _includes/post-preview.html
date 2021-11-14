@@ -24,14 +24,18 @@
         <p class="card-text pt-4">{{ post.summary }}</p>
 {% endif %}
 {% if post.first-post %}
-        <div class="align-items-md-end d-flex justify-content-center pt-2">
+        <div class="align-items-md-end d-flex justify-content-left pt-1">
 {% else %}
-        <div class="align-items-md-end d-flex justify-content-center pt-2 pb-3">
+        <div class="align-items-md-end d-flex justify-content-left pt-1 pb-2">
 {% endif %}
             <a href="{{ post.url }}" title="{{ post.title }}"
-               class="btn btn-info btn-sm stretched-link text-white" role="button">
+               class="btn btn-outline-secondary btn-sm stretched-link" role="button">
                 <i class="fas fa-anchor"></i>
+{% if post.language == "it" %}
+                <span>Leggi di più</span>
+{% else %}
                 <span class="text-capitalize">Read more</span>
+{% endif %}
             </a>
         </div>
     </div>
