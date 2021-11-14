@@ -1,0 +1,42 @@
+<div class="row justify-content-md-center position-relative mt-4 mb-2">
+    <div class="col-md-8">
+        <h4 class="text-center text-info">{{ post.title }}</h4>
+        <span class="d-flex justify-content-center text-muted">
+            <!--
+            {% if post.language %}
+            <span class="f16 pr-1">
+                <span class="flag {{ post.language }}"></span>
+            </span>
+            {% endif %}
+            -->
+            {% include datelocales.html post_date=post.date post_language=post.language textsize="small" %}
+            <i class="bi bi-dot mx-1"></i>
+            {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
+        </span>
+
+{% if post.image %}
+        <figure class="figure pt-3">
+            <img src="{{ post.image }}" class="figure-img img-fluid rounded">
+        </figure>
+{% endif %}
+
+{% if post.summary %}
+        <p class="card-text pt-4">{{ post.summary }}</p>
+{% endif %}
+{% if post.first-post %}
+        <div class="align-items-md-end d-flex justify-content-center pt-2">
+{% else %}
+        <div class="align-items-md-end d-flex justify-content-center pt-2 pb-3">
+{% endif %}
+            <a href="{{ post.url }}" title="{{ post.title }}"
+               class="btn btn-info btn-sm stretched-link text-white" role="button">
+                <i class="fas fa-anchor"></i>
+                <span class="text-capitalize">Read more</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+{% if post.first-post != true %}
+<hr>
+{% endif %}

@@ -26,67 +26,24 @@ title: Davide Madrisan's Blog
 <div class="container pt-3 pb-3">
     <div class="card">
         <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs" id="tabs" role="tablist">
+            <ul class="nav nav-tabs nav-fill card-header-tabs" id="tabs" role="tablist">
                 <li class="nav-item">
-                     <a class="nav-link active" id="science-tab" href="#science" data-bs-toggle="tab" aria-controls="science" aria-selected="true">Science</a>
+                     <a class="nav-link active" id="science-tab" href="#science" data-bs-toggle="tab"
+                        aria-controls="science" aria-selected="true">Science</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="projects-tab" href="#projects" data-bs-toggle="tab" aria-controls="projects" aria-selected="false">Technology</a>
+                    <a class="nav-link" id="projects-tab" href="#projects" data-bs-toggle="tab"
+                       aria-controls="projects" aria-selected="false">Technology</a>
                 </li>
             </ul>
         </div>
 
         <div class="card-body">
             <div class="tab-content mt-1">
-
                 <div class="tab-pane fade show active" id="science" aria-labelledby="science-tab">
 {% for post in site.posts %}
 {% if post.category == "climate-changes" %}
-
-                <div class="row justify-content-md-center position-relative mt-4 mb-2">
-                    <div class="col-md-8">
-                        <h4 class="text-center text-info">{{ post.title }}</h4>
-                        <span class="d-flex justify-content-center text-muted">
-                            <!--
-                            {% if post.language %}
-                            <span class="f16 pr-1">
-                                <span class="flag {{ post.language }}"></span>
-                            </span>
-                            {% endif %}
-                            -->
-                            {% include datelocales.html post_date=post.date post_language=post.language textsize="small" %}
-                            <i class="bi bi-dot mx-1"></i>
-                            {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
-                        </span>
-
-{% if post.image %}
-                        <div class="text-center pt-3 pb-1">
-                            <img src="{{ post.image }}"
-                                 class="figure-img img-fluid image-header">
-                        </div>
-{% endif %}
-
-{% if post.summary %}
-                        <p class="card-text pt-4">{{ post.summary }}</p>
-{% endif %}
-{% if post.first-post %}
-                        <div class="align-items-md-end d-flex justify-content-center pt-2">
-{% else %}
-                        <div class="align-items-md-end d-flex justify-content-center pt-2 pb-3">
-{% endif %}
-                            <a href="{{ post.url }}" title="{{ post.title }}"
-                               class="btn btn-info btn-sm stretched-link text-white" role="button">
-                                <i class="fas fa-anchor"></i>
-                                <span class="text-capitalize">Read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-{% if post.first-post != true %}
-                <hr>
-{% endif %}
-
+{% include post-preview.html %}
 {% endif %}
 {% endfor %}
                 </div>
@@ -94,56 +51,12 @@ title: Davide Madrisan's Blog
                 <div class="tab-pane fade" id="projects" aria-labelledby="projects-tab">
 {% for post in site.posts %}
 {% if post.category == "projects" %}
-
-                <div class="row justify-content-md-center position-relative mt-4 mb-2">
-                    <div class="col-md-8">
-                        <h4 class="text-center text-info">{{ post.title }}</h4>
-                        <span class="d-flex justify-content-center text-muted">
-                            <!--
-                            {% if post.language %}
-                            <span class="f16 pr-1">
-                                <span class="flag {{ post.language }}"></span>
-                            </span>
-                            {% endif %}
-                            -->
-                            {% include datelocales.html post_date=post.date post_language=post.language textsize="small" %}
-                            <i class="bi bi-dot mx-1"></i>
-                            {% include readtime.html post_content=post.content post_language=post.language textsize="small" %}
-                        </span>
-
-{% if post.image %}
-                        <div class="text-center pt-3 pb-1">
-                            <img src="{{ post.image }}"
-                                 class="figure-img img-fluid image-header">
-                        </div>
-{% endif %}
-
-{% if post.summary %}
-                        <p class="card-text pt-4">{{ post.summary }}</p>
-{% endif %}
-{% if post.first-post %}
-                        <div class="align-items-md-end d-flex justify-content-center pt-2">
-{% else %}
-                        <div class="align-items-md-end d-flex justify-content-center pt-2 pb-3">
-{% endif %}
-                            <a href="{{ post.url }}" title="{{ post.title }}"
-                               class="btn btn-info btn-sm stretched-link text-white" role="button">
-                                <i class="fas fa-anchor"></i>
-                                <span class="text-capitalize">Read more</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-{% if post.first-post != true %}
-                <hr>
-{% endif %}
-
+{% include post-preview.html %}
 {% endif %}
 {% endfor %}
                 </div>
-
-            </div>
+           </div>
        </div>
+
    </div>
 </div>
