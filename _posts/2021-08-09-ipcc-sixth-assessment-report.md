@@ -71,7 +71,7 @@ Come il professor Albert Klein Tank, direttore del Met Office Hadley Centre
     <div class="row">
         <div class="col">
             <span>
-                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border text-info"
+                <i class="fa fa-quote-left fa-2x fa-pull-left fa-border text-secondary"
                    aria-hidden="true"></i>
                 <p class="text-left font-italic small">
 Questo rapporto dipinge il quadro più chiaro che abbiamo mai avuto degli impatti globali e

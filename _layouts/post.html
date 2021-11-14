@@ -65,7 +65,7 @@
                      style="background-image: url({{ blog_image }});">
                     <div>
 {%- if page.titlejumbotron != 'off' %}
-                        <h3 class="text-bold">{{ page.title }}</h3>
+                        <h1 class="text-bold">{{ page.title }}</h1>
 {%- if page.location and page.date %}
                         <small class="text-secondary">
                             {{ page.location }},
@@ -128,7 +128,7 @@
 {% include category.html post_language=page.language %}
                             </div>
                             <div class="pb-2">
-                                <h2>{{ page.post-title }}</h2>
+                                <h1>{{ page.post-title }}</h1>
                             </div>
 {% endif %}
                             {{ content }}

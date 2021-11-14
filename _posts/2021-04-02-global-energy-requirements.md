@@ -45,9 +45,9 @@ Una soluzione per soddisfare il fabbisogno energetico mondiale fortunatamente es
     <div class="row">
         <div class="col">
             <span>
-                <i class="fa fa-quote-left fa-3x fa-pull-left fa-border text-info"
+                <i class="fa fa-quote-left fa-2x fa-pull-left fa-border text-muted"
                    aria-hidden="true"></i>
-                <p class="text-left font-italic small">
+                <p class="text-left fst-italic small">
                     Laudato sie mi' Signore, cum tucte le tue creature, spetialmente messor
                     lo frate sole, lo qual è iorno, et allumini noi per lui.
                     Et ellu è bellu e radiante cum grande splendore, de te, Altissimo, porta
