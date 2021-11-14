@@ -43,7 +43,7 @@ title: Davide Madrisan's Blog
 {% for post in site.posts %}
 {% if post.category == "climate-changes" %}
 
-                <div class="row justify-content-md-center mt-4 mb-2">
+                <div class="row justify-content-md-center position-relative mt-4 mb-2">
                     <div class="col-md-8">
                         <h4 class="text-center text-info">{{ post.title }}</h4>
                         <span class="d-flex justify-content-center text-muted">
@@ -75,7 +75,7 @@ title: Davide Madrisan's Blog
                         <div class="align-items-md-end d-flex justify-content-center pt-2 pb-3">
 {% endif %}
                             <a href="{{ post.url }}" title="{{ post.title }}"
-                               class="btn btn-info btn-sm text-white" role="button">
+                               class="btn btn-info btn-sm stretched-link text-white" role="button">
                                 <i class="fas fa-anchor"></i>
                                 <span class="text-capitalize">Read more</span>
                             </a>
@@ -95,7 +95,7 @@ title: Davide Madrisan's Blog
 {% for post in site.posts %}
 {% if post.category == "projects" %}
 
-                <div class="row justify-content-md-center mt-4 mb-2">
+                <div class="row justify-content-md-center position-relative mt-4 mb-2">
                     <div class="col-md-8">
                         <h4 class="text-center text-info">{{ post.title }}</h4>
                         <span class="d-flex justify-content-center text-muted">
@@ -127,7 +127,7 @@ title: Davide Madrisan's Blog
                         <div class="align-items-md-end d-flex justify-content-center pt-2 pb-3">
 {% endif %}
                             <a href="{{ post.url }}" title="{{ post.title }}"
-                               class="btn btn-info btn-sm text-white" role="button">
+                               class="btn btn-info btn-sm stretched-link text-white" role="button">
                                 <i class="fas fa-anchor"></i>
                                 <span class="text-capitalize">Read more</span>
                             </a>
