@@ -21,13 +21,11 @@ a.anchor-plain {
 }
 
 a, a:visited, a:active {
-    border-bottom: thin dashed #5493ff;
-    color: #2d3644;
+    border-bottom: thin dashed gray;
     text-decoration: none;
 }
 a:hover {
     border: none;
-    color: #5493ff;
     text-decoration: none;
 }
 a.label {
