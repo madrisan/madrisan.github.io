@@ -120,14 +120,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="container pt-3">
+                <div class="container pt-2">
                     <div class="row">
                         <div class="col">
-{%if page.post-title %}
-                            <div>
 {% include category.html post_language=page.language %}
-                            </div>
-                            <div class="pb-2">
+{% if page.post-title %}
+                            <div class="pb-1">
                                 <h1>{{ page.post-title }}</h1>
                             </div>
 {% endif %}
