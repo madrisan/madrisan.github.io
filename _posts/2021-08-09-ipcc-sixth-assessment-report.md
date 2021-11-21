@@ -17,7 +17,7 @@ summary: L'IPCC è ora nel suo sesto ciclo di valutazione dell'evoluzione dei ca
 title: Sesto rapporto di valutazione IPCC
 titlejumbotron: 'off'
 ---
-#### Gruppo intergovernativo sul cambiamento climatico
+#### Gruppo intergovernativo sul cambiamento climatico {% post_url 2021-11-20-fermi-paradox %}
 
 Il **Gruppo intergovernativo sul cambiamento climatico** (*Intergovernmental Panel on Climate Change* - IPCC)
 è il foro scientifico formato nel 1988 da due organismi delle Nazioni Unite,
@@ -73,7 +73,7 @@ Come il professor Albert Klein Tank, direttore del Met Office Hadley Centre
             <span>
                 <i class="fa fa-quote-left fa-2x fa-pull-left fa-border text-secondary"
                    aria-hidden="true"></i>
-                <p class="text-left font-italic small">
+                <p class="text-left fst-italic small">
 Questo rapporto dipinge il quadro più chiaro che abbiamo mai avuto degli impatti globali e
 regionali del cambiamento climatico.
 Il tempo stringe per evitare gli impatti peggiori del cambiamento climatico, ed il rapporto ci

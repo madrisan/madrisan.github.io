@@ -42,6 +42,7 @@ sources:
       exporting: 'https://code.highcharts.com/modules/exporting.js'
   jquery: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'
   mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+timezone: Europe/Paris
 url: https://madrisan.github.io
 # Exclude these files from your production _site
 exclude:
