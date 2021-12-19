@@ -15,6 +15,9 @@ The site URL is https://madrisan.github.io/
 
 ### Setup
 ```
+# Fedora 35
+sudo dnf install rubygems ruby-devel gcc-c++
+
 gem install jekyll bundler
 # then istall all the missing packages
 #   gem install bundler:2.2.31
