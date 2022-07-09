@@ -13,13 +13,17 @@ The site URL is https://madrisan.github.io/
 
 ## Development
 
-### Setup
+### Setup (tested on Fedora 36)
 ```
-# Fedora 35
 sudo dnf install rubygems ruby-devel gcc-c++
 
-gem install jekyll bundler
-# then istall all the missing packages
+# gem cleanup (seems a good practice after a distro release upgrade)
+rm -fr ~/.local/share/gem/
+
+# install most of the required gems
+gem update
+
+# then install all the missing ones (listed by the `bundle exec` command below)
 #   gem install bundler:2.2.31
 #   gem install sassc:2.4.0
 #   ...
