@@ -4,3 +4,16 @@ set -e
 
 gem install bundler
 bundle install
+
+# The sassc gem (used by jekyll-sass-converter ~> 2.1) hardcodes the
+# location of its compiled native library relative to lib/sassc/, but
+# modern RubyGems installs native extensions under a separate
+# per-Ruby-ABI extensions cache directory instead. Symlink it into
+# place so SassC can find it.
+sassc_dir="$(bundle show sassc 2>/dev/null || true)"
+if [ -n "$sassc_dir" ] && [ ! -e "$sassc_dir/lib/sassc/libsass.so" ]; then
+  libsass="$(find "$(gem env gemdir)/extensions" -path '*/sassc-*/sassc/libsass.so' 2>/dev/null | head -1)"
+  if [ -n "$libsass" ]; then
+    ln -sf "$libsass" "$sassc_dir/lib/sassc/libsass.so"
+  fi
+fi
