@@ -1,4 +1,8 @@
 data:
+  - year: 2022
+    courses:
+      - course: "Build JavaScript applications using TypeScript"
+        provider: "Microsoft"
   - year: 2021
     courses:
       - course: "Introduction to GitOps (LFS169)"
