@@ -5,7 +5,7 @@ date: 2022-08-28
 language: gb
 location: The Opensource World
 post-title: Nagios Plugins for Linux
-summary: Nagios Plugins for Linux keeps growing: a new release is available! This release adds a brand new plugin <i>check_filecount</i>, new units support for <i>check_memory</i>, and Icinga2 command configurations contributed by the community.
+summary: Nagios Plugins for Linux keeps growing, and a new release is available! This release adds a brand new plugin <i>check_filecount</i>, new units support for <i>check_memory</i>, and Icinga2 command configurations contributed by the community.
 title: Nagios Plugins for Linux v31
 ---
 The version 31 of the Nagios Plugins for Linux ("*Counter-intuitive*") is available
