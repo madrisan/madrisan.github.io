@@ -44,6 +44,15 @@ data:
     main-language: Go
     url: "https://github.com/madrisan/hashicorp-vault-monitor"
 
+  - project: "Dynamic Systems and Chaos"
+    description: "Plot logistic/cube/sine orbits, final-state and bifurcation diagrams"
+    icon: "fas fa-fw fa-cogs"
+    image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
+    license: "GPL-3.0 License"
+    long-description: "This software has been developed as part of the (optional) homeworks of the MOOC <i>Introduction to Dynamical Systems and Chaos</i>, leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic."
+    main-language: "Python"
+    url: https://github.com/madrisan/dynamic-systems-and-chaos
+
   - project: "Keepalived Script for Vault HA"
     description: "Keepalived Tracking Script for HashiCorp Vault High Availability Clusters"
     icon: "fa fa-random"
@@ -67,12 +76,3 @@ data:
     long-description:  "PyXymon provides some methods for rendering the messages you want to display in the Xymon web page and for sending them to the Xymon server. PyXymon reads the required informations from the Xymon environment variables, so you do not need to add any extra configuration file."
     main-language: Python
     url: https://github.com/madrisan/pyxymon
-
-  - project: "Dynamic Systems and Chaos"
-    description: "Plot logistic/cube/sine orbits, final-state and bifurcation diagrams"
-    icon: "fas fa-fw fa-cogs"
-    image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
-    license: "GPL-3.0 License"
-    long-description: "This software has been developed as part of the (optional) homeworks of the MOOC <i>Introduction to Dynamical Systems and Chaos</i>, leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic."
-    main-language: "Python"
-    url: https://github.com/madrisan/dynamic-systems-and-chaos
