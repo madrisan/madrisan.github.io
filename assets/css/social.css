@@ -4,3 +4,9 @@
 .btn-stackoverflow:active,.btn-stackoverflow.active,.open>.dropdown-toggle.btn-stackoverflow{background-image:none}
 .btn-stackoverflow.disabled:hover,.btn-stackoverflow[disabled]:hover,fieldset[disabled] .btn-stackoverflow:hover,.btn-stackoverflow.disabled:focus,.btn-stackoverflow[disabled]:focus,fieldset[disabled] .btn-stackoverflow:focus,.btn-stackoverflow.disabled.focus,.btn-stackoverflow[disabled].focus,fieldset[disabled] .btn-stackoverflow.focus{background-color:#ff9933;border-color:rgba(0,0,0,0.2)}
 .btn-stackoverflow .badge{color:#ff9933;background-color:#fff}
+.btn-mastodon{color:#fff;background-color:#6364ff;border-color:rgba(0,0,0,0.2)}.btn-mastodon:focus,.btn-mastodon.focus{color:#fff;background-color:#4b4bdb;border-color:rgba(0,0,0,0.2)}
+.btn-mastodon:hover{color:#fff;background-color:#4b4bdb;border-color:rgba(0,0,0,0.2)}
+.btn-mastodon:active,.btn-mastodon.active,.open>.dropdown-toggle.btn-mastodon{color:#fff;background-color:#4b4bdb;border-color:rgba(0,0,0,0.2)}.btn-mastodon:active:hover,.btn-mastodon.active:hover,.open>.dropdown-toggle.btn-mastodon:hover,.btn-mastodon:active:focus,.btn-mastodon.active:focus,.open>.dropdown-toggle.btn-mastodon:focus,.btn-mastodon:active.focus,.btn-mastodon.active.focus,.open>.dropdown-toggle.btn-mastodon.focus{color:#fff;background-color:#3b3ba8;border-color:rgba(0,0,0,0.2)}
+.btn-mastodon:active,.btn-mastodon.active,.open>.dropdown-toggle.btn-mastodon{background-image:none}
+.btn-mastodon.disabled:hover,.btn-mastodon[disabled]:hover,fieldset[disabled] .btn-mastodon:hover,.btn-mastodon.disabled:focus,.btn-mastodon[disabled]:focus,fieldset[disabled] .btn-mastodon:focus,.btn-mastodon.disabled.focus,.btn-mastodon[disabled].focus,fieldset[disabled] .btn-mastodon.focus{background-color:#6364ff;border-color:rgba(0,0,0,0.2)}
+.btn-mastodon .badge{color:#6364ff;background-color:#fff}

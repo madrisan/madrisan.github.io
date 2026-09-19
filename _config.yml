@@ -20,9 +20,9 @@ socials:
   facebookappid: '383695016267763'
   github: https://github.com/madrisan
   linkedin: https://www.linkedin.com/in/madrisan
+  mastodon: https://noc.social/@327ppm
+  mastodonid: '@327ppm@noc.social'
   stackoverflow: https://stackoverflow.com/users/5721620/davide-madrisan
-  twitter: https://twitter.com/dmadrisan
-  twitterid: '@dmadrisan'
 sources:
   bootstrap:
     css:
