@@ -8,6 +8,33 @@ data:
     main-language: C
     url: https://github.com/madrisan/nagios-plugins-linux
 
+  - project: "Open Scores for Piano"
+    description: "Musical Scores for Piano with full sources in LilyPond file format"
+    icon: "fas fa-fw fa-music"
+    image: https://media.githubusercontent.com/media/madrisan/open-scores/main/images/open-scores-logo.png
+    license: "CC-BY-NC-SA-4.0 License"
+    long-description: "<p>Piano sheet music and piano transcriptions with source code in LilyPond language.</p><a href=\"https://lilypond.org/\">LilyPond</a> is a music engraving program, devoted to producing the highest-quality sheet music possible. It brings the aesthetics of traditionally engraved music to computer printouts. LilyPond is free software and part of the GNU Project."
+    main-language: "LilyPond"
+    url: https://github.com/madrisan/open-scores
+
+  - project: "HadCRUT5"
+    description: "Visualize the HadCRUT5 temperature datasets"
+    icon: "fas fa-fw fa-chart-area"
+    image: https://raw.githubusercontent.com/madrisan/HadCRUT5/docs/logo/images/hadcrut5-logo.svg
+    license: "Apache-2.0 License"
+    long-description: "<p>HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia.</p>The Python script <i>hadcrut5-plot.py</i> parses the HadCRUT5 datasets and plots several graphs. It requires the Python libraries <i>Matplotlib</i>, <i>netCDF4</i>, <i>NumPy</i>, and <i>Requests</i>."
+    main-language: "Python"
+    url: https://github.com/madrisan/HadCRUT5
+
+  - project: "Mattermost Notify"
+    description: "Post messages to Mattermost via its REST APIv4"
+    icon: "fas fa-fw fa-bell"
+    image: https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png
+    license: "Apache-2.0 License"
+    long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries <i>http</i> and <i>url</i> for interacting with a Mattermost server and <i>Cobra</i> coupled with <i>Viper</i> to implement the CLI interface."
+    main-language: Go
+    url: https://github.com/madrisan/go-mattermost-notify
+
   - project: "HashiCorp Vault Monitoring Tool"
     description: "Monitoring tool for HashiCorp Vault servers and clusters"
     icon: "fa fa-key"
@@ -16,6 +43,15 @@ data:
     long-description: "The Go binary <i>hashicorp-vault-monitor</i> monitors the status (unsealed/sealed) of the cluster nodes, the HA cluster status, the installed Vault policies, the access to the Vault KV data store, and the expiration date of a Vault token (directly or via its associated token accessor)."
     main-language: Go
     url: "https://github.com/madrisan/hashicorp-vault-monitor"
+
+  - project: "Dynamic Systems and Chaos"
+    description: "Plot logistic/cube/sine orbits, final-state and bifurcation diagrams"
+    icon: "fas fa-fw fa-cogs"
+    image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
+    license: "GPL-3.0 License"
+    long-description: "This software has been developed as part of the (optional) homeworks of the MOOC <i>Introduction to Dynamical Systems and Chaos</i>, leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic."
+    main-language: "Python"
+    url: https://github.com/madrisan/dynamic-systems-and-chaos
 
   - project: "Keepalived Script for Vault HA"
     description: "Keepalived Tracking Script for HashiCorp Vault High Availability Clusters"
@@ -40,30 +76,3 @@ data:
     long-description:  "PyXymon provides some methods for rendering the messages you want to display in the Xymon web page and for sending them to the Xymon server. PyXymon reads the required informations from the Xymon environment variables, so you do not need to add any extra configuration file."
     main-language: Python
     url: https://github.com/madrisan/pyxymon
-
-  - project: "Mattermost Notify"
-    description: "Post messages to Mattermost via its REST APIv4"
-    icon: "fas fa-fw fa-bell"
-    image: https://raw.githubusercontent.com/madrisan/go-mattermost-notify/main/images/go-mattermost-notify-logo.png
-    license: "Apache-2.0 License"
-    long-description: "A simple client for sending Mattermost posts via its REST API v4. This program makes use of the Go libraries <i>http</i> and <i>url</i> for interacting with a Mattermost server and <i>Cobra</i> coupled with <i>Viper</i> to implement the CLI interface."
-    main-language: Go
-    url: https://github.com/madrisan/go-mattermost-notify
-
-  - project: "HadCRUT5"
-    description: "Visualize the HadCRUT5 temperature datasets"
-    icon: "fas fa-fw fa-chart-area"
-    image: https://raw.githubusercontent.com/madrisan/HadCRUT5/main/plots/HadCRUT5-1880-1920.png
-    license: "Apache-2.0 License"
-    long-description: "<p>HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia.</p>The Python script <i>hadcrut5-plot.py</i> parses the HadCRUT5 datasets and plots several graphs. It requires the Python libraries <i>Matplotlib</i>, <i>netCDF4</i>, <i>NumPy</i>, and <i>Requests</i>."
-    main-language: "Python"
-    url: https://github.com/madrisan/HadCRUT5
-
-  - project: "Dynamic Systems and Chaos"
-    description: "Plot logistic/cube/sine orbits, final-state and bifurcation diagrams"
-    icon: "fas fa-fw fa-cogs"
-    image: https://raw.githubusercontent.com/madrisan/dynamic-systems-and-chaos/master/plots/plot07_le-bifurcation-diagram-le.png
-    license: "GPL-3.0 License"
-    long-description: "This software has been developed as part of the (optional) homeworks of the MOOC <i>Introduction to Dynamical Systems and Chaos</i>, leaded by David Feldman, Professor of Physics and Mathematics at College of the Atlantic."
-    main-language: "Python"
-    url: https://github.com/madrisan/dynamic-systems-and-chaos
