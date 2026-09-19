@@ -20,7 +20,7 @@ data:
   - project: "HadCRUT5"
     description: "Visualize the HadCRUT5 temperature datasets"
     icon: "fas fa-fw fa-chart-area"
-    image: https://media.githubusercontent.com/media/madrisan/HadCRUT5/main/plots/HadCRUT5-1880-1920.png
+    image: https://raw.githubusercontent.com/madrisan/HadCRUT5/docs/logo/images/hadcrut5-logo.svg
     license: "Apache-2.0 License"
     long-description: "<p>HadCRUT5 is a gridded dataset of global historical surface temperature anomalies relative to a 1961-1990 reference period. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia.</p>The Python script <i>hadcrut5-plot.py</i> parses the HadCRUT5 datasets and plots several graphs. It requires the Python libraries <i>Matplotlib</i>, <i>netCDF4</i>, <i>NumPy</i>, and <i>Requests</i>."
     main-language: "Python"
