@@ -8,7 +8,7 @@ post-title: Nagios Plugins for Linux
 redirect_from:
  - /blog/2020/12/12/nagios-plugins-linux-v28
  - /blog/2020/12/12/
-summary: A new version of <i>Nagios Plugins for Linux</i> is out! This project contains a quite complete set of enterprise ready Nagios plugins for monitoring Linux boxes. New features include the new plugin <i>check_pressure</i> (that reports the Linux Pressure Stall Information (PSI) exported by Linux kernels 4.20+) and the porting to <i>Linux Alpine</i> 3.12 with packaging available.
+summary: Nagios Plugins for Linux has a new release! This project contains a quite complete set of enterprise ready Nagios plugins for monitoring Linux boxes. New features include the new plugin <i>check_pressure</i> (that reports the Linux Pressure Stall Information (PSI) exported by Linux kernels 4.20+) and the porting to <i>Linux Alpine</i> 3.12 with packaging available.
 title: Nagios Plugins for Linux v28
 ---
 The version 28 of the Nagios Plugins for Linux ("*Alpine Hike*") is available

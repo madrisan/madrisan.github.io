@@ -7,7 +7,7 @@ location: The Opensource World
 post-title: Nagios Plugins for Linux
 redirect_from:
  - /blog/2021/07/20/nagios-plugins-linux-v29
-summary: A new version of <i>Nagios Plugins for Linux</i> is out! This project contains a quite complete set of enterprise ready Nagios-compatible Plugins for monitoring Linux hosts. In this release the plugin <i>check_temperature</i> has been improved and a modular Debian multi-packages build is now available.
+summary: Time for a fresh release of <i>Nagios Plugins for Linux</i>! This project contains a quite complete set of enterprise ready Nagios-compatible Plugins for monitoring Linux hosts. In this release the plugin <i>check_temperature</i> has been improved and a modular Debian multi-packages build is now available.
 title: Nagios Plugins for Linux v29
 ---
 The version 29 of the Nagios Plugins for Linux ("*High Temperatures*") is available
