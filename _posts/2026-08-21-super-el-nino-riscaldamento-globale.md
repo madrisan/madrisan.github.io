@@ -18,8 +18,8 @@ titlejumbotron: 'off'
 Il 21 agosto 2026 il climatologo [James Hansen](https://it.wikipedia.org/wiki/James_Hansen),
 insieme a Pushker Kharecha, Dylan Morgan e Jasen Vest, ha pubblicato una nuova analisi
 sull'attuale evento *El Niño* e su cosa questo ci dice sull'evoluzione del riscaldamento
-globale. Questo post ne è un **riassunto commentato**, non una traduzione: per il testo
-completo (in inglese) si veda il link in fondo.
+globale. Questo post ne è un **riassunto commentato**: per il testo completo (in inglese)
+si veda il link in fondo.
 
 <picture>
    <img width="600" alt="Anomalia di temperatura superficiale del Pacifico equatoriale durante un episodio di El Niño"
@@ -110,8 +110,7 @@ pianeta e quella da esso irradiata nello spazio): secondo gli autori questo valo
 è ormai raddoppiato rispetto al passato e non mostra segni di diminuzione. Poiché
 questo squilibrio è la causa diretta dell'accumulo di calore nel sistema climatico,
 gli autori ne deducono che l'accelerazione del riscaldamento *continuerà, quantomeno
-nel prossimo futuro*, finché lo squilibrio energetico rimarrà a questi livelli:
-si tratta qui, esplicitamente, di una proiezione, non di una misura.
+nel prossimo futuro*, finché lo squilibrio energetico rimarrà a questi livelli.
 
 <div class="bd-callout bd-callout-info">
 <p>
@@ -123,13 +122,12 @@ terrestre, si veda il post precedente sul
 
 ##### Temperature in aumento, più veloce sulla terraferma
 
-Un altro dato riportato come misurato, non proiettato, è che le terre emerse si
-riscaldano a una velocità doppia rispetto agli oceani. Su queste basi, la temperatura
-media sulle terre emerse ha raggiunto i +2,4°C rispetto al periodo di riferimento
-1880-1920 durante il biennio dell'El Niño 2023-24. Qui gli autori passano invece
-a una proiezione esplicita: se il ritmo attuale di riscaldamento continuerà, la
-temperatura sulle terre emerse potrebbe avvicinarsi ai +2,7°C entro il 2027
-(quasi +5°F).
+Un altro dato riportato come misurato, è che le terre emerse si riscaldano ad una
+velocità doppia rispetto agli oceani. Su queste basi, la temperatura media sulle
+terre emerse ha raggiunto i +2,4°C rispetto al periodo di riferimento 1880-1920
+durante il biennio dell'El Niño 2023-24. Qui gli autori passano ad una proiezione
+esplicita: se il ritmo attuale di riscaldamento continuerà, la temperatura sulle
+terre emerse potrebbe avvicinarsi ai +2,7°C entro il 2027 (quasi +5°F).
 
 Un secondo studio citato nell'analisi (Kong et al.) permette di tradurre questi
 numeri in termini di impatto umano concreto: al livello di riscaldamento globale
@@ -178,8 +176,8 @@ alla vita umana* nella seconda metà di questo secolo, se il cambiamento climati
 proseguirà al ritmo attuale. Vengono citati come esempi l'intensificarsi della
 siccità nell'area mediterranea e, negli Stati Uniti, la siccità nel sud-ovest del
 paese, con il livello dei laghi Mead e Powell in costante calo. Anche in questo
-caso si tratta però di una proiezione legata a scenari futuri, non di una condizione
-già in atto ovunque nella stessa misura.
+caso si tratta di una proiezione legata a scenari futuri, anche se relativamente
+prossimi.
 
 ##### Conclusioni
 
